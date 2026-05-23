@@ -1,4 +1,4 @@
-# 🔄 Interacción con el Sistema Operativo Host (VIR-0217 - 0220)
+# 🔄 Sistema Operativo Host (VIR-0217 - 0220)
 
 Este módulo se enfoca en cómo conectar y hacer interactuar un contenedor aislado con el sistema operativo de la máquina anfitriona (*host*), permitiendo el intercambio de archivos, la persistencia de datos y la exposición de servicios. 🖥️🔌📂
 
