@@ -1,4 +1,4 @@
-# 👥 Manejo de Múltiples Máquinas Virtuales (VIR-0108 - 0110)
+# 👥 Manejo de Múltiples Máquinas Virtuales (VIR-0108 - 0111)
 
 Este módulo se enfoca en las técnicas, herramientas y mejores prácticas para administrar, organizar y optimizar múltiples máquinas virtuales (*VMs*) ejecutándose en paralelo sobre un mismo sistema anfitrión. 💻🌐🎛️
 
@@ -84,3 +84,29 @@ Este módulo profundiza en los diferentes modos de red disponibles en la virtual
 ### 📝 Nota
 
 ⚠️ Configurar correctamente la red es vital en cualquier proyecto de TI. Elegir el modo adecuado evita conflictos de IP en tu red física y garantiza el aislamiento necesario para que tus experimentos de laboratorio corran de forma segura. 🚀
+
+# Guardar y Cargar Máquinas Virtuales (VIR-0111)
+
+Este módulo se centra en las diferentes formas de suspender, almacenar y reanudar el estado de una máquina virtual, optimizando los tiempos de inicio y protegiendo las sesiones de trabajo activas. ⏳🔄💻
+
+---
+
+### 📌 Puntos Clave
+
+* **⏸️ Guardar el Estado de la Máquina (Save State):**
+    * **¿Cómo funciona?:** Es el equivalente a la "hibernación" en una computadora física. El hipervisor congela la ejecución y vuelca todo el contenido actual de la memoria RAM ⚡ en un archivo dentro del disco duro del anfitrión 💾.
+    * **Ventaja principal:** Permite cerrar el hipervisor o apagar la computadora física por completo. Al volver a abrir la VM, todo estará exactamente igual a como lo dejaste (programas abiertos, pestañas del navegador, procesos corriendo), reanudándose en cuestión de segundos.
+
+* **🛑 Apagado por Señal ACPI vs. Apagado Forzado:**
+    * **🔌 Enviar señal de apagado (ACPI):** Equivale a presionar el botón físico de encendido de una computadora. Le avisa al sistema operativo de la VM que debe cerrarse de manera ordenada, guardando archivos y finalizando servicios de forma segura.
+    * **🔌 Apagado forzado (Power Off):** Equivale a tirar del cable de corriente de una PC real. Corta la ejecución de inmediato. Solo debe usarse si la VM se ha quedado completamente congelada, ya que existe un riesgo alto de corromper el sistema de archivos.
+
+* **⏹️ Pausar la Máquina Virtual (Pause):**
+    * **¿Cómo funciona?:** Congela temporalmente la actividad de la CPU virtual de la máquina, pero **mantiene** todo el entorno cargado en la memoria RAM del sistema anfitrión.
+    * **Caso de uso:** Es ideal si necesitas liberar procesamiento (CPU) en tu computadora física de forma inmediata para realizar otra tarea pesada, con la intención de retomar el trabajo en la VM unos minutos después de manera instantánea.
+
+---
+
+### 📝 Nota
+
+💡 Saber cuándo guardar el estado, pausar o apagar correctamente una máquina virtual te ahorrará muchísimo tiempo en tus laboratorios cotidianos, eliminando las largas esperas asociados al arranque (booteo) inicial de los sistemas operativos. 🚀
