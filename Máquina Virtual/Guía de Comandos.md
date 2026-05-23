@@ -1,4 +1,4 @@
-# 🛠️ Guía de Comandos Esenciales: Contenedores y Máquinas Virtuales
+# 🛠️ Guía de Comandos en Contenedores y Máquinas Virtuales
 
 Esta guía recopila los comandos más importantes para administrar los ciclos de vida, redes, almacenamiento y respaldos en entornos virtuales.
 
