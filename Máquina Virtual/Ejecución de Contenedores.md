@@ -23,9 +23,11 @@ Este módulo es de carácter práctico y se enfoca en preparar el entorno de tra
 * **🧪 Verificación del Entorno:**
     * Comprobación de que el demonio de Docker está activo y respondiendo mediante comandos de estado del sistema.
     * Ejecución del clásico contenedor de prueba:
+
 ```bash
       docker run hello-world
-      ```
+```
+
 Este comando valida todo el ciclo básico: busca la imagen localmente, la descarga desde Docker Hub si no existe, crea el contenedor, lo ejecuta para mostrar un mensaje de éxito y finaliza.
 
 ---
