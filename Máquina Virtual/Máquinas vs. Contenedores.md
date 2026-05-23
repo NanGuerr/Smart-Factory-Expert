@@ -70,7 +70,7 @@ La virtualización por contenedores no simula hardware; en su lugar, utiliza car
 
 💡 Entender estos principios es crucial: los contenedores no son "máquinas virtuales chiquitas", sino **procesos altamente aislados y limitados** que corren de manera nativa sobre el propio núcleo de tu sistema operativo. 🚀
 
-# 🛠️ Principales Sistemas de Gestión — Docker, Podman y Balena (VIR-0214)
+# 🛠️ Docker, Podman y Balena (VIR-0214)
 
 Este módulo analiza el ecosistema de la contenerización más allá de Docker, comparando tres de los motores de gestión de contenedores más relevantes del mercado, sus diferencias arquitectónicas y cuándo elegir cada uno. 🐳🦭🦅
 
