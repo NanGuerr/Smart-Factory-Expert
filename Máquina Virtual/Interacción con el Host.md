@@ -27,7 +27,7 @@ Este módulo se enfoca en cómo conectar y hacer interactuar un contenedor aisla
 
 💡 Aprender a gestionar la interacción con el sistema host es lo que transforma a los contenedores de simples cajas aisladas en herramientas útiles para flujos de trabajo reales, permitiéndote programar en tu sistema operativo favorito mientras tu código se ejecuta dentro del contenedor. 🚀
 
-# 📦 Gestión de Contenedores, Backup y Transferencia (VIR-0218)
+# 📦 Contenedores, Backup y Transferencia (VIR-0218)
 
 Este módulo se centra en las operaciones de administración avanzadas para controlar el ciclo de vida de los contenedores, crear copias de seguridad de sus estados actuales y exportarlos para transferirlos a otros servidores o entornos. 🗄️🔄🚚
 
