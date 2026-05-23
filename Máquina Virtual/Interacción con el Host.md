@@ -69,8 +69,10 @@ Este módulo se enfoca en las técnicas y comandos esenciales para abrir una lí
 A diferencia de `docker run` (que crea un contenedor nuevo desde cero), el comando clave en este módulo es **`docker exec`**, diseñado para ejecutar un nuevo proceso dentro de un contenedor que ya está corriendo.
 
 * **💻 Sintaxis Común:** 
+
 ```bash
   docker exec -it [ID_o_Nombre_Contenedor] /bin/bash
+```
 
 # 🏭 Servicios en Contenedores para la Industria 4.0 (VIR-0220)
 
