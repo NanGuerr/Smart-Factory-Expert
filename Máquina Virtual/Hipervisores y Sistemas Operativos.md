@@ -1,4 +1,4 @@
-# 🖥️ Instalación de Hipervisores y Sistemas Operativos (VIR-0106)
+# 🖥️ Instalación de Sistemas Operativos (VIR-0106)
 
 Este documento resume los principios y procedimientos para implementar entornos de virtualización, utilizando diversas herramientas y metodologías de instalación.
 
