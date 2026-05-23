@@ -28,7 +28,7 @@ Aquí tienes los puntos clave sobre por qué las organizaciones deciden virtuali
 
 **Nota:** Este resumen cubre la base teórica de lo que implica operar y gestionar máquinas virtuales dentro de una infraestructura moderna.
 
-# ⚖️ Beneficios y Desventajas de las Máquinas Virtuales (VIR-0104)
+# ⚖️ Beneficios y Desventajas (VIR-0104)
 
 Las Máquinas Virtuales son una solución potente, pero su implementación implica un balance entre flexibilidad operativa y consumo de recursos.
 
