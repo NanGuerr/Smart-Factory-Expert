@@ -9,9 +9,9 @@ Este módulo aborda la base matemática del algoritmo PID y su implementación p
 
 El controlador calcula de forma continua el error instantáneo $e(t) = SP - PV(t)$ para calcular la acción de control ($Out(t)$) sumando el efecto de tres componentes esenciales:
 
-$$\text{Out}(t) = K_p (\frac{e_(t) +}{K_i} \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$)
+$$\text{Out}(t) = K_p (\frac{e_(t) +int_{0}^{t} e(\T) d\T}{K_i} \ + K_d \frac{de_(t)}{dt}$$)
 
-*(Nota: En algunas variantes, las constantes integrales y derivativas se expresan en función del tiempo de integración $T_i = K_p / K_i$ y el tiempo derivativo $T_d = K_p \cdot K_d$).*
+*(Nota: En algunas variantes, las constantes integrales y derivativas se expresan en función del tiempo de integración.
 
 1. **📊 Acción Proporcional ($K_p$):** Multiplica el error actual por una ganancia. Si el error es grande, la respuesta es grande. Su función principal es aportar la fuerza inicial para acercar la variable al objetivo, aunque por sí sola suele dejar un error en estado estacionario (offset).
 2. **⏳ Acción Integral ($K_i / T_i$):** Examina el historial del error acumulado en el tiempo (la integral). Su propósito crítico en la industria es eliminar por completo el error en estado estacionario, forzando al sistema a llegar exactamente al Set Point.
