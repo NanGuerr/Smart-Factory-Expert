@@ -1,4 +1,4 @@
-# 🎛️ Conceptos Generales de Lazos de Control (PID-0103)
+# 🎛️ Conceptos Generales de Lazos de Control (PID-0101 - 0103)
 
 Este módulo introduce los fundamentos de la teoría de control automático, explicando cómo un sistema puede regularse a sí mismo para mantener una variable en un valor deseado frente a perturbaciones externas. 🧠🔄🏭
 
@@ -9,9 +9,12 @@ Este módulo introduce los fundamentos de la teoría de control automático, exp
 Para entender un control PID, primero se deben dominar los cuatro términos clave que definen cualquier lazo de regulación:
 
 * **🎯 SP — Setpoint (Valor de Consigna):** Es el valor objetivo o deseado que queremos mantener en el proceso (por ejemplo, mantener la temperatura de un horno a 180°C o el nivel de un tanque al 70%).
+  
 * **📊 PV — Process Variable (Variable de Proceso):** Es el valor real actual del sistema medido en tiempo real por un sensor (por ejemplo, la temperatura actual del horno leyendo 175°C).
+  
 * **❌ Error (Desviación):** Es la diferencia matemática exacta entre lo que deseas y lo que tienes. Se calcula como:
   $$Error = SP - PV$$
+  
 * **🔄 Retroalimentación (Feedback):** Es el canal de comunicación que toma la lectura de la **PV** desde el sensor y la envía de regreso al controlador para comparar si se está cumpliendo el objetivo del **SP**. Es la base del lazo cerrado.
 
 ---
@@ -32,7 +35,9 @@ El módulo analiza la diferencia crítica en la arquitectura de los sistemas de 
 Breve vistazo conceptual a lo que hace cada componente del algoritmo:
 
 1. **🔴 P — Proporcional:** Reacciona al error **actual**. A mayor error, mayor es la fuerza de la acción correctiva.
+   
 2. **🔵 I — Integral:** Reacciona al error **pasado** (acumulado en el tiempo). Se encarga de eliminar el pequeño error residual (offset) que la acción proporcional no logra corregir.
+   
 3. **🟢 D — Derivativa:** Reacciona al error **futuro** (predicción). Analiza la velocidad con la que cambia el error para frenar o acelerar la respuesta, evitando que el sistema se pase del objetivo (*overshoot*).
 
 ---
@@ -56,7 +61,9 @@ Breve vistazo conceptual a lo que hace cada componente del algoritmo:
 ### 📉 Comportamiento Dinámico y Errores
 
 * **❌ Error ($e = SP - PV$):** Es la diferencia matemática entre lo que deseamos (**SP**) y lo que tenemos realmente (**PV**). El objetivo de cualquier controlador (y del algoritmo PID) es hacer que este error sea igual a cero ($e = 0$).
+  
 * **📈 Overshoot / Sobreimpulso:** Es el valor máximo que alcanza la variable de proceso (**PV**) al sobrepasar la consigna (**SP**) la primera vez que intenta alcanzarla. Se mide generalmente en porcentaje y un overshoot muy alto puede ser peligroso en la industria (ej. sobrecalentar un horno).
+  
 * **🔄 Oscilación:** Es el comportamiento donde la variable de proceso (**PV**) sube y baja constantemente alrededor del **SP** sin llegar a estabilizarse. Una oscilación descontrolada indica que el sistema está inestable.
 
 ---
