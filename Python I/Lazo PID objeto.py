@@ -1,4 +1,4 @@
-"""Como adicional, les dejo para que prueben ustedes mismos una implementación de un Lazo PID en un objeto llamado "bomba", el cual regula su velocidad en RPM"""
+"""Implementación de un Lazo PID en un objeto llamado "bomba", el cual regula su velocidad en RPM"""
 import time
 
 class bomba:
