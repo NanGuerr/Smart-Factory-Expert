@@ -1,6 +1,6 @@
 # 📝 La constante derivativa
 
-$$\text{Out}_{(t)} = K_p \left( e_{(t)} + \frac{\int_{0}^{t} e_{(T)} \, dT}{K_i} + K_d \frac{de_{(t)}}{dt} \right)$$
+$$\text{Out}_{(t)} = K_p \left( e_{(t)} + \frac{\int_{0}^{t} e(T) \ dT}{K_i} + K_d \frac{de_{(t)}}{dt} \right)$$
 
 Para comprobar qué es lo que hace la constante derivativa, evaluemos primero *qué es lo que representa*, físicamente, este término.
 $$\frac{de_{(t)}}{dt}$$
