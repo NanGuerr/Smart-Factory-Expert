@@ -52,7 +52,7 @@
 * 🏭 **Programación de PLC Siemens con TIA Portal**
 * 📺 **Programación de pantallas HMI Siemens con TIA Portal**
 * ✅ **Programación de PLC con Allen Bradley** (En VIVO)
-* 🌀 **Lazos de control PID con TIA Portal** (Requiere matemáticas y control avanzado)
+* ✅ **Lazos de control PID con TIA Portal** (Requiere matemáticas y control avanzado)
 
 ---
 
@@ -61,7 +61,7 @@
 
 * ✅ **Virtualización y Docker**
 * ✅ **Introducción a la robótica: Programación con Robotstudio ABB**
-* 🛡️ **Ciberseguridad Industrial – Nivel 1**
+* ✅ **Ciberseguridad Industrial – Nivel 1**
 * 🔐 **Ciberseguridad Industrial – Nivel 2**
 
 ---
@@ -70,7 +70,7 @@
 *Los cursos con mayor carga conceptual y tecnológica.*
 
 * ✅ **Open CV – Reconocimiento de imágenes con IA** (Nivel avanzado de Python)
-* ✅ **Node-RED para la industria 4.0** (Interconexión de sistemas)
+* 📊 **Node-RED para la industria 4.0** (Interconexión de sistemas)
 * 🛠️ **Mantenimiento Predictivo en la Industria 4.0**
 * 🤖 **Inteligencia Artificial en la Industria 4.0**
 * 🏭 **Programación de PLC Siemens – TIA Portal V20+ + Factory IO**
