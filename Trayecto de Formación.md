@@ -30,7 +30,8 @@
 * 🖥️ **Diseño de planos eléctricos industriales con EPLAN 2.7/2.9**
 * 🏢 **Diseño de planos eléctricos industriales con EPLAN 2022/23**
 * 📐 **Diseño de planos eléctricos industriales con AutoCAD Electrical**
-* ✅ **Introducción a Cloud Computing con GCloud**
+* ✅ **Clases en VIVO - IngeLearn** (Contenido variable, usualmente integrador)
+* 
 ---
 
 ## 🐍 Programación y Software (IT)
@@ -52,16 +53,16 @@
 * 🏭 **Programación de PLC Siemens con TIA Portal**
 * 📺 **Programación de pantallas HMI Siemens con TIA Portal**
 * ✅ **Programación de PLC con Allen Bradley** (En VIVO)
-* ✅ **Lazos de control PID con TIA Portal** (Requiere matemáticas y control avanzado)
 
 ---
 
 ##  🌐 Redes, Ciberseguridad y Conectividad
 *La unión entre el taller (OT) y la oficina (IT).*
 
-* ✅ **Virtualización y Docker**
-* ✅ **Introducción a la robótica: Programación con Robotstudio ABB**
 * ✅ **Ciberseguridad Industrial – Nivel 1**
+* ✅ **Virtualización y Docker**
+* ✅ **Introducción a Cloud Computing con GCloud**
+* ✅ **Introducción a la robótica: Programación con Robotstudio ABB**
 * 🔐 **Ciberseguridad Industrial – Nivel 2**
 
 ---
@@ -70,11 +71,11 @@
 *Los cursos con mayor carga conceptual y tecnológica.*
 
 * ✅ **Open CV – Reconocimiento de imágenes con IA** (Nivel avanzado de Python)
-* 📊 **Node-RED para la industria 4.0** (Interconexión de sistemas)
 * ✅ **Mantenimiento Predictivo en la Industria 4.0**
 * ✅ **Inteligencia Artificial en la Industria 4.0**
+* 📊 **Node-RED para la industria 4.0** (Interconexión de sistemas)
 * 🏭 **Programación de PLC Siemens – TIA Portal V20+ + Factory IO**
-* ✅ **Clases en VIVO - IngeLearn** (Contenido variable, usualmente integrador)
+* ✅ **Lazos de control PID con TIA Portal** (Requiere matemáticas y control avanzado)
 
 ---
 
