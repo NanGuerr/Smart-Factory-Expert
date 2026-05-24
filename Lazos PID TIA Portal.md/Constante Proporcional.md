@@ -15,7 +15,7 @@ Al limpiar la ecuación general, obtenemos la fórmula del **Controlador P Puro*
 
 $$\text{Out}(t) = K_p \cdot e_t$$
 
-*(Donde la salida del controlador es directamente proporcional al error actual $e_t = SP - PV$ ).*
+*Donde la salida del controlador es directamente proporcional al error actual $e_t = SP - PV$*
 
 ---
 
