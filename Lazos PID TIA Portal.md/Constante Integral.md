@@ -1,21 +1,21 @@
 # La constante integral
 
-> $$\text{Out}_{(t)} = K_p \left( e_{(t)} + \frac{\int_{0}^{t} e_{(T)} \, dT}{K_i} + K_d \frac{de_{(t)}}{dt} \right)$$
-> 
-> Para comprobar qué es lo que hace la constante integral, evaluemos en primer lugar *qué es lo que representa*, físicamente, este término.
-> $$\int_{0}^{t} e_{(T)} \, dT$$
-> 
-> La **integral del error** representa simplemente **el área bajo la curva del error**. En otras palabras, el área que hay de un segmento entre la **consigna** y el **valor de proceso**.
-> Si el área es muy grande, ese valor sumará una corrección adicional a la ya existente por la componente proporcional, haciendo que el actuador se mueva un poco más.
-> **La constante integral**
-> $$\text{Out}_{(t)} = K_p \left( e_{(t)} + \frac{\int_{0}^{t} e_{(T)} \, dT}{K_i} \right)$$
-> 
-> 
-> A medida que el área bajo la curva se va haciendo más pequeña, también lo hace el valor de la acción integral.
-> **Aspectos a tener en consideración:**
-> * Cuanto más grande sea el valor de la constante integral ($K_i$), **menor será el valor de la acción integral**. Esto significa que tendrá menos influencia en nuestro sistema de control.
-> * Valores muy grandes de acción integral, harán que el sistema entre en oscilación.
-> * **No usar acción integral** (o reducirla al mínimo) para sistemas que son **demasiado lentos**.
+$$\text{Out}_{(t)} = K_p \left( e_{(t)} + \frac{\int_{0}^{t} e_{(T)} \, dT}{K_i} + K_d \frac{de_{(t)}}{dt} \right)$$
+ 
+Para comprobar qué es lo que hace la constante integral, evaluemos en primer lugar *qué es lo que representa*, físicamente, este término.
+ $$\int_{0}^{t} e_{(T)} \, dT$$
+ 
+La **integral del error** representa simplemente **el área bajo la curva del error**. En otras palabras, el área que hay de un segmento entre la **consigna** y el **valor de proceso**.
+Si el área es muy grande, ese valor sumará una corrección adicional a la ya existente por la componente proporcional, haciendo que el actuador se mueva un poco más.
+**La constante integral**
+$$\text{Out}_{(t)} = K_p \left( e_{(t)} + \frac{\int_{0}^{t} e_{(T)} \, dT}{K_i} \right)$$
+
+
+A medida que el área bajo la curva se va haciendo más pequeña, también lo hace el valor de la acción integral.
+**Aspectos a tener en consideración:**
+* Cuanto más grande sea el valor de la constante integral ($K_i$), **menor será el valor de la acción integral**. Esto significa que tendrá menos influencia en nuestro sistema de control.
+* Valores muy grandes de acción integral, harán que el sistema entre en oscilación.
+* **No usar acción integral** (o reducirla al mínimo) para sistemas que son **demasiado lentos**.
 
 ---
 
@@ -50,4 +50,4 @@ Si se le permite a la acción integral tener demasiada influencia (asignándole 
 
 ---
 
-💡 **Conclusión de las notas:** La acción integral es la medicina que cura el error en estado estacionario de la acción proporcional, pero debe administrarse con cuidado. Su fuerza depende del área bajo la curva del error y su sintonización requiere entender que en la fórmula de Siemens actúa de manera inversamente proporcional. Puedes guardar este bloque directamente en tu archivo de notas `.md`.
+💡 **Conclusión de las notas:** La acción integral es la medicina que cura el error en estado estacionario de la acción proporcional, pero debe administrarse con cuidado. Su fuerza depende del área bajo la curva del error y su sintonización requiere entender que en la fórmula de Siemens actúa de manera inversamente proporcional. 
