@@ -71,8 +71,8 @@
 
 * ✅ **Open CV – Reconocimiento de imágenes con IA** (Nivel avanzado de Python)
 * 📊 **Node-RED para la industria 4.0** (Interconexión de sistemas)
-* 🛠️ **Mantenimiento Predictivo en la Industria 4.0**
-* 🤖 **Inteligencia Artificial en la Industria 4.0**
+* ✅ **Mantenimiento Predictivo en la Industria 4.0**
+* ✅ **Inteligencia Artificial en la Industria 4.0**
 * 🏭 **Programación de PLC Siemens – TIA Portal V20+ + Factory IO**
 * ✅ **Clases en VIVO - IngeLearn** (Contenido variable, usualmente integrador)
 
