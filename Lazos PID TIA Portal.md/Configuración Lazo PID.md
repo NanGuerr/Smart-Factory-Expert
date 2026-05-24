@@ -7,7 +7,7 @@ Este módulo aborda la base matemática del algoritmo PID y su implementación p
 
 ### 🧮 La Ecuación Matemática del PID
 
-El controlador calcula de forma continua el error instantáneo $e_((t)) = SP - PV_(t)$ para calcular la acción de control $Out_(t)$ sumando el efecto de tres componentes esenciales:
+El controlador calcula de forma continua el error instantáneo $e_t = SP - PV_(t)$ para calcular la acción de control $Out_(t)$ sumando el efecto de tres componentes esenciales:
 
 
 $$\text{Out}_(t) = K_p (\frac{e_(t) + int_{0}^{t} e(T) dT}{K_i} \ + K_d \frac{de_(t)}{dt})$$
