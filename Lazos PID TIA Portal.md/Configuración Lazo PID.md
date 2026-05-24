@@ -10,7 +10,7 @@ Este módulo aborda la base matemática del algoritmo PID y su implementación p
 El controlador calcula de forma continua el error instantáneo $e_t = SP - PV_t$ para calcular la acción de control $Out_t$ sumando el efecto de tres componentes esenciales:
 
 
-$$\text{Out}_t = K_p (\frac{e_t + int {0}^{t} e(T) dT}{K_i} \ + K_d \frac{de_t}{dt})$$
+$$\text{Out}_t = K_p (\frac{e_t + \int_{0}^{t} e(T) dT}{K_i} \ + K_d \frac{de_t}{dt})$$
 
 
 *(Nota: En algunas variantes, las constantes integrales y derivativas se expresan en función del tiempo de integración.
