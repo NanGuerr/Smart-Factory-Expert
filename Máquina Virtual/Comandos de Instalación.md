@@ -22,7 +22,7 @@ sudo npm install -g --unsafe-perm node-red
 Existe un script oficial optimizado que actualiza tanto Node.js como Node-RED de forma segura:
 
 ```bash
-bash <(curl -sL [https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered](https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered))
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 
 ```
 
