@@ -25,7 +25,7 @@ El instructor utiliza la regla digital de TIA Portal para trazar la línea tange
 ### 3. Cálculo de las Constantes con Valores Reales 
 
 * **Transcripción:** Se sustituyen las variables por los tiempos exactos medidos con las reglas de TIA Portal: $T_u = 0.33\text{ s}$ y $T_g = 6.43\text{ s}$. El valor final alcanzado es de 70 °C. Las cajas de texto muestran el cálculo numérico directo:
-* $\text{Kp} = 0.9 \cdot (0.33 / 6.43) \cdot 70 \implies \mathbf{0.2505}$ *(Nota técnica: Representa la adaptación matemática para la ganancia del proceso $k_s$)*.
+* $\text{Kp} = 0.9 \cdot (0.33 / 6.43) \cdot 70 \implies \mathbf{0.2505}$ *(Nota técnica: Representa la adaptación matemática para la ganancia del proceso)* $k_s$
 * $\text{Ti} = 3.33 \cdot 0.33 \implies \mathbf{1.098\text{ s}}$.
 
 
