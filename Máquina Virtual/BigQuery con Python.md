@@ -5,7 +5,7 @@ Este documento resume el flujo de trabajo para interactuar con bases de datos de
 ## 1. Preparación del Entorno 🛠️
 Antes de ejecutar el código, es fundamental instalar las dependencias necesarias para la autenticación y conexión con Google Cloud:
 
-```bash
+```python
 
 pip install google-auth
 pip install google-cloud
