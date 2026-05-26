@@ -1,4 +1,4 @@
-# 🧠 Algoritmos, Métricas y Evaluación del Mantenimiento Predictivo 📈
+# 🧠 Algoritmos, Métricas y Evaluación 📈
 
 Este documento detalla los conceptos fundamentales del campo de la Inteligencia Artificial y la analítica de datos aplicados a la predicción de fallas industriales, complementando el marco operativo y estratégico de la gestión de activos.
 
