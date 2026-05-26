@@ -270,3 +270,9 @@ Durante el proceso de instalación online, se deben prever los siguientes puntos
 * **Dependencias del Sistema Operativo en Modbus y S7:** Módulos avanzados como `node-red-contrib-modbus` compilan paquetes binarios de NodeJS en segundo plano. Si el servidor no posee instalado las herramientas de compilación (`build-essential` en Linux o Python/Visual Studio Build Tools en Windows), la instalación por interfaz gráfica fallará.
 * **Permisos de Escritura en el Directorio `node_modules`:** Al utilizar plataformas contenerizadas como **Docker**, es común experimentar errores de acceso denegado (`EACCES`). Se soluciona ingresando a la consola del contenedor y ejecutando la instalación con privilegios de usuario (`npm install --unsafe-perm`).
 * **Conflictos del Dashboard:** Al instalar `@flowfuse/node-red-dashboard`, es mandatario no tener flujos activos que dependan de la biblioteca obsoleta `node-red-dashboard` para evitar solapamientos en las rutas del servidor web local (`/ui`).
+
+## 🔍 Errores corregidos:
+
+* Comillas sin escapar en cadenas JSON: En los campos "payload", tenías un string JSON anidado dentro de otro string sin escapar (por ejemplo: "{"num1":20}"). Para corregirlo, se deben añadir barras invertidas a las comillas internas ("{\"num1\":20}").
+
+* Saltos de línea en strings (\n): En los campos "func", el código JavaScript tenía saltos de línea literales. En el formato estandarizado de JSON, las cadenas deben ir en una sola línea y los saltos de línea deben representarse explícitamente con el caracter de escape \n.
