@@ -4,11 +4,16 @@ Este documento resume el flujo de trabajo para interactuar con bases de datos de
 
 ## 1. Preparación del Entorno 🛠️
 Antes de ejecutar el código, es fundamental instalar las dependencias necesarias para la autenticación y conexión con Google Cloud:
-* `pip install`
-* `google-auth`
-* `google-cloud`
-* `google-cloud-bigquery`
-* `google-api-core`
+
+```bash
+
+`pip install`
+`google-auth`
+`google-cloud`
+`google-cloud-bigquery`
+`google-api-core`
+
+```
 
 ## 2. Conexión y Autenticación 🔑
 El proceso se inicia cargando las credenciales desde un archivo `.json` de cuenta de servicio, permitiendo al cliente de BigQuery establecer una sesión segura con el proyecto y el conjunto de datos (*dataset*) especificado.
