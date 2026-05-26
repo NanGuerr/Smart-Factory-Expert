@@ -1,0 +1,61 @@
+# 🏭 Fundamentos de Gestión de Activos y Mantenimiento Predictivo 🛠️
+
+Este documento reúne las definiciones clave, estrategias operativas y el alcance metodológico para el desarrollo de algoritmos de predicción de fallas en activos industriales.
+
+---
+
+## 🎯 1. Alcance del Curso: Creación del Algoritmo Propio
+
+El núcleo formativo está diseñado para adquirir las competencias necesarias para construir un **algoritmo de predicción de fallas** basado en datos históricos y de proceso.
+
+* **Alcance Técnico:** Desarrollo de código completo en **Python** y **SQL** utilizando datos sintéticos (simulados).
+* **Exclusiones:** No se profundizará en marcas específicas de hardware, equipos particulares o modos de falla únicos de una industria; el enfoque es puramente metodológico y algorítmico.
+
+---
+
+## 📐 2. Glosario de Conceptos Clave y Definiciones
+
+### 📑 Gestión de Activos
+Disciplina encargada de administrar los activos físicos (equipos, sistemas, infraestructura) a lo largo de todo su ciclo de vida útil. Su meta es alcanzar el equilibrio óptimo entre tres variables críticas:
+* **Costos (CAPEX / OPEX)**
+* **Riesgos**
+* **Desempeño Operacional**
+
+### 💸 Costo de Fallas
+Representa el impacto económico total cuando un activo pierde su función. Se divide en cuatro dimensiones:
+1. **Costos Directos:** Mano de obra, repuestos, servicios externos y logística urgente.
+2. **Costos Indirectos:** Pérdida de producción, reprocesos, desperdicio de materia prima y penalizaciones.
+3. **Costos por Riesgo:** Afectaciones a la seguridad y salud, daño ambiental y penalizaciones legales.
+4. **Costo de Oportunidad:** Ventas no realizadas y pérdida de confianza de los clientes.
+
+> ⚠️ *“Solo quien vivió una falla grande, sabe el verdadero costo de no invertir en mantenimiento.”*
+
+### 📉 Confiabilidad
+La probabilidad de que un activo cumpla de manera consistente su función requerida bajo condiciones estandarizadas durante un período de tiempo determinado. Se mide mediante indicadores como el **MTBF** (Tiempo Medio Entre Fallas) y la tasa de fallas.
+
+---
+
+## 🗺️ 3. Matriz de Estrategias de Mantenimiento
+
+A continuación, se describen los enfoques estratégicos para decidir cuándo intervenir un activo físico:
+
+| Estrategia | Principio de Intervención | Ventajas | Desventajas |
+| :--- | :--- | :--- | :--- |
+| **Correctivo (Reactivo)** 🔴 | Después de que ocurre la falla. | Cero gasto previo. | Paradas inesperadas, altos costos en cascada. |
+| **Preventivo (Tiempo/Uso)** 🟡 | Por calendario, horas de marcha o ciclos. | Planificable. | Reemplazo de piezas aún útiles. |
+| **Predictivo (Condición)** 🟢 | Basado en variables físicas (vibración, temperatura). | Máximo aprovechamiento de vida útil. | Requiere inversión en sensores y analítica. |
+| **Proactivo** 🔵 | Eliminación de la causa raíz del problema. | Extiende la vida de diseño. | Requiere ingeniería profunda y control estricto. |
+
+---
+
+## 📋 4. Catálogo de Tareas Operativas de Mantenimiento
+
+Para ejecutar las estrategias anteriores, se despliegan acciones concretas sobre los equipos:
+
+1. **🔍 Inspeccionar y Monitorear:** Medición de variables térmicas, análisis de vibraciones y detección de fugas.
+2. **🛢️ Lubricar y Controlar Contaminación:** Gestión de aceites, limpieza de filtros y mantenimiento de sellos mecánicos.
+3. **⚙️ Ajustar y Calibrar:** Aplicación de torque de precisión, ajuste de holguras e instrumentación.
+4. **🔄 Reemplazar por Vida Útil:** Cambios programados de rodamientos, correas y elementos consumibles.
+5. **🛠️ Reparar y Corregir:** Corrección geométrica, soldadura estructural o cambio de componentes averiados.
+6. **🧪 Probar y Verificar:** Ensayos funcionales de lazos de control y sistemas de parada de emergencia.
+7. **💡 Mejorar:** Modificaciones de ingeniería para facilitar el mantenimiento futuro o erradicar fallas crónicas.
