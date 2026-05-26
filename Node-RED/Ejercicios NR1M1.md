@@ -1,4 +1,4 @@
-# 🐙 Ejercicios Prácticos en Node-RED: Nodo Function y Gestión de Paletas
+# 🐙 Ejercicios Prácticos Nodo Function y Gestión de Paletas
 
 Este documento recopila de manera detallada la resolución técnica y la infraestructura en formato JSON para la importación de flujos en Node-RED, cubriendo operaciones con el nodo `function`, lógica condicional multinivel y la auditoría de instalación de paquetes del ecosistema de automatización.
 
