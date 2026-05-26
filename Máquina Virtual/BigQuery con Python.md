@@ -7,11 +7,10 @@ Antes de ejecutar el código, es fundamental instalar las dependencias necesaria
 
 ```bash
 
-`pip install`
-`google-auth`
-`google-cloud`
-`google-cloud-bigquery`
-`google-api-core`
+pip install google-auth
+pip install google-cloud
+pip install google-cloud-bigquery
+pip install google-api-core
 
 ```
 
