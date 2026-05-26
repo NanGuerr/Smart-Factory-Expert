@@ -74,7 +74,7 @@ Para importar estos ejercicios directamente en su servidor Node-RED, vaya al men
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "payload": "{"num1":20,"num2":15}",
+    "payload": "{\"num1\":20,\"num2\":15}",
     "payloadType": "json",
     "x": 180,
     "y": 100,
@@ -85,8 +85,7 @@ Para importar estos ejercicios directamente en su servidor Node-RED, vaya al men
     "type": "function",
     "z": "tab_ejercicios_function",
     "name": "Suma Simple",
-    "func": "msg.payload = msg.payload.num1 + msg.payload.num2;
-return msg;",
+    "func": "msg.payload = msg.payload.num1 + msg.payload.num2;\nreturn msg;",
     "outputs": 1,
     "timeout": 0,
     "noerr": 0,
@@ -125,7 +124,7 @@ return msg;",
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "payload": "{"num1":40,"num2":25}",
+    "payload": "{\"num1\":40,\"num2\":25}",
     "payloadType": "json",
     "x": 170,
     "y": 200,
@@ -142,7 +141,7 @@ return msg;",
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "payload": "{"num1":10,"num2":15}",
+    "payload": "{\"num1\":10,\"num2\":15}",
     "payloadType": "json",
     "x": 170,
     "y": 240,
@@ -153,13 +152,7 @@ return msg;",
     "type": "function",
     "z": "tab_ejercicios_function",
     "name": "Filtrar > 50",
-    "func": "var sum = msg.payload.num1 + msg.payload.num2;
-if (sum > 50) {
- msg.payload = "Resultado mayor a 50: " + sum;
- return msg;
-} else {
- return null;
-}",
+    "func": "var sum = msg.payload.num1 + msg.payload.num2;\nif (sum > 50) {\n msg.payload = \"Resultado mayor a 50: \" + sum;\n return msg;\n} else {\n return null;\n}",
     "outputs": 1,
     "timeout": 0,
     "noerr": 0,
@@ -198,7 +191,7 @@ if (sum > 50) {
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "payload": "{"num1":30,"num2":30}",
+    "payload": "{\"num1\":30,\"num2\":30}",
     "payloadType": "json",
     "x": 170,
     "y": 360,
@@ -209,17 +202,7 @@ if (sum > 50) {
     "type": "function",
     "z": "tab_ejercicios_function",
     "name": "Dos Salidas (Condicional)",
-    "func": "var sum = msg.payload.num1 + msg.payload.num2;
-msg.payload = {
- resultado: sum,
- detalle: "Cálculo de dos salidas"
-};
-
-if (sum > 50) {
- return [msg, null];
-} else {
- return [null, msg];
-}",
+    "func": "var sum = msg.payload.num1 + msg.payload.num2;\nmsg.payload = {\n resultado: sum,\n detalle: \"Cálculo de dos salidas\"\n};\n\nif (sum > 50) {\n return [msg, null];\n} else {\n return [null, msg];\n}",
     "outputs": 2,
     "timeout": 0,
     "noerr": 0,
