@@ -1,6 +1,6 @@
 # Automatización en BigQuery con Python 🐍📊
 
-Este documento resume el flujo de trabajo para interactuar con bases de datos de Google BigQuery utilizando Python, facilitando la gestión automatizada de datos desde aplicaciones o dispositivos (como PLCs).
+Este documento resume el flujo de trabajo para interactuar con bases de datos de Google BigQuery utilizando Python, facilitando la gestión automatizada de datos desde aplicaciones o dispositivos (como PLCs) y las operaciones técnicas de lectura y escritura realizadas en Google BigQuery a través de scripts de Python, enfocadas en la automatización de flujos de datos.
 
 ## 1. Preparación del Entorno 🛠️
 Antes de ejecutar el código, es fundamental instalar las dependencias necesarias para la autenticación y conexión con Google Cloud:
@@ -18,6 +18,19 @@ El proceso se inicia cargando las credenciales desde un archivo `.json` de cuent
 * **Exploración:** Listado de tablas existentes dentro del conjunto de datos y verificación del esquema (*schema*) de una tabla seleccionada (ej. tabla "PLC").
 * **Escritura (Inserción de Datos):** Automatización de la inserción de registros (filas) utilizando `insert_rows_json`. Se capturan datos como fecha/hora actual, setpoints y temperaturas, validando la operación mediante la respuesta de error del sistema.
 * **Lectura (Consultas):** Ejecución de sentencias SQL (`SELECT * FROM ...`) para extraer información histórica, transformando los resultados en diccionarios de Python para su posterior procesamiento o visualización.
+
+## 4. Fundamentos de Integración 🛠️
+El proceso requiere el uso de la biblioteca `google-cloud-bigquery` para establecer una comunicación segura. La autenticación se gestiona mediante un archivo de cuenta de servicio en formato `.json`, lo que permite que el cliente de BigQuery acceda a los recursos del proyecto.
+
+## 5. Inserción Automatizada de Datos 📝
+El flujo incluye la creación de diccionarios de datos en Python que representan las filas a insertar en una tabla específica (ej. un registro de temperatura y *setpoints* de un PLC). 
+* **Proceso:** Se utiliza el método `insert_rows_json`.
+* **Validación:** Se implementan comprobaciones de errores para garantizar que los datos hayan sido persistidos correctamente en la base de datos en la nube.
+
+## 6. Consultas SQL para Análisis 🔍
+Se demuestra el uso de sentencias SQL (`SELECT`) ejecutadas desde Python para extraer información.
+* **Procesamiento:** Los resultados devueltos por BigQuery se iteran y transforman en diccionarios para facilitar la manipulación de variables como `FechayHora`, `Setpoint` y `Temperatura`.
+* **Uso de Datos:** Esta capacidad es clave para monitorizar variables históricas en tiempo real.
 
 ---
 *Resumen técnico del flujo de datos entre Python y BigQuery.*
