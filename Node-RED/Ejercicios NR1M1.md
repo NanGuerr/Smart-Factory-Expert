@@ -273,6 +273,8 @@ Durante el proceso de instalación online, se deben prever los siguientes puntos
 
 ## 🔍 Errores corregidos:
 
-* Comillas sin escapar en cadenas JSON: En los campos "payload", había un string JSON anidado dentro de otro string sin escapar (por ejemplo: "{"num1":20}"). Para corregirlo, se deben añadir barras invertidas a las comillas internas `("{\"num1\":20}")`.
+* Comillas sin escapar en cadenas JSON: En los campos "payload", había un string JSON anidado dentro de otro string sin escapar (por ejemplo: "{"num1":20}"). Para corregirlo, se deben añadir barras invertidas a las comillas internas
+* `("{\"num1\":20}")`.
 
-* Saltos de línea en strings (\n): En los campos "func", el código JavaScript tenía saltos de línea literales. En el formato estandarizado de JSON, las cadenas deben ir en una sola línea y los saltos de línea deben representarse explícitamente con el caracter de escape `\n`.
+* Saltos de línea en strings (\n): En los campos "func", el código JavaScript tenía saltos de línea literales. En el formato estandarizado de JSON, las cadenas deben ir en una sola línea y los saltos de línea deben representarse explícitamente con el caracter de escape
+* `\n`.
