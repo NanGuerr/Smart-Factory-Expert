@@ -33,7 +33,7 @@ El instructor utiliza la regla digital de TIA Portal para trazar la línea tange
 
 ### 4. Carga de Parámetros en el `PID_Compact`
 
-* **Transcripción:** El software regresa al modo de configuración de *Parámetros PID*. El instructor desmarca la casilla "Activar entrada manual" para devolver el PID a Modo Automático y escribe los valores calculados directamente en las celdas naranjas: **Ganancia proporcional: `0.2505**` y **Tiempo de integración: `1.098 s**`. El tiempo derivativo se mantiene en `0.0 s`.
+* **Transcripción:** El software regresa al modo de configuración de *Parámetros PID*. El instructor desmarca la casilla "Activar entrada manual" para devolver el PID a Modo Automático y escribe los valores calculados directamente en las celdas naranjas: **Ganancia proporcional:** `0.2505` y **Tiempo de integración:** `1.098 s`. El tiempo derivativo se mantiene en `0.0 s`.
 * **Análisis:** Se completa la puesta en marcha. Los valores obtenidos mediante el análisis gráfico de Ziegler-Nichols se cargan en la memoria del controlador para pasar a la prueba en lazo cerrado.
 
 ---
