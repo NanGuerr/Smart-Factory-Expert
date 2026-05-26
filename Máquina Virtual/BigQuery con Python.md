@@ -1,4 +1,4 @@
-# Automatización de Lectura y Escritura en BigQuery con Python 🐍📊
+# Automatización en BigQuery con Python 🐍📊
 
 Este documento resume el flujo de trabajo para interactuar con bases de datos de Google BigQuery utilizando Python, facilitando la gestión automatizada de datos desde aplicaciones o dispositivos (como PLCs).
 
