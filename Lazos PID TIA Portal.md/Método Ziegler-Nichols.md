@@ -1,6 +1,3 @@
-El instructor utiliza la regla digital de TIA Portal para trazar la línea tangente en el *punto de inflexión* de la respuesta temporal de la planta y calcular los parámetros críticos del proceso.
----
-
 # 📋 Método de la Curva de Reacción de Ziegler-Nichols (Sintonización por Lazo Abierto)
 
 ### 1. Estado de Partida en Lazo Abierto 
@@ -71,3 +68,5 @@ Al cargar estos valores en la pestaña de parámetros avanzados, el operador pas
 ---
 
 💡 **Nota de estudio:** El método de la curva de reacción es sumamente popular porque permite sintonizar un PID realizando **una sola prueba en modo manual**, protegiendo la integridad de la máquina al evitar llevar el lazo cerrado al punto de oscilación destructiva. 
+Utiliza la regla digital de TIA Portal para trazar la línea tangente en el *punto de inflexión* de la respuesta temporal de la planta y calcular los parámetros críticos del proceso.
+---
