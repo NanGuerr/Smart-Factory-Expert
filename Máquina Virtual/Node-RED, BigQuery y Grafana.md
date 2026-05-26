@@ -1,4 +1,4 @@
-# Guía Detallada: Integración de Node-RED con Google BigQuery 🌐☁️
+# Integración de Node-RED con Google BigQuery 🌐☁️
 
 Este documento describe el procedimiento técnico para conectar el flujo de datos desde un entorno industrial (IOT2050) hasta la nube de Google BigQuery utilizando **Node-RED**.
 
