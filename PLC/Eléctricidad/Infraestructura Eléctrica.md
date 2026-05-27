@@ -1,4 +1,4 @@
-# ⚡ Infraestructura Celdas, Transformadores y Tableros 🏗️
+# ⚡ Celdas, Transformadores y Tableros 🏗️
 
 ## 🏢 Celdas de Media Tensión (MT)
 Las **Celdas de Media Tensión** son compartimentos metálicos que alojan equipos de maniobra, medida y protección. Su función principal es recibir y distribuir la electricidad de forma segura, permitiendo el control de la energía antes de su transformación.
