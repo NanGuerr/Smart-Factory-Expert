@@ -1,4 +1,4 @@
-# 🌐 Definiciones de la Clase: Fuentes de Datos y Repositorios
+# 🌐 Fuentes de Datos y Repositorios
 
 A continuación, se presentan las referencias y definiciones de las principales plataformas mencionadas en el video para la obtención de *datasets* de calidad en proyectos de Ciencia de Datos y Machine Learning.
 
