@@ -1,4 +1,4 @@
-# ⚡ Materiales de la Práctica y Definiciones (Predicción de Consumo Eléctrico)
+# ⚡ Práctica (Predicción de Consumo Eléctrico)
 
 A continuación, se presentan las referencias de las definiciones clave mencionadas en el video técnico para comprender el comportamiento de la energía y el análisis de señales temporales. 🚀
 
