@@ -1,4 +1,4 @@
-# ⚡ Guía Técnica: Motores Trifásicos Asíncronos y Síncronos 🌀
+# ⚡ Guía Técnica: Asíncronos y Síncronos 🌀
 
 ---
 
