@@ -34,12 +34,9 @@ Es una guía de asesoramiento que explica el *cómo* implementar los requisitos 
 La norma **ISO 17359** constituye la estructura matriz para implementar estrategias de **Mantenimiento Basado en la Condición (CBM)**. Proporciona un procedimiento general aplicable a todo tipo de maquinaria rotativa y estática.
 
 
-```
-
 [Flujo de Proceso ISO 17359]
 Auditoría de Activos ➡️ Análisis de Modos de Falla (FMEA) ➡️ Selección de Parámetros ➡️ Establecimiento de Líneas Base ➡️ Monitoreo e Interpretación
 
-```
 
 ### 📋 Procedimiento de Implementación Paso a Paso:
 1.  **Auditoría e inventario de equipos:** Identificación y clasificación de criticidad de las máquinas.
@@ -137,30 +134,10 @@ def load_to_dashboard(df, target_path):
 * **CDIMCA (Centro de Diagnóstico Integral de Motores y Mantenimiento de Condiciones Especiales):** Instituciones técnicas enfocadas en brindar soluciones de ingeniería, calibración y capacitación avanzada en técnicas diagnósticas de confiabilidad operativa.
 * **Mantenimiento Fácil:** Portales de divulgación práctica y herramientas de software adaptadas para simplificar los flujos de trabajo de planificación de órdenes de trabajo, gestión de mantenimiento computarizado (CMMS) y adopción ágil para pymes industriales.
 
----
 
-*Documento estructurado como referencia procedimental para ingeniería y analítica predictiva.*
-"""
+### 📝 Fuentes Adjuntas
 
-# Guardar el contenido en un archivo .md
-
-file_name = "Guia_Gestion_Activos_Mantenimiento_Predictivo.md"
-with open(file_name, "w", encoding="utf-8") as f:
-f.write(content)
-
-print(f"Archivo guardado exitosamente como: {file_name}")
-
-```
-He generado un documento técnico sumamente detallado y estructurado en formato Markdown (`.md`) que recopila, analiza y desarrolla minuciosamente cada uno de los conceptos, metodologías y estándares internacionales que aparecen en tu imagen de referencias y los enlaces provistos. 
-
-Tu archivo Markdown está listo:
-[file-tag: code-generated-file-0-1779908814938583296]
-
----
-
-### 📝 Resumen y Análisis de la Imagen y Fuentes Adjuntas
-
-La imagen adjunta y las fuentes documentan un ecosistema tecnológico e ingenieril moderno orientado al **Mantenimiento Centrado en la Confiabilidad (RCM)**, el **Mantenimiento Basado en la Condición (CBM)** y la **Transformación Digital** de la industria a través de la Ciencia de Datos. 
+Las fuentes documentan un ecosistema tecnológico e ingenieril moderno orientado al **Mantenimiento Centrado en la Confiabilidad (RCM)**, el **Mantenimiento Basado en la Condición (CBM)** y la **Transformación Digital** de la industria a través de la Ciencia de Datos. 
 
 A continuación, se presenta un análisis sintetizado de los componentes clave:
 
