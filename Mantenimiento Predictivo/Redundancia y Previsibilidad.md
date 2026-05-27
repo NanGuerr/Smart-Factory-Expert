@@ -1,4 +1,4 @@
-# 📊 Matriz de Criticidad, Redundancia y Previsibilidad en el Mantenimiento Predictivo 📈
+# 📊 Redundancia y Previsibilidad 📈
 
 Este documento complementa el marco teórico de la gestión de activos, profundizando en las tres dimensiones fundamentales utilizadas para clasificar procesos industriales y justificar la implementación de estrategias de **Mantenimiento Predictivo (PdM)**.
 
