@@ -4,7 +4,7 @@
 Apuntes, ejercicios y proyectos desarrollados sobre **Automatización e Industria 4.0**. El objetivo es documentar el camino hacia la especialización en fábricas inteligentes, integrando tecnologías de IT (Tecnologías de la Información) y OT (Tecnologías de Operación).
 
 <p align="center">
-  <img src="https://github.com/NanGuerr/Smart-Factory-Expert/blob/main/banner-smart-factory.png?raw=true" width="100%">
+  <img src="https://github.com/NanGuerr/Smart-Factory-Expert/blob/main/banner-smart-factory.png?raw=true" width="80%">
 </p>
 
 ## 🚀 Áreas de Especialización
