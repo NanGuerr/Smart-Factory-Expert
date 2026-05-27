@@ -1,4 +1,4 @@
-# 📊 Guía Exhaustiva de Gestión de Activos, Monitoreo de Condición y Análisis
+# 📊 Gestión de Activos, Monitoreo de Condición y Análisis
 
 Esta guía técnica proporciona un desglose analítico y procedimental basado en normativas internacionales (**ISO**), metodologías avanzadas de procesamiento de señales (**Wavelet**) y repositorios de analítica de datos (**Kaggle** y arquitecturas de código para predicción de fallas). El objetivo es consolidar un marco de referencia detallado para ingenieros de confiabilidad, gestores de activos y científicos de datos industriales.
 
@@ -35,6 +35,7 @@ La norma **ISO 17359** constituye la estructura matriz para implementar estrateg
 
 
 [Flujo de Proceso ISO 17359]
+
 Auditoría de Activos ➡️ Análisis de Modos de Falla (FMEA) ➡️ Selección de Parámetros ➡️ Establecimiento de Líneas Base ➡️ Monitoreo e Interpretación
 
 
@@ -164,5 +165,3 @@ A continuación, se presenta un análisis sintetizado de los componentes clave:
 3.  **Taxonomía y Confiabilidad (ISO 14224):** El diseño jerárquico para bases de datos de mantenimiento industrial.
 4.  **Procesamiento Wavelet:** Explicación matemática simplificada y secuencia de filtrado de envolventes en rodamientos.
 5.  **Ciencia de Datos Aplicada:** Un bloque de **código en Python** que simula la arquitectura funcional exacta del script ETL predictivo para cálculos probabilísticos de fallas.
-
-```
