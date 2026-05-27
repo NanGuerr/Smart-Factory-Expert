@@ -1,4 +1,4 @@
-# 📝 Cuestionario Resuelto: Motores Eléctricos y Electromagnetismo ⚡
+# 📝 Cuestionario: Motores Eléctricos y Electromagnetismo ⚡
 
 ---
 
