@@ -1,5 +1,7 @@
 # Guía de Procedimientos con el NASA Bearing Dataset 🛠️📊
 
+<img width="812" height="441" alt="image" src="https://github.com/user-attachments/assets/af73c1a4-d0a8-4a0c-91f9-d4ba16a4d67e" />
+
 Este documento presenta una síntesis estructurada, detallada y descriptiva de la aplicación de la Ciencia de Datos y el Aprendizaje Automático (*Machine Learning*) para el **Mantenimiento Predictivo** de componentes industriales críticos.
 
 ---
