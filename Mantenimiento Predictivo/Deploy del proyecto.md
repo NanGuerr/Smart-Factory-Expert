@@ -1,4 +1,4 @@
-# 🚀 Guía de Configuración y Despliegue del Proyecto: Palantir WebApp ⚙️
+# 🚀 Guía de Configuración y Despliegue de Palantir WebApp ⚙️
 
 Esta guía contiene los pasos necesarios para configurar el entorno, desplegar la base de datos, ejecutar el proceso ETL y entrenar los modelos de Machine Learning para el mantenimiento predictivo.
 
