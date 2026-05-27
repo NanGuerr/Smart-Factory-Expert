@@ -64,7 +64,7 @@ Una vez estructurado el **DataFrame** en Pandas y validados los tipos de datos c
 
 ## 📈 3. Métricas de Control del Pipeline
 Durante la ejecución, el script imprime métricas clave de balanceo de datos para el analista, calculando la **tasa de fallas (Failure Rate)**: 
-$$ext{Tasa de Fallas}=\left(rac{ext{Filas con falla en siguientes 7 días}}{	ext{Total de registros generados}}ight)imes100$$
+
 $$\text{Tasa de Fallas} = \left( \frac{\text{Filas con falla en siguientes 7 días}}{\text{Total de registros generados}} \right) \times 100$$
 
 Este porcentaje es crucial para detectar problemas de desbalanceo de clases antes de entrenar modelos de Machine Learning de clasificación.
