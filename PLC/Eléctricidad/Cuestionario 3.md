@@ -1,4 +1,4 @@
-# 📝 Cuestionario Resuelto: Motores Eléctricos
+# 📝 Cuestionario: Motores Eléctricos
 
 Aquí tienes las respuestas correctas y explicadas para cada una de las preguntas de tu cuestionario sobre motores eléctricos, enriquecidas con emojis relacionados al contenido. ⚡
 
