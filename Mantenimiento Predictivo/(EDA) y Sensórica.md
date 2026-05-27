@@ -1,4 +1,4 @@
-# 📊 Análisis Exploratorio de Datos (EDA) y Sensórica en Mantenimiento Predictivo 🧠
+# 📊 Análisis Exploratorio de Datos (EDA) y Sensórica 🧠
 
 Este documento técnico consolida los conceptos de análisis estadístico, herramientas de visualización y las variables físicas fundamentales capturadas por sensores para el diagnóstico de salud en activos industriales.
 
