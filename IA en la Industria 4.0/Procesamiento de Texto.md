@@ -1,5 +1,3 @@
-:flag-Br:
-:troll-face:
 # 🔤 Fundamentos de NLP y Procesamiento de Texto
 
 A continuación, se presentan las referencias de las definiciones mencionadas en el video con respecto a las técnicas esenciales de preparación de datos textuales en Inteligencia Artificial. 🚀
