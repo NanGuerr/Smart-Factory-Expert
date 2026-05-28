@@ -1,6 +1,26 @@
-# 📚 Material Complementario
+# 📚 Ingeniería de Prompts y Desarrollo
 
 A continuación, se presentan las referencias conceptuales respecto a las interfaces de usuario, la ingeniería de instrucciones para IA y los entornos de despliegue web. 🚀
+
+---
+
+## 🧠 ¿Qué es un Prompt?
+
+Un **Prompt** es la entrada de texto (instrucción, frase o pregunta) que se le proporciona a un modelo de Inteligencia Artificial Generativa (como un LLM) para guiar su comportamiento, definir su comportamiento y obtener una respuesta específica. La disciplina de diseñar y optimizar estas entradas se conoce como *Prompt Engineering* (Ingeniería de Prompts).
+
+---
+
+## 🧱 Partes Estructurales de un Prompt de Calidad
+
+Para maximizar la precisión de una IA y evitar alucinaciones, un prompt robusto debe fragmentarse en componentes lógicos claros:
+
+* **🎭 Rol:** Define la identidad, profesión o perspectiva que debe adoptar la IA (ej: *"Actúa como un ingeniero de automatización experto"*).
+* **🎯 Objetivo:** Explica claramente la acción principal o la meta que se desea alcanzar (ej: *"Escribe un script de control predictivo"*).
+* **📂 Fuente:** Especifica la procedencia de los datos, archivos de origen o la documentación técnica en la cual debe basarse (ej: *"Utiliza las lecturas del archivo synthetic-plc-tank.csv"*).
+* **📊 Formato:** Determina la estructura visual y técnica de la salida (ej: *"Devuelve un bloque de código limpio, tablas Markdown o formato JSON"*).
+* **🌐 Contexto:** Proporciona los antecedentes del entorno y las limitaciones operativas (ej: *"Es un sistema crítico de nivel de tanque industrial en una planta química"*).
+* **💡 Ejemplos (*Few-shot prompting*):** Muestra plantillas de entradas y salidas esperadas para alinear el estilo de la respuesta.
+* **👣 Paso a Paso:** Desglosa el razonamiento secuencial que la IA debe ejecutar para resolver problemas complejos (ej: *"Primero limpia los nulos, segundo normaliza y tercero grafica"*).
 
 ---
 
