@@ -27,9 +27,9 @@
 ## 🎨 Diseño y Software CAD
 *De herramientas de simulación sencillas a software profesional de ingeniería.*
 
+* ✅ **Diseño de planos eléctricos industriales con AutoCAD Electrical**
 * 🖥️ **Diseño de planos eléctricos industriales con EPLAN 2.7/2.9**
 * 🏢 **Diseño de planos eléctricos industriales con EPLAN 2022/23**
-* 📐 **Diseño de planos eléctricos industriales con AutoCAD Electrical**
 * ✅ **Clases en VIVO - IngeLearn** (Contenido variable, usualmente integrador)
 
 ---
