@@ -31,7 +31,7 @@
 * 🏢 **Diseño de planos eléctricos industriales con EPLAN 2022/23**
 * 📐 **Diseño de planos eléctricos industriales con AutoCAD Electrical**
 * ✅ **Clases en VIVO - IngeLearn** (Contenido variable, usualmente integrador)
-* 
+
 ---
 
 ## 🐍 Programación y Software (IT)
