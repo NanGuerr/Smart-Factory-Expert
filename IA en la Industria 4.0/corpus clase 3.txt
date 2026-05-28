@@ -1,0 +1,525 @@
+[{
+  "documento": "Durante la auditorÃ­a de calidad ISO en la planta de alimentos procesados, se observÃ³ que los registros de control de temperatura en el Ã¡rea de almacenamiento no se estaban completando correctamente en algunos turnos. Esto podrÃ­a afectar la trazabilidad y la seguridad alimentaria, por lo que se recomienda implementar inmediatamente un refuerzo en la capacitaciÃ³n del personal y supervisiÃ³n de cumplimiento.",
+  "target": "urgente"
+},
+  {
+    "documento": "En la inspecciÃ³n de la zona de empaquetado se detectÃ³ la presencia de materiales no conformes almacenados junto a productos terminados, lo cual puede representar un riesgo de contaminaciÃ³n cruzada. Se recomienda separar fÃ­sicamente los materiales y reforzar los procedimientos de almacenamiento.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Se verificÃ³ que las bitÃ¡coras de limpieza de equipos estÃ¡n actualizadas, pero en dos ocasiones no fueron firmadas por el responsable, lo que hace difÃ­cil rastrear la correcta ejecuciÃ³n del proceso.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la revisiÃ³n de documentaciÃ³n, se evidenciÃ³ la falta de actualizaciÃ³n del manual de buenas prÃ¡cticas en un Ã¡rea especÃ­fica, lo que podrÃ­a derivar en un incumplimiento menor de la normativa.",
+    "target": "moderado"
+  },
+  {
+    "documento": "El auditor observÃ³ que la calibraciÃ³n anual de las balanzas del Ã¡rea de mezclado estÃ¡ prÃ³xima a vencer y aÃºn no se ha programado una nueva fecha, lo que podrÃ­a afectar el control de peso en productos finales.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En el Ã¡rea de recepciÃ³n de materias primas, el personal no utiliza siempre el equipo de protecciÃ³n individual (EPI), lo que representa un riesgo preventivo para la inocuidad del producto.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Se identificÃ³ que el plan de acciÃ³n para la reducciÃ³n del consumo de agua no cuenta con mÃ©tricas definidas de avance, dificultando el monitoreo efectivo del objetivo.",
+    "target": "leve"
+  },
+  {
+    "documento": "El auditor encontrÃ³ que los extintores ubicados en el Ã¡rea de producciÃ³n se hallan obstruidos por materiales, lo que compromete la seguridad en caso de emergencia.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Se detectÃ³ que los anÃ¡lisis microbiolÃ³gicos del producto terminado presentan retrasos en su procesamiento durante los Ãºltimos dos meses, lo que podrÃ­a afectar la liberaciÃ³n oportuna del producto al mercado.",
+    "target": "moderado"
+  },
+  {
+    "documento": "El registro de proveedores carece de una actualizaciÃ³n reciente, encontrÃ¡ndose datos desactualizados en al menos tres casos.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la observaciÃ³n del proceso de envasado, se constatÃ³ que una de las cintas transportadoras presenta desgastes visibles y residuos de producto, requiriendo mantenimiento inmediato para evitar contaminaciÃ³n.",
+    "target": "urgente"
+  },
+{
+  "documento": "Durante la auditorÃ­a de calidad ISO realizada en la planta de procesamiento de alimentos, se observÃ³ una deficiencia en el registro de las temperaturas de almacenamiento de la materia prima. Si bien el sistema de refrigeraciÃ³n funciona correctamente, la documentaciÃ³n de los controles diarios no se estÃ¡ completando consistentemente, lo que dificulta el rastreo completo de la cadena de frÃ­o y el cumplimiento total de las normativas ISO.",
+  "target": "moderado"
+},
+  {
+    "documento": "La auditorÃ­a ISO revelÃ³ una falta de capacitaciÃ³n actualizada del personal en los procedimientos de higiene y manipulaciÃ³n de alimentos en el Ã¡rea de envasado. Si bien los empleados muestran conocimiento bÃ¡sico, no estÃ¡n al tanto de las Ãºltimas actualizaciones de las normas y mejores prÃ¡cticas, lo que podrÃ­a comprometer la seguridad del producto final.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se detectÃ³ Ã³xido superficial en algunas estructuras metÃ¡licas de la lÃ­nea de producciÃ³n, especÃ­ficamente en las cubiertas protectoras de las cintas transportadoras. Aunque no representa un riesgo inminente de contaminaciÃ³n, el Ã³xido podrÃ­a desprenderse a largo plazo, afectando la inocuidad del proceso.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la revisiÃ³n de la documentaciÃ³n de control de plagas, se constatÃ³ que los registros de las inspecciones periÃ³dicas no se estÃ¡n completando con la frecuencia establecida en el plan HACCP. Esta inconsistencia dificulta la verificaciÃ³n de la eficacia del programa de control de plagas.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se identificÃ³ una deficiencia en el etiquetado de los contenedores de materias primas, donde algunos lotes carecen de la fecha de recepciÃ³n y la informaciÃ³n del proveedor. Esto complica la trazabilidad de los ingredientes y el cumplimiento de los requisitos de la norma ISO.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La auditorÃ­a evidenciÃ³ un incumplimiento menor en la limpieza de los equipos de producciÃ³n. Aunque se realiza la limpieza diaria, no se estÃ¡n siguiendo los protocolos especÃ­ficos de desinfecciÃ³n en todas las Ã¡reas, lo que podrÃ­a favorecer la proliferaciÃ³n de microorganismos.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se observÃ³ que el personal de mantenimiento no estÃ¡ utilizando el equipo de protecciÃ³n personal (EPP) adecuado al realizar tareas de reparaciÃ³n cerca de las lÃ­neas de producciÃ³n. Esta situaciÃ³n representa un riesgo de seguridad laboral y podrÃ­a afectar la inocuidad de los alimentos.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La revisiÃ³n del sistema de gestiÃ³n de alÃ©rgenos revelÃ³ que no se estÃ¡n realizando pruebas de limpieza (swab tests) despuÃ©s del procesamiento de productos que contienen alÃ©rgenos, lo que podrÃ­a generar contaminaciÃ³n cruzada y poner en riesgo a los consumidores alÃ©rgicos.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Si bien la calibraciÃ³n de los equipos de mediciÃ³n se realiza periÃ³dicamente, la documentaciÃ³n de los certificados de calibraciÃ³n no estÃ¡ debidamente archivada ni accesible para su consulta rÃ¡pida en caso de auditorÃ­a.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se detectÃ³ un ligero desorden en el Ã¡rea de almacenamiento de productos terminados. Las cajas no estÃ¡n apiladas de manera ordenada y dificultan el trÃ¡nsito seguro del personal y los equipos, representando un riesgo de accidente.",
+    "target": "leve"
+  },
+  {
+    "documento": "La auditorÃ­a constatÃ³ que los procedimientos de devoluciÃ³n de productos no conformes no estÃ¡n completamente definidos ni documentados, lo que dificulta el rastreo de los productos rechazados y la implementaciÃ³n de acciones correctivas eficaces.",
+    "target": "moderado"
+  },{
+  "documento": "Durante la auditorÃ­a de calidad ISO 22000 realizada en la planta de procesamiento de alimentos XYZ el dÃ­a 15 de noviembre de 2024, se identificaron mÃºltiples no conformidades crÃ­ticas que comprometen la seguridad alimentaria. Se observÃ³ la ausencia de registros de temperatura en las cÃ¡maras de refrigeraciÃ³n durante los Ãºltimos 7 dÃ­as, contaminaciÃ³n cruzada entre productos crudos y cocidos en la lÃ­nea de producciÃ³n principal, y personal operativo sin el uso adecuado de equipos de protecciÃ³n individual en la zona de empaque. Adicionalmente, se detectÃ³ la presencia de plagas en el almacÃ©n de materias primas y falta de trazabilidad en el 40% de los lotes producidos la semana anterior. Estas deficiencias representan un riesgo inmediato para la salud de los consumidores y requieren acciones correctivas inmediatas para evitar la suspensiÃ³n de operaciones.",
+  "target": "urgente"
+},
+  {
+    "documento": "Durante la inspecciÃ³n ISO 22000 en la planta procesadora de lÃ¡cteos ABC realizada el 20 de noviembre de 2024, se detectÃ³ que algunos operarios no utilizan correctamente la cofia protectora, permitiendo que mechones de cabello queden expuestos durante el turno matutino. AdemÃ¡s, se observÃ³ que dos estaciones de lavado de manos presentan dispensadores de jabÃ³n con nivel bajo, aunque aÃºn funcionales. Los registros de limpieza diaria estÃ¡n completos pero muestran retrasos menores de 15-30 minutos en algunas Ã¡reas no crÃ­ticas. Estas observaciones, aunque no comprometen directamente la seguridad del producto, requieren atenciÃ³n para mantener las mejores prÃ¡cticas de manufactura y cumplir completamente con los estÃ¡ndares de calidad establecidos.",
+    "target": "leve"
+  },
+  {
+    "documento": "La auditorÃ­a ISO 22000 realizada el 18 de noviembre de 2024 en la fÃ¡brica de conservas vegetales DEF revelÃ³ deficiencias significativas en el sistema de control de puntos crÃ­ticos. Se identificÃ³ que los sensores de pH en la lÃ­nea de acidificaciÃ³n no han sido calibrados en los Ãºltimos 45 dÃ­as, excediendo el perÃ­odo mÃ¡ximo permitido de 30 dÃ­as. El sistema de pasteurizaciÃ³n presenta variaciones de temperatura de Â±3Â°C fuera del rango especificado, y se encontraron 12 lotes sin la documentaciÃ³n completa de anÃ¡lisis microbiolÃ³gicos. Aunque no se ha detectado producto no conforme en el mercado, estas desviaciones podrÃ­an comprometer la vida Ãºtil y seguridad de los productos si no se corrigen en las prÃ³ximas dos semanas.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En la evaluaciÃ³n ISO 22000 efectuada el 22 de noviembre de 2024 en la procesadora de carnes GHI, se identificaron fallas crÃ­ticas en el sistema de cadena de frÃ­o que ponen en riesgo inmediato la seguridad alimentaria. Las cÃ¡maras de almacenamiento han registrado temperaturas de hasta 8Â°C durante perÃ­odos prolongados, cuando el mÃ¡ximo permitido es 4Â°C, comprometiendo aproximadamente 2 toneladas de producto cÃ¡rnico. Se detectÃ³ la presencia de Salmonella en superficies de contacto con alimentos y ausencia total de registros de verificaciÃ³n del sistema HACCP durante los Ãºltimos 10 dÃ­as. El personal de control de calidad no ha realizado las inspecciones requeridas y se encontraron productos vencidos mezclados con producto fresco en el Ã¡rea de despacho, requiriendo acciones correctivas inmediatas.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La auditorÃ­a de seguimiento ISO 22000 realizada el 25 de noviembre de 2024 en la panificadora JKL mostrÃ³ mejoras sustanciales respecto a la evaluaciÃ³n anterior, identificando Ãºnicamente observaciones menores. Se detectÃ³ que las etiquetas de fecha de vencimiento en algunos productos artesanales presentan tipografÃ­a ligeramente borrosa pero legible, y que el almacÃ©n de insumos requiere una reorganizaciÃ³n para optimizar el sistema de rotaciÃ³n FIFO (primero en entrar, primero en salir). Los equipos de mediciÃ³n estÃ¡n calibrados y funcionando correctamente, el personal cumple con las buenas prÃ¡cticas de manufactura, y todos los registros estÃ¡n actualizados. Estas observaciones menores no afectan la calidad ni seguridad del producto final pero contribuirÃ­an a perfeccionar el sistema de gestiÃ³n de calidad.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la inspecciÃ³n ISO 22000 del 28 de noviembre de 2024 en la fÃ¡brica de bebidas MNO, se identificaron desviaciones importantes en el proceso de sanitizaciÃ³n que requieren atenciÃ³n prioritaria. El sistema CIP (limpieza in situ) de las lÃ­neas de llenado presenta concentraciones de desinfectante un 15% por debajo de los parÃ¡metros establecidos, y se detectaron residuos de producto en las vÃ¡lvulas de tres tanques de almacenamiento. Los anÃ¡lisis microbiolÃ³gicos de superficie muestran recuentos elevados de bacterias aerobias totales en el 30% de los puntos de muestreo. Aunque los productos terminados cumplen con las especificaciones, existe riesgo de contaminaciÃ³n si no se implementan medidas correctivas en el sistema de limpieza dentro de los prÃ³ximos 15 dÃ­as.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La evaluaciÃ³n ISO 22000 ejecutada el 2 de diciembre de 2024 en la procesadora de snacks PQR revelÃ³ mÃºltiples fallas crÃ­ticas que comprometen gravemente la seguridad alimentaria y requieren suspensiÃ³n inmediata de operaciones. Se detectÃ³ contaminaciÃ³n por aflatoxinas en materias primas que superan 5 veces los lÃ­mites mÃ¡ximos permitidos, equipos de fritura con aceite en estado de descomposiciÃ³n avanzada generando compuestos tÃ³xicos, y ausencia completa de control de plagas con evidencia de roedores en Ã¡reas de producciÃ³n. El laboratorio de control de calidad carece de equipos calibrados desde hace 6 meses y el personal no ha recibido capacitaciÃ³n en manipulaciÃ³n de alimentos. Estas condiciones representan un peligro inminente para la salud pÃºblica y requieren intervenciÃ³n regulatoria inmediata.",
+    "target": "urgente"
+  },
+  {
+    "documento": "En la auditorÃ­a ISO 22000 realizada el 5 de diciembre de 2024 en la empresa de alimentos congelados STU, se observaron aspectos de mejora relacionados principalmente con la documentaciÃ³n y orden en las instalaciones. Algunos registros de temperatura de congeladores presentan anotaciones manuales poco claras, aunque los datos digitales estÃ¡n completos y dentro de especificaciones. Se identificÃ³ acumulaciÃ³n menor de hielo en las puertas de dos cÃ¡maras de congelaciÃ³n que no afecta el funcionamiento pero requiere mantenimiento preventivo. El Ã¡rea de vestidores del personal necesita pintura de mantenimiento y algunos casilleros presentan Ã³xido superficial. Los productos cumplen con todos los parÃ¡metros de calidad y el sistema HACCP estÃ¡ implementado correctamente, siendo estas observaciones de carÃ¡cter cosmÃ©tico y de mantenimiento general.",
+    "target": "leve"
+  },
+  {
+    "documento": "La inspecciÃ³n ISO 22000 efectuada el 8 de diciembre de 2024 en la fÃ¡brica de salsas y aderezos VWX identificÃ³ desviaciones significativas en el control de acidez y actividad de agua que podrÃ­an comprometer la estabilidad microbiolÃ³gica de los productos. Los medidores de pH requieren recalibraciÃ³n urgente ya que muestran desviaciones de Â±0.2 unidades respecto a los patrones de referencia, y se detectaron 8 lotes de salsa de tomate con valores de aw superiores a 0.95 cuando el lÃ­mite es 0.93. El sistema de control de humedad en el Ã¡rea de envasado presenta fluctuaciones que han generado condensaciÃ³n en algunos envases. Aunque no se ha detectado crecimiento microbiano visible, estas condiciones favorecen el desarrollo de patÃ³genos y requieren correcciÃ³n en un plazo mÃ¡ximo de 10 dÃ­as hÃ¡biles.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la evaluaciÃ³n ISO 22000 del 12 de diciembre de 2024 en la procesadora de cereales YZA, se detectaron fallas crÃ­ticas en el control de alÃ©rgenos y contaminaciÃ³n cruzada que representan un riesgo severo para consumidores sensibles. Se identificÃ³ presencia de trazas de gluten en productos etiquetados como libres de gluten, con concentraciones de hasta 25 ppm cuando el lÃ­mite es 20 ppm, y ausencia de procedimientos de limpieza especÃ­ficos entre cambios de producto. Las lÃ­neas de producciÃ³n no cuentan con separaciÃ³n fÃ­sica adecuada para prevenir contaminaciÃ³n cruzada con frutos secos, y se encontraron residuos de manÃ­ en equipos utilizados para procesar productos sin alÃ©rgenos. El etiquetado de advertencias de alÃ©rgenos es inconsistente en el 40% de los productos muestreados, creando un riesgo inminente de reacciones alÃ©rgicas graves en consumidores susceptibles.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La auditorÃ­a de mantenimiento ISO 22000 realizada el 15 de diciembre de 2024 en la planta de jugos naturales BCD mostrÃ³ un desempeÃ±o general satisfactorio con observaciones menores relacionadas con aspectos administrativos y de presentaciÃ³n. Se identificÃ³ que algunos formatos de registro de limpieza diaria requieren actualizaciÃ³n en su diseÃ±o para mayor claridad, y que el Ã¡rea de almacÃ©n de envases necesita demarcaciÃ³n de pasillos mÃ¡s visible. Tres luminarias en el Ã¡rea de producciÃ³n presentan acumulaciÃ³n de polvo que no afecta la iluminaciÃ³n pero requiere limpieza de mantenimiento. Los sistemas crÃ­ticos funcionan correctamente, el personal estÃ¡ capacitado y los productos cumplen con todas las especificaciones de calidad. Estas observaciones se enfocan en mejoras estÃ©ticas y organizacionales que contribuirÃ­an a optimizar la imagen profesional de la planta.",
+    "target": "leve"
+  },
+{
+  "documento": "Durante la auditorÃ­a de calidad ISO 22000 en la fÃ¡brica de alimentos procesados XYZ, se identificÃ³ que el control de temperaturas en el almacenamiento de productos refrigerados no cumple con los estÃ¡ndares establecidos, lo que podrÃ­a generar riesgos microbiolÃ³gicos. Aunque no se reportaron incidentes mayores, esta deficiencia requiere atenciÃ³n para evitar problemas futuros en la cadena de suministro.",
+  "target": "moderado"
+},
+  {
+    "documento": "En la auditorÃ­a ISO 22000 de la fÃ¡brica de alimentos procesados ABC, se identificÃ³ una falta de cumplimiento en los protocolos de higiene personal entre el personal, lo que incrementa el riesgo de contaminaciÃ³n cruzada. Aunque no se observaron contaminaciones activas, esta deficiencia moderada requiere mejoras en la capacitaciÃ³n y supervisiÃ³n para mantener los estÃ¡ndares de seguridad alimentaria.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la inspecciÃ³n en la fÃ¡brica DEF de alimentos procesados, se detectÃ³ que el sistema de trazabilidad de lotes no es lo suficientemente detallado, complicando la capacidad de rastrear ingredientes en caso de recalls. Este problema moderado debe ser abordado con actualizaciones tecnolÃ³gicas para garantizar la transparencia y la seguridad en la cadena de suministro.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En la auditorÃ­a de calidad ISO en la fÃ¡brica GHI, se observÃ³ un manejo inadecuado de sustancias alÃ©rgenas, con potencial de exposiciÃ³n cruzada que podrÃ­a causar reacciones graves en consumidores sensibles. Esta observaciÃ³n crÃ­tica demanda acciÃ³n inmediata para mitigar riesgos y cumplir con las regulaciones de seguridad alimentaria.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La evaluaciÃ³n ISO 22000 en la fÃ¡brica JKL revelÃ³ deficiencias en el control de plagas, con evidencia de infestaciones en Ã¡reas de almacenamiento que amenazan la integridad de los productos. Dado el alto riesgo de contaminaciÃ³n, esta situaciÃ³n urgente requiere intervenciones rÃ¡pidas para proteger la salud pÃºblica.",
+    "target": "urgente"
+  },
+  {
+    "documento": "En la fÃ¡brica MNO de alimentos procesados, se encontrÃ³ que el plan de control de puntos crÃ­ticos (HACCP) presenta errores en la monitorizaciÃ³n de procesos, lo que podrÃ­a llevar a fallos en la seguridad. Esta deficiencia moderada sugiere la necesidad de una revisiÃ³n y correcciÃ³n para asegurar el cumplimiento normativo.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la auditorÃ­a en la fÃ¡brica PQR, se notÃ³ una gestiÃ³n ineficaz de residuos, generando acumulaciones que podrÃ­an servir como fuente de contaminaciÃ³n. Si bien no es un problema crÃ­tico en el momento, esta observaciÃ³n leve recomienda mejoras en los procedimientos de limpieza para prevenir complicaciones futuras.",
+    "target": "leve"
+  },
+  {
+    "documento": "En la inspecciÃ³n ISO 22000 de la fÃ¡brica STU, se identificÃ³ que el personal carece de capacitaciÃ³n adecuada en procedimientos de manejo de alimentos, lo que aumenta ligeramente el riesgo de errores. Esta deficiencia leve puede ser resuelta con sesiones de entrenamiento para reforzar las prÃ¡cticas de seguridad alimentaria.",
+    "target": "leve"
+  },
+  {
+    "documento": "La auditorÃ­a en la fÃ¡brica VWX detectÃ³ un mantenimiento deficiente de las instalaciones, con acumulaciones de suciedad en equipos que podrÃ­an comprometer la higiene. Esta situaciÃ³n moderada exige un programa de mantenimiento regular para evitar riesgos mayores en la producciÃ³n de alimentos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En la fÃ¡brica YZA de alimentos procesados, se observÃ³ que los equipos de mediciÃ³n no estÃ¡n calibrados con la frecuencia requerida, afectando la precisiÃ³n de los controles de calidad. Aunque no se reportaron incidentes directos, esta deficiencia moderada debe ser corregida para mantener la confiabilidad de los procesos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la evaluaciÃ³n en la fÃ¡brica BCD, se identificÃ³ un alto riesgo de contaminaciÃ³n cruzada en las lÃ­neas de producciÃ³n, particularmente con productos de diferentes categorÃ­as. Esta observaciÃ³n urgente requiere acciones inmediatas, como la segregaciÃ³n de procesos, para prevenir posibles brotes de enfermedades transmitidas por alimentos.",
+    "target": "urgente"
+  },
+{
+  "documento": "Durante la auditorÃ­a se identificÃ³ que el proceso de limpieza y desinfecciÃ³n en el Ã¡rea de producciÃ³n no cumple con los estÃ¡ndares ISO establecidos, presentando irregularidades en la frecuencia y registro de las actividades. Esto podrÃ­a incrementar el riesgo de contaminaciÃ³n cruzada en los productos.",
+  "target": "urgente"
+},
+{
+  "documento": "Se observÃ³ que los registros de mantenimiento preventivo de equipos presentan retrasos menores en su actualizaciÃ³n, sin impacto inmediato en la calidad del producto.",
+  "target": "leve"
+},{
+  "documento": "Se realizÃ³ una auditorÃ­a de calidad ISO en una fÃ¡brica de alimentos procesados y se encontrÃ³ que el proceso de envasado no cumple con los requisitos establecidos para garantizar la seguridad alimentaria. Es necesario implementar acciones correctivas para evitar contaminaciÃ³n cruzada y asegurar la integridad de los productos.",
+  "target": "moderado"
+},
+{
+  "documento": "Se detectÃ³ una falla grave en el sistema de refrigeraciÃ³n, lo que compromete la seguridad de los alimentos almacenados. Es imprescindible tomar medidas inmediatas para evitar la pÃ©rdida de producto y garantizar la seguridad alimentaria.",
+  "target": "urgente"
+},
+{
+  "documento": "Se observÃ³ que la documentaciÃ³n de algunos lotes de producciÃ³n no estÃ¡ completamente actualizada. Se recomienda revisar y actualizar la documentaciÃ³n para asegurar la trazabilidad de los productos.",
+  "target": "leve"
+},
+  {
+    "documento": "Se encontrÃ³ que algunos empleados no llevaban puesto el equipo de protecciÃ³n personal adecuado durante el manejo de productos quÃ­micos, lo que podrÃ­a poner en riesgo su seguridad y la calidad de los productos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La calibraciÃ³n de los equipos de mediciÃ³n no se ha realizado dentro del plazo establecido, lo que podrÃ­a afectar la precisiÃ³n de las mediciones y la calidad de los productos.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se detectÃ³ una contaminaciÃ³n cruzada en una de las lÃ­neas de producciÃ³n, lo que podrÃ­a comprometer la seguridad alimentaria de los productos que se producen en esa lÃ­nea.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Algunos registros de control de calidad no estÃ¡n siendo completados de acuerdo a los procedimientos establecidos, lo que podrÃ­a afectar la trazabilidad de los productos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se observÃ³ que la temperatura de almacenamiento de algunos productos no se encontraba dentro del rango establecido, lo que podrÃ­a afectar su calidad y seguridad.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La documentaciÃ³n de algunos procedimientos no estÃ¡ actualizada, lo que podrÃ­a generar confusiÃ³n entre los empleados y afectar la calidad de los productos.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se encontrÃ³ que algunos productos no estaban etiquetados correctamente, lo que podrÃ­a generar problemas de trazabilidad y seguridad alimentaria.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La limpieza y desinfecciÃ³n de algunos equipos no se ha realizado de acuerdo a los procedimientos establecidos, lo que podrÃ­a comprometer la seguridad alimentaria de los productos.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Algunos empleados no han recibido la capacitaciÃ³n necesaria para realizar sus tareas de manera efectiva, lo que podrÃ­a afectar la calidad de los productos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se detectÃ³ una discrepancia en la cantidad de materia prima recibida versus la cantidad registrada, lo que podrÃ­a afectar la trazabilidad y la calidad de los productos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la auditorÃ­a se observÃ³ que el Ã¡rea de lavado de manos carece de seÃ±alizaciÃ³n adecuada sobre la frecuencia y mÃ©todo correcto, lo que podrÃ­a dificultar el cumplimiento de buenas prÃ¡cticas de higiene por parte del personal de producciÃ³n.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se detectÃ³ que el mantenimiento preventivo de una de las mÃ¡quinas de envasado no fue realizado segÃºn el cronograma, lo que aumenta el riesgo de fallas y posibles paradas no programadas en la lÃ­nea productiva.",
+    "target": "urgente"
+  },
+  {
+    "documento": "En la revisiÃ³n de los registros de limpieza, se encontrÃ³ una omisiÃ³n en el llenado durante un turno nocturno, aunque no se detectaron efectos negativos en el proceso posteriormente.",
+    "target": "leve"
+  },
+  {
+    "documento": "El sistema de iluminaciÃ³n en el Ã¡rea de inspecciÃ³n presentÃ³ luminarias averiadas, lo que dificulta la correcta verificaciÃ³n visual de los alimentos procesados y puede afectar la calidad final del producto.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se comprobÃ³ que algunos contenedores de insumos no cuentan con etiquetas legibles de identificaciÃ³n, lo cual puede generar confusiÃ³n en el manejo y almacenamiento, aumentando el riesgo de errores.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En la auditorÃ­a ISO 22000 de la fÃ¡brica EFG de alimentos procesados, se identificÃ³ una falta de documentaciÃ³n completa en los registros de control de calidad, lo que dificulta la verificaciÃ³n de procesos histÃ³ricos. Esta deficiencia leve puede ser resuelta con mejoras en los sistemas de registro para garantizar la trazabilidad y el cumplimiento normativo.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la inspecciÃ³n en la fÃ¡brica HIJ, se detectÃ³ que el sistema de gestiÃ³n de agua y saneamiento no cumple con los estÃ¡ndares ISO, presentando riesgos potenciales de contaminaciÃ³n microbiolÃ³gica. Esta observaciÃ³n moderada exige la implementaciÃ³n de protocolos actualizados para mantener la higiene en las operaciones de procesamiento.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En la evaluaciÃ³n de la fÃ¡brica KLM, se observÃ³ un control inadecuado en el anÃ¡lisis de riesgos y puntos crÃ­ticos, con omisiones que podrÃ­an llevar a fallos catastrÃ³ficos en la seguridad alimentaria. Dado el alto riesgo involucrado, esta situaciÃ³n urgente requiere acciones inmediatas para reforzar el plan HACCP y prevenir incidentes mayores.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La auditorÃ­a ISO 22000 en la fÃ¡brica NOP revelÃ³ deficiencias en el manejo de quejas de clientes, con un sistema de respuesta lento que podrÃ­a erosionar la confianza en la marca. Aunque no es crÃ­tica, esta observaciÃ³n leve sugiere la adopciÃ³n de un mecanismo mÃ¡s eficiente para abordar retroalimentaciones y mejorar la calidad continua.",
+    "target": "leve"
+  },
+  {
+    "documento": "En la fÃ¡brica QRS de alimentos procesados, se identificÃ³ que el etiquetado de productos no adhiere estrictamente a las regulaciones ISO, omitiendo detalles importantes como alÃ©rgenos y fechas de caducidad. Esta deficiencia moderada debe ser corregida mediante revisiones sistemÃ¡ticas para evitar confusiones y garantizar la seguridad del consumidor.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se observÃ³ que el proceso de limpieza y desinfecciÃ³n de los utensilios y equipos no se realiza con la frecuencia establecida, lo que podrÃ­a comprometer la seguridad alimentaria de los productos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La verificaciÃ³n de la calidad del agua utilizada en el proceso de producciÃ³n no se realiza con la regularidad establecida, lo que podrÃ­a afectar la calidad y seguridad de los productos.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se detectÃ³ una falla en el sistema de control de temperatura en una de las cÃ¡maras de refrigeraciÃ³n, lo que podrÃ­a comprometer la seguridad alimentaria de los productos almacenados.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Algunos registros de capacitaciÃ³n de los empleados no estÃ¡n actualizados, lo que podrÃ­a afectar su capacidad para realizar sus tareas de manera efectiva y segura.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se encontrÃ³ que algunos productos terminados no estaban almacenados en condiciones adecuadas, lo que podrÃ­a afectar su calidad y seguridad antes de su distribuciÃ³n.",
+    "target": "moderado"
+  },
+{
+  "documento": "Durante la auditorÃ­a de calidad ISO en la planta de alimentos procesados se observÃ³ que, aunque se cumplen los procedimientos de higiene y control de materias primas, se detectÃ³ un retraso en la actualizaciÃ³n de los registros de calibraciÃ³n de equipos crÃ­ticos, lo cual puede afectar la trazabilidad en caso de incidencias.",
+  "target": "moderado"
+},
+  {
+    "documento": "La auditorÃ­a de calidad ISO identificÃ³ que en el Ã¡rea de envasado los registros de control de temperatura no se completan de manera diaria, lo que compromete parcialmente la verificaciÃ³n de condiciones crÃ­ticas de almacenamiento.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se observÃ³ que los procedimientos de limpieza de las lÃ­neas de producciÃ³n no cuentan con la firma de verificaciÃ³n del supervisor en mÃºltiples turnos, lo cual representa una debilidad en la validaciÃ³n del cumplimiento.",
+    "target": "leve"
+  },
+  {
+    "documento": "El auditor constatÃ³ que un lote de materias primas no tenÃ­a la etiqueta de trazabilidad correspondiente, lo que constituye un riesgo inmediato en la identificaciÃ³n de productos en caso de retiro.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Durante la revisiÃ³n documental se verificÃ³ que los planes de mantenimiento preventivo de ciertos equipos de corte no fueron actualizados en el Ãºltimo trimestre, aunque los equipos siguen operando sin fallas visibles.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En el recorrido por la zona de almacenamiento se detectaron pallets con productos ubicados directamente sobre el suelo sin tarimas, lo que aumenta el riesgo de contaminaciÃ³n cruzada.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Se evidenciÃ³ que los instructivos de operaciÃ³n en una de las lÃ­neas de empaquetado no estaban visibles para los operarios, aunque el personal manifestÃ³ conocer los procedimientos.",
+    "target": "leve"
+  },
+  {
+    "documento": "El auditor observÃ³ registros incompletos en el control de plagas del Ãºltimo mes, lo cual dificulta demostrar la aplicaciÃ³n continua del plan preventivo.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se verificÃ³ que la calibraciÃ³n de las balanzas de precisiÃ³n se encuentra vencida desde hace dos semanas, lo que puede impactar en la exactitud de las mediciones de producto.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Durante la auditorÃ­a se constatÃ³ que los equipos de protecciÃ³n personal estÃ¡n disponibles y en uso, pero algunos registros de entrega no estaban actualizados en la documentaciÃ³n de seguridad.",
+    "target": "leve"
+  },
+  {
+    "documento": "El auditor identificÃ³ que el procedimiento de control de proveedores no ha sido revisado desde el aÃ±o pasado, lo que puede limitar la detecciÃ³n oportuna de incumplimientos externos.",
+    "target": "moderado"
+  },
+  {
+    "documento": "En la inspecciÃ³n de la lÃ­nea de horneado se observÃ³ acumulaciÃ³n de residuos en las bandejas, lo que representa una desviaciÃ³n de los protocolos de limpieza establecidos.",
+    "target": "urgente"
+  },
+  {
+    "documento": "El auditor constatÃ³ que los registros de capacitaciÃ³n del personal fueron completados, pero algunos archivos carecen de la firma digital requerida por el sistema de gestiÃ³n.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se detectÃ³ un retraso en la entrega de informes de monitoreo microbiolÃ³gico, lo que limita la reacciÃ³n inmediata ante posibles desviaciones de inocuidad.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la revisiÃ³n se encontrÃ³ un contenedor de materia prima sin identificaciÃ³n clara del lote, lo que impide garantizar la trazabilidad adecuada.",
+    "target": "urgente"
+  },
+  {
+    "documento": "El auditor observÃ³ que los procedimientos de auditorÃ­a interna no fueron ejecutados en el calendario previsto, aunque el plan general de calidad se mantiene en vigencia.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se verificÃ³ que en el Ã¡rea de envasado el checklist de inicio de turno estÃ¡ parcialmente completado, con campos sin llenar pero sin impacto directo en la operaciÃ³n.",
+    "target": "leve"
+  },
+  {
+    "documento": "En el recorrido por la cÃ¡mara de frÃ­o se evidenciÃ³ que un sensor de temperatura marcaba fuera de rango sin que se registrara acciÃ³n correctiva inmediata.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Se constatÃ³ que el manual de calidad se encuentra actualizado, pero algunos anexos de procedimientos aÃºn presentan versiones anteriores en circulaciÃ³n.",
+    "target": "moderado"
+  },
+  {
+    "documento": "El auditor notÃ³ que las etiquetas de seguridad en las mÃ¡quinas de sellado estÃ¡n ligeramente desgastadas, aunque siguen siendo legibles para el personal.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la inspecciÃ³n se identificÃ³ un retraso en la validaciÃ³n de proveedores de empaque, lo cual puede afectar la consistencia en la calidad de insumos crÃ­ticos.",
+    "target": "moderado"
+  },
+{
+  "documento": "Durante la auditorÃ­a de calidad ISO en la fÃ¡brica de alimentos procesados, se observÃ³ que el Ã¡rea de almacenamiento de materias primas no cumple con las condiciones de limpieza y desinfecciÃ³n adecuadas, lo que podrÃ­a comprometer la seguridad alimentaria de los productos finales. Es necesario tomar medidas correctivas inmediatas para evitar posibles contaminaciones.",
+  "target": "urgente"
+},
+
+{
+  "documento": "La documentaciÃ³n de los procesos de producciÃ³n no estÃ¡ completamente actualizada, lo que podrÃ­a generar confusiones en la implementaciÃ³n de los procedimientos. Se recomienda revisar y actualizar la documentaciÃ³n para asegurar la conformidad con los requisitos de la norma ISO.",
+  "target": "moderado"
+},
+
+{
+  "documento": "Se observÃ³ que algunos empleados no llevaban puestos los guantes adecuados durante la manipulaciÃ³n de productos, lo que podrÃ­a constituir un riesgo menor para la seguridad alimentaria. Se sugiere recordar a los empleados la importancia de seguir los procedimientos de higiene.",
+  "target": "leve"
+},
+  {
+    "documento": "Se detectÃ³ que el sistema de control de temperatura en la cÃ¡mara de refrigeraciÃ³n no estaba funcionando correctamente, lo que podrÃ­a afectar la calidad de los productos almacenados. Es necesario realizar una verificaciÃ³n y ajuste inmediatos.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La capacitaciÃ³n de los empleados en procedimientos de emergencia no estÃ¡ documentada adecuadamente, lo que podrÃ­a generar problemas en caso de una situaciÃ³n de crisis. Se recomienda actualizar la documentaciÃ³n y realizar una sesiÃ³n de capacitaciÃ³n adicional.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Algunos registros de producciÃ³n no estaban completos, lo que podrÃ­a dificultar la trazabilidad de los productos. Se sugiere recordar a los responsables de producciÃ³n la importancia de mantener registros precisos y completos.",
+    "target": "leve"
+  },
+  {
+    "documento": "Durante la inspecciÃ³n, se encontrÃ³ que el equipo de limpieza no estaba debidamente etiquetado ni almacenado en un lugar seguro, lo que podrÃ­a representar un riesgo para la calidad de los productos. Es necesario tomar medidas correctivas de inmediato.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La documentaciÃ³n de los proveedores no estÃ¡ actualizada, lo que podrÃ­a afectar la evaluaciÃ³n de la conformidad de los materiales adquiridos. Se recomienda revisar y actualizar la documentaciÃ³n correspondiente.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se observÃ³ que algunos productos finales no tenÃ­an la etiqueta de fecha de caducidad claramente visible, lo que podrÃ­a generar confusiones en la entrega a los clientes. Se sugiere mejorar la visibilidad de la etiqueta.",
+    "target": "leve"
+  },
+  {
+    "documento": "El sistema de ventilaciÃ³n en el Ã¡rea de producciÃ³n no estaba funcionando correctamente, lo que podrÃ­a afectar la calidad del aire y, por ende, la seguridad de los productos. Es necesario realizar reparaciones urgentes.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La formaciÃ³n de los auditores internos no estÃ¡ documentada adecuadamente, lo que podrÃ­a afectar la eficacia de las auditorÃ­as internas. Se recomienda documentar la formaciÃ³n recibida por los auditores.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Algunos envases de productos finales presentaron pequeÃ±as imperfecciones en la etiquetado, lo que podrÃ­a afectar la presentaciÃ³n del producto. Se sugiere mejorar la calidad del etiquetado.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se detectaron deficiencias en la gestiÃ³n de residuos peligrosos, lo que podrÃ­a constituir un riesgo para la salud y el medio ambiente. Es necesario implementar medidas correctivas de inmediato.",
+    "target": "urgente"
+  },
+{
+  "documento": "Se verificÃ³ que el sistema de ventilaciÃ³n en el Ã¡rea de producciÃ³n no cumple con los requerimientos mÃ­nimos de renovaciÃ³n de aire establecidos en la norma ISO 14644, lo que podrÃ­a afectar la calidad microbiolÃ³gica del ambiente de trabajo.",
+  "target": "moderado"
+},
+{
+  "documento": "Se encontrÃ³ que el equipo de pasteurizaciÃ³n no alcanza la temperatura requerida en los registros de las Ãºltimas 48 horas, poniendo en riesgo la inocuidad de los productos lÃ¡cteos procesados.",
+  "target": "urgente"
+},
+  {
+    "documento": "Se detectÃ³ que el protocolo de trazabilidad no se estÃ¡ aplicando correctamente para 3 lotes de materia prima, imposibilitando el seguimiento completo de los insumos.",
+    "target": "urgente"
+  },
+  {
+    "documento": "El certificado de calibraciÃ³n para las balanzas de pesaje en la lÃ­nea de envasado estÃ¡ vencido desde hace 15 dÃ­as, aunque las verificaciones internas muestran lecturas dentro de rango.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Los registros de limpieza del Ã¡rea de mezclado presentan correcciones manuales sin justificaciÃ³n escrita, pero se confirma que las actividades se realizaron.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se identificÃ³ condensaciÃ³n excesiva en los ductos de ventilaciÃ³n sobre la lÃ­nea de productos listos para consumo, creando riesgo de contaminaciÃ³n por goteo.",
+    "target": "urgente"
+  },
+  {
+    "documento": "El personal temporal no ha recibido capacitaciÃ³n especÃ­fica sobre los nuevos protocolos de alÃ©rgenos implementados hace dos semanas.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Las muestras de agua para anÃ¡lisis microbiolÃ³gico se estÃ¡n tomando 30 minutos despuÃ©s del horario establecido, aunque los resultados han sido consistentemente dentro de norma.",
+    "target": "leve"
+  },
+  {
+    "documento": "El sistema de tratamiento de efluentes presenta una fuga intermitente en la vÃ¡lvula principal, con posible contacto de lÃ­quidos residuales con Ã¡reas de almacenamiento.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Los controles de metal en lÃ­nea tienen un 5% de registros faltantes en el turno nocturno, pero los productos han pasado todas las verificaciones posteriores.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Las tapas de los contenedores de ingredientes secos no se estÃ¡n cerrando completamente durante pausas cortas, aunque no se han detectado contaminaciones.",
+    "target": "leve"
+  },
+  {
+    "documento": "Se encontrÃ³ que el equipo de esterilizaciÃ³n por calor no cumple con los parÃ¡metros validados para un nuevo formato de empaque, afectando potencialmente a 12 lotes producidos.",
+    "target": "urgente"
+  },
+{
+  "documento": "Durante la auditorÃ­a, se identificÃ³ que las estaciones de lavado de manos en el Ã¡rea de empaque no cuentan con jabÃ³n antibacterial de manera consistente. Aunque se reponen a diario, hay momentos en que los dispensadores estÃ¡n vacÃ­os, lo cual podrÃ­a comprometer las prÃ¡cticas de higiene del personal y aumentar el riesgo de contaminaciÃ³n del producto.",
+  "target": "moderado"
+},
+  {
+    "documento": "La auditorÃ­a revelÃ³ que la polÃ­tica de control de vidrios y objetos cortantes no se estÃ¡ implementando correctamente en todas las Ã¡reas de la planta. Si bien existen procedimientos documentados, no se estÃ¡n realizando inspecciones periÃ³dicas ni se mantienen registros detallados de los incidentes, lo cual aumenta el riesgo de contaminaciÃ³n del producto.",
+    "target": "urgente"
+  },
+  {
+    "documento": "Se detectÃ³ una falta de segregaciÃ³n adecuada de los residuos orgÃ¡nicos e inorgÃ¡nicos en la zona de producciÃ³n. Los contenedores no estÃ¡n claramente identificados y el personal no siempre separa los residuos correctamente, lo que dificulta la gestiÃ³n adecuada de los desechos y puede atraer plagas.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Durante la revisiÃ³n de la documentaciÃ³n de trazabilidad, se observÃ³ que la informaciÃ³n sobre los proveedores de algunos ingredientes no estÃ¡ completa ni actualizada, lo cual dificulta la identificaciÃ³n del origen de los materiales en caso de un problema de seguridad alimentaria.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se identificÃ³ que las etiquetas de los productos terminados no siempre cumplen con todos los requisitos legales, como la declaraciÃ³n de alÃ©rgenos o la fecha de caducidad claramente visible. Esto podrÃ­a generar problemas legales y poner en riesgo a los consumidores.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La auditorÃ­a evidenciÃ³ que los termÃ³metros de los equipos de refrigeraciÃ³n no estÃ¡n calibrados con la frecuencia requerida, lo que podrÃ­a comprometer el control de la temperatura y afectar la seguridad de los alimentos almacenados.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se observÃ³ que algunos empleados no estÃ¡n utilizando el calzado de seguridad adecuado en el Ã¡rea de producciÃ³n, lo cual representa un riesgo de accidentes laborales y podrÃ­a afectar la higiene de la planta.",
+    "target": "moderado"
+  },
+  {
+    "documento": "La revisiÃ³n del plan HACCP revelÃ³ que no se han realizado actualizaciones recientes para reflejar los cambios en los procesos productivos o las nuevas regulaciones alimentarias, lo que podrÃ­a comprometer la eficacia del plan.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se detectÃ³ la presencia de condensaciÃ³n en el techo del Ã¡rea de envasado, lo que podrÃ­a gotear sobre los productos y contaminarlos. Es necesario reparar las filtraciones y mejorar el sistema de ventilaciÃ³n para evitar este problema.",
+    "target": "urgente"
+  },
+  {
+    "documento": "La auditorÃ­a constatÃ³ que no se estÃ¡n llevando a cabo simulacros de emergencia con la frecuencia establecida en el plan de contingencia, lo que podrÃ­a dificultar la respuesta adecuada en caso de un incidente real.",
+    "target": "moderado"
+  },
+  {
+    "documento": "Se observÃ³ que la iluminaciÃ³n en algunas Ã¡reas de la producciÃ³n es insuficiente, lo que dificulta la detecciÃ³n de problemas de higiene o contaminaciÃ³n. Es necesario mejorar la iluminaciÃ³n para garantizar la seguridad de los alimentos.",
+    "target": "moderado"
+  }
+]
