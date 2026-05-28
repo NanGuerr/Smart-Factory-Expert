@@ -2,7 +2,7 @@
 
 A continuación, se presentan las referencias conceptuales respecto a las interfaces de usuario, la ingeniería de instrucciones para IA y los entornos de despliegue web. 🚀
 
-https://github.com/NanGuerr/Smart-Factory-Expert/blob/main/IA%20en%20la%20Industria%204.0/Estructura%20del%20Prompt.png?raw=true
+<p align="center"><img src="https://github.com/NanGuerr/Smart-Factory-Expert/blob/main/IA%20en%20la%20Industria%204.0/Estructura%20del%20Prompt.png?raw=true" width="80%"></p>
 
 ---
 
