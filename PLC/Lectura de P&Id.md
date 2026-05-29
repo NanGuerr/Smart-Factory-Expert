@@ -47,3 +47,24 @@ El módulo destaca dos enfoques principales según la naturaleza de la aplicaci�
 * **Seguridad ante todo:** Identificar siempre las señales de emergencia y los estados seguros antes de implementar cualquier secuencia automática.
 
 ---
+
+### 1. Elementos Principales (Componentes)
+
+* **Transmisor de Flujo (FT-101):** Ubicado en la línea principal de tubería. Es el encargado de medir el caudal del fluido que pasa por ella.
+* **Controlador de Flujo (FIC-101):** Representado por el círculo central, es el "cerebro" que recibe la señal del transmisor, la compara con el valor deseado (setpoint) y envía la orden de corrección.
+* **Válvula de Control (FV-101):** Ubicada en la tubería, es el elemento final de control que se abre o cierra para regular el paso del fluido basándose en la orden del controlador.
+
+### 2. Señalización y Conexiones
+
+* **Línea Continua (— — —):** La conexión entre el Transmisor (FT-101) y el Controlador (FIC-101) es una **señal eléctrica**.
+* **Línea con Trazo y Puntos (— · — · —):** La conexión entre el Controlador (FIC-101) y la Válvula de Control (FV-101) indica una **señal neumática** (común en válvulas accionadas por aire).
+
+### 3. Texto en el Diagrama
+
+* **"Flow Process"**: Título superior que indica que el diagrama describe un proceso de control de flujo.
+* **"Control Room"**: Indica que el controlador (FIC-101) está montado en el panel de control o sala de control, ya que el círculo no tiene una línea horizontal en su interior.
+* **"Field"**: Indica que los elementos (FT y FV) están instalados directamente en el área de proceso ("en campo").
+
+---
+
+Este tipo de diagrama es fundamental para que los ingenieros y técnicos comprendan cómo se automatiza el flujo de un líquido o gas dentro de una planta industrial, asegurando que la medición y la regulación funcionen en un bucle cerrado.
