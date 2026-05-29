@@ -121,4 +121,4 @@
 * ⚪ `20`
 
 ---
-**Documento Técnico de Evaluación** 🙌 _- INGELEARN_
+**Documento Técnico de Evaluación** 🙌
