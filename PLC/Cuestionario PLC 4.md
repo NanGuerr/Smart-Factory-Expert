@@ -56,19 +56,46 @@ A         B         C       Lampara
 
 ---
 
-## 🧠 Pregunta 4: Evaluación de Acumulador
-### Con la operación:
-`LD A`
-`GE B`
-`ANDN C`
-`ST Resultado`
+## ⚡ Pregunta 4: Modificadores en IL
+### Con la operación: 
 
-**¿Cuál es el resultado del acumulador si A=10, B=5 y C=false?**
+```il
+LD A
+GE B
+ANDN C
+ST Resultado
+```
+
+```text
+GE
+            +----+
+  A ————————| >= |        C      Resultado
+  B ————————|    |———————[/]———————( )——
+            +----+
+```
+
+**¿uál es el resultado del acumulador si A=10, B=5 y C=false?**
 
 * ⚪ `10`
 * ⚪ `5`
 * ⚪ `False`
 * ⚫ **`True` (Respuesta Correcta)**
 
+> LD A: El valor de A (10) se carga en el acumulador.Estado del acumulador: 10 (entero).GE B: Esta instrucción es un comparador "Mayor o Igual que" (>=). Compara el acumulador (10) contra B (5).Como $10 \ge 5$ es una condición verdadera, el resultado de esta comparación se guarda en el acumulador.Estado del acumulador: True (booleano).ANDN C: Esta instrucción realiza una operación lógica AND con la negación de C. Sabemos que C es false, por lo tanto, NOT C es true.
+> 
+## 🧠 Pregunta 5: 
+
+**¿Qué datos se pueden usar como operandos?**
+
+* ⚫ **`Variables` (Respuesta Correcta)**
+* ⚪ `Operadores (Ej, suma, resta, etc)`
+* ⚫ **`Constantes` (Respuesta Correcta)**
+* ⚪ `Modificadores (N,S,R,C)`
+* ⚫ **`Instancias de Funciones` (Respuesta Correcta)**
+
+> Variables: (Entradas, salidas, marcas, registros de memoria).
+> Constantes: (Valores numéricos fijos, como un número entero o real definido en el programa).
+> Instancias de Funciones: (Bloques de funciones, contadores, temporizadores, etc.).
+
 ---
-**Documento Técnico de Evaluación** 🙌 _- INGELEARN_
+**Documento Técnico de Evaluación** 
