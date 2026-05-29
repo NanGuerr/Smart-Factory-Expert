@@ -1,6 +1,4 @@
-# 🛠️ Curso Introductorio de PLC: El Lenguaje Ladder Diagram (LD)
-
-## ⏱️ Sección Destacada: Temporizadores
+# ⏱️ Sección Destacada: Temporizadores
 
 ### ¿Qué son los Temporizadores?
 
