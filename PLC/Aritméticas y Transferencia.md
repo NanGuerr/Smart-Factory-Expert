@@ -32,3 +32,48 @@ Los PLCs cuentan con bloques matemáticos predefinidos para realizar cálculos c
 * **ENO:** Salida de habilitación (`Bool`) que indica que la operación se procesó correctamente.
 * **OUT:** Variable de destino donde se escribe el resultado numérico final.
 
+---
+
+# 📑 Resumen y Análisis: Shift / Rotate
+
+El documento técnico detallado en **rotar y desplazar.png** explica el uso de funciones de desplazamiento de bits en controladores lógicos programables (PLC), una herramienta esencial cuando se requiere modificar los bits de una variable analógica de forma individual.
+
+---
+
+## 📝 Transcripción del Texto
+
+> **Shift / Rotate**
+> A veces, por una razón u otra puede llegar a ser necesario modificar los bits de una variable en forma individual.
+> Para ello, existen unas funciones que permiten intercambiar o mover los bits dentro de una variable analógica.
+> **Desplazar** mueve los bits de la variable que esté en la entrada IN, en un número entero igual al valor de N. Los valores que "desbordan" de la variable **se eliminan**, y los espacios blancos se rellenan con ceros.
+> **Por ejemplo:**
+> *(Se muestra un bloque SHL con entrada `VariableA`, parámetro `N = 3` y salida `VariableB`)*.
+
+---
+
+## ⚙️ Bloques Tecnológicos Identificados
+
+La imagen presenta las dos funciones principales de desplazamiento (Shift):
+
+* **SHL (Desplazar Izquierda / SHift Left):** Bloque que mueve los bits hacia la izquierda.
+* **SHR (Desplazar Derecha / SHift Right):** Bloque que mueve los bits hacia la derecha.
+
+### 🧩 Estructura Común de los Bloques:
+
+* **EN (Enable):** Entrada de habilitación booleana.
+* **IN:** Entrada de datos (variable analógica original).
+* **N:** Cantidad de posiciones o bits a desplazar (número entero).
+* **ENO (Enable Output):** Salida de habilitación booleana.
+* **OUT:** Variable analógica resultante con los bits modificados.
+
+---
+
+## 📊 Análisis del Ejemplo Práctico (SHL con N = 3)
+
+La ilustración gráfica de **rotar y desplazar.png** demuestra de manera muy clara qué ocurre internamente a nivel de bits cuando se ejecuta un desplazamiento a la izquierda por tres posiciones ($x3$):
+
+1. **Estado Inicial (`VariableA`):** El registro analógico contiene la secuencia binaria de 8 bits: `1 0 1 0 1 1 1 0`.
+2. **Desplazamiento y Desborde:** Al aplicar un desplazamiento de 3 posiciones hacia la izquierda, los tres bits más significativos de la izquierda (`1`, `0`, `1`) "desbordan" los límites del registro y **se eliminan automáticamente**.
+3. **Relleno de Espacios Vacíos:** Los bits restantes (`0 1 1 1 0`) se mueven tres posiciones hacia la izquierda, dejando tres lugares vacíos en la parte derecha del registro (los bits menos significativos).
+4. **Resultado Final (`VariableB`):** Estos espacios vacíos del final se rellenan con ceros (`0 0 0`), generando la nueva secuencia binaria resultante: `0 1 1 1 0 0 0 0`.
+
