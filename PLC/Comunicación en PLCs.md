@@ -1,4 +1,4 @@
-# 📡 Conceptos Avanzados de Comunicación
+# 📡 Comunicación Industrial
 
 ## 🔌 Introducción a la Comunicación en PLCs
 Comunicar el PLC con otros dispositivos, incluyendo otros PLCs, es una práctica muy común y esencial en la industria.
