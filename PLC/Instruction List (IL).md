@@ -39,10 +39,10 @@ Los paréntesis se emplean para agrupar, anidar instrucciones y estructurar comb
 
 ```text
 
-LD      M1.0  │       M1.0             I1.3                 Q2.1
-AND(    I1.3  ├───────┤ ├───────┬───────┤ ├───────┐─────────( )──
-ORN     I1.4  │                 │      I1.4       │
-)             │                 └───────┤\├───────┘
+LD      M1.0     │       M1.0             I1.3                 Q2.1
+AND(    I1.3     ├───────┤ ├───────┬───────┤ ├───────┐─────────( )──
+ORN     I1.4     │                 │      I1.4       │
+)                │                 └───────┤\├───────┘
 ST      Q2.1
 
 ```
