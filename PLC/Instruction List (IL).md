@@ -44,7 +44,13 @@ Los paréntesis se emplean para agrupar, anidar instrucciones y estructurar comb
 > ST      Q2.1
 > ```
 
----
+```text
+
+│       M1.0             I1.3                 Q2.1
+├───────┤ ├───────┬───────┤ ├───────┐─────────( )──
+│                 │      I1.4       │
+│                 └───────┤\├───────┘
+```
 
 ### 📊 4. Bloques Comparadores Analógicos
 Se utilizan para evaluar variables numéricas (enteras o reales). El resultado de la comparación pasa al acumulador como un valor booleano (`0` o `1`):
