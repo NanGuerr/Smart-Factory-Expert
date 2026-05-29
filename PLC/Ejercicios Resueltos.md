@@ -87,7 +87,7 @@ Este documento recopila las soluciones lógicas y criterios de diseño en **Diag
 
 ### ✖️ Ejercicio 6.1: Optimización de Polinomio de Factor Común
 * **Requerimiento:** Ejecutar la ecuación matemática:
-  $$VAR\_RESULTADO = (VAR1 \times X) + (VAR2 \times X) + (VAR3 \times X) + (VAR4 \times X) + (VAR5 \times X)$$
+  $VAR\_RESULTADO = (VAR1 \times X) + (VAR2 \times X) + (VAR3 \times X) + (VAR4 \times X) + (VAR5 \times X)$
 * **Análisis Aritmético:** Por regla distributiva, se reduce el costo de procesamiento agrupando la operación:
   $$\text{VAR\_RESULTADO} = (VAR1 + VAR2 + VAR3 + VAR4 + VAR5) \times X$$
 * **Lógica Ladder:**
@@ -102,4 +102,3 @@ Este documento recopila las soluciones lógicas y criterios de diseño en **Diag
     * Al mismo tiempo, el bit de salida del comparador activa la entrada `IN` de un temporizador tipo pulso (**TP**) parametrizado en `PT := T#5s`, cuya salida física enciende de manera controlada la bobina `%Q0.1`.
 
 ---
-**¡Muchas Gracias!** 🙌 _- INGELEARN_
