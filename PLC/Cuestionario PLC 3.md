@@ -5,6 +5,14 @@
 ## 🔌 Pregunta 1: Análisis de Continuidad Eléctrica
 ### ¿Qué estado deben tener los botones A y B, para que la lámpara C se encienda? 💡
 
+```text
+    "A"                  "B"                 "C"
+   %I0.1                %I1.0               %Q0.0
+────┤   ├───────────────┤ / ├─────────── ────( )────
+────┤ / ├───────────────┤   ├─────────── ────( )────
+
+```
+
 * ⚪ `A = 1; B = 1`
 * ⚫ **`A = 1; B = 0` (Respuesta Correcta)**
 * ⚪ `A = 0; B = 1`
@@ -16,8 +24,8 @@
 ### Si dejo pulsado el botón A, cuánto tiempo se mantendrá encendida la salida C? 🔄
 
 ```text
-    "A"              "Memoria"              "C"
-   %I0.1               %M10.0               %Q0.0
+    "A"                                     "C"
+   %I0.1                                    %Q0.0
 ────┤ P ├────────────────────────────────────( )────
 
 ```
@@ -33,8 +41,8 @@
 ### Si dejo pulsado el botón A, cuánto tiempo se mantendrá encendida la salida C? 🔄
 
 ```text
-    "A"              "Memoria"              "C"
-   %I0.1               %M10.0               %Q0.0
+    "A"                                      "C"
+   %I0.1                                    %Q0.0
 ────┤ N ├────────────────────────────────────( )────
 
 ```
@@ -48,6 +56,16 @@
 
 ## 🧮 Pregunta 4: Ecuaciones Matemáticas en Bloques
 ### ¿A qué ecuación puede describir las operaciones que están realizando estos bloques encadenados? 📐
+
+│              ┌─────────┐                               ┌─────────┐                               ┌─────────┐
+│              │   ADD   │                               │   MUL   │                               │   DIV   │
+├──────────────┤ EN   ENO├───────────────────────────────┤ EN   ENO├───────────────────────────────┤ EN   ENO├──
+│  ┌───────┐   │         │    ┌──────┐       ┌──────┐    │         │    ┌──────┐       ┌──────┐    │         │   ┌─────────┐
+│  │NumeroA├───┤ IN1  OUT├────┤ AuxA │       │ AuxA ├────┤ IN1  OUT├────┤ AuxB │       │ AuxB ├────┤ IN1  OUT├───┤Resultado│
+│  └───────┘   │         │    └──────┘       └──────┘    │         │    └──────┘       └──────┘    │         │   └─────────┘
+│  ┌───────┐   │         │                   ┌──────┐    │         │                   ┌───────┐   │         │
+│  │NumeroB├───┤ IN2     │                   │ 5.0  ├────┤ IN2     │                   │NumeroC├───┤ IN2     │
+│  └───────┘   └─────────┘                   └──────┘    └─────────┘                   └───────┘   └─────────┘
 
 * ⚪ `Resultado = (NumeroC / 5) * NumeroA + NumeroB`
 * ⚪ `Resultado = NumeroA / Numero C * 5 + NumeroB / NumeroC`
