@@ -113,8 +113,10 @@ Este documento técnico contiene la resolución conceptual y el análisis de la 
 * **Requerimiento:** Resolver la ecuación: $VAR\_RESULTADO = (VAR1 \times X) + (VAR2 \times X) + (VAR3 \times X) + (VAR4 \times X) + (VAR5 \times X)$ empleando números de punto flotante (Real).
 * **Análisis Algebraico:** Aplicando la propiedad distributiva del factor común, la ecuación se simplifica drásticamente para ahorrar procesamiento en el PLC:
 
+$VAR\_RESULTADO = (VAR1 \times X) + (VAR2 \times X) + (VAR3 \times X) + (VAR4 \times X) + (VAR5 \times X)$ 
+$VAR\_RESULTADO = (VAR1 + VAR2 + VAR3 + VAR4 + VAR5) \times X$
+$\text{VAR\_RESULTADO} = (VAR1 + VAR2 + VAR3 + VAR4 + VAR5) \times X$
 $$\text{VAR\_RESULTADO} = (VAR1 + VAR2 + VAR3 + VAR4 + VAR5) \times X$$
-
 
 * **Lógica en Ladder:** 1. Se utiliza un bloque de suma **ADD** extendido (añadiendo pines de entrada adicionales) para procesar de una sola vez la adición de `VAR1 + VAR2 + VAR3 + VAR4 + VAR5`, guardando el subtotal en una variable de marca auxiliar `%MD100` (`AUX_SUMA`).
 2. En el siguiente renglón, un bloque de multiplicación **MUL** toma la variable `AUX_SUMA` en su entrada `IN1` y la variable `X` en su entrada `IN2`, depositando el producto final directamente en `VAR_RESULTADO`.
