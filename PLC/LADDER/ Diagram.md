@@ -26,10 +26,6 @@ El lenguaje Ladder se fundamenta en tres bloques elementales de conmutación boo
 * **Comportamiento:** En cuanto la variable cambia su estado a `1` (VERDADERO), el contacto físicamente "conmuta", cerrándose y permitiendo que la corriente continúe por el peldaño.
 * **Representación esquemática:**
 
-```
-
-```text
-Archivo Resumen_PLC_Simbologia_Ladder.md generado exitosamente.
 
 ```text
     Variable
