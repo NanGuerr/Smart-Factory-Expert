@@ -1,4 +1,4 @@
-# 🏭 Proyecto de Automatización de Estación de Bombeo
+# 🏭 Proyecto de Automatización
 
 ---
 
