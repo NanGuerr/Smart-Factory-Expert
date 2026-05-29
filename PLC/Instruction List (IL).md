@@ -36,20 +36,15 @@ Los paréntesis se emplean para agrupar, anidar instrucciones y estructurar comb
 * **Sintaxis:** La apertura del paréntesis se añade como un **modificador** pegado directamente al operador principal (por ejemplo: `AND(` u `OR(`), mientras que el cierre del paréntesis `)` se escribe en una línea de código completamente independiente.
 
 > **Ejemplo de aplicación:**
-> ```il
-> LD      M1.0
-> AND(    I1.3
-> ORN     I1.4
-> )
-> ST      Q2.1
-> ```
 
 ```text
 
-│       M1.0             I1.3                 Q2.1
-├───────┤ ├───────┬───────┤ ├───────┐─────────( )──
-│                 │      I1.4       │
-│                 └───────┤\├───────┘
+LD      M1.0  │       M1.0             I1.3                 Q2.1
+AND(    I1.3  ├───────┤ ├───────┬───────┤ ├───────┐─────────( )──
+ORN     I1.4  │                 │      I1.4       │
+)             │                 └───────┤\├───────┘
+ST      Q2.1
+
 ```
 
 ### 📊 4. Bloques Comparadores Analógicos
