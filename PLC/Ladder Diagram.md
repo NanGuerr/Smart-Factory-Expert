@@ -142,7 +142,7 @@ Esta configuración asegura la activación de la salida siempre y cuando uno de 
    Boton_1   Boton_2
 
 ```
-
+---
 
 * **Tabla de Verdad:**
 | Botón 1 | Botón 2 | Lámpara |
@@ -151,7 +151,5 @@ Esta configuración asegura la activación de la salida siempre y cuando uno de 
 | 1 | 0 | 1 |
 | 0 | 1 | 1 |
 | 1 | 1 | 0 |
-
-
 
 ---
