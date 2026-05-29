@@ -6,16 +6,7 @@ Este documento presenta una estructura, descriptiva y analítica de la simbolog�
 
 ## 📚 1. Estructura General 
 
-El lenguaje **LD (Ladder Diagram / Diagrama de Contactos)** basa su lógica en la representación de esquemas eléctricos de relés. Dentro de este módulo, los componentes críticos de control se dividen en:
-
-* 🔌 **01. Simbología Básica:** Contactos normalmente abiertos (NO), normalmente cerrados (NC) y bobinas de salida.
-* ⚡ **02. Detectores de Flanco:** Bloques de análisis de transiciones lógicas rápidas (Positivos y Negativos).
-* 🔒 **03. Enclavamientos:** Memorias y circuitos de autorretención (*Set / Reset*).
-* ⚖️ **04. Comparadores:** Validación de variables analógicas y numéricas ($=, >, <, \geq, \leq$).
-* ⏱️ **05. Temporizadores:** Control de tiempos de activación y desactivación (TON, TOF, TP).
-* 🔢 **06. Contadores:** Cómputo de eventos digitales (CTU, CTD, CTUD).
-* 🧮 **07. Operaciones Aritméticas y Transferencia:** Manipulación matemática de datos de registros de memoria.
-
+El lenguaje **LD (Ladder Diagram / Diagrama de Contactos)** basa su lógica en la representación de esquemas eléctricos de relés. 
 ---
 
 ## ⚡ 2. Análisis Detallado: Detectores de Flanco
