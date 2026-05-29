@@ -1,10 +1,10 @@
 # 🎛️ Programación LD y Detectores de Flanco
 
-Este documento presenta una transcripción estructurada, descriptiva y un análisis analítico del material didáctico del **Módulo 3: Curso Introductorio de PLC**, enfocado en la simbología Ladder y el comportamiento dinámico de las señales de conmutación. 🚀
+Este documento presenta una estructura, descriptiva y analítica de la simbología Ladder y el comportamiento dinámico de las señales de conmutación. 🚀
 
 ---
 
-## 📚 1. Estructura General del Módulo 3
+## 📚 1. Estructura General 
 
 El lenguaje **LD (Ladder Diagram / Diagrama de Contactos)** basa su lógica en la representación de esquemas eléctricos de relés. Dentro de este módulo, los componentes críticos de control se dividen en:
 
