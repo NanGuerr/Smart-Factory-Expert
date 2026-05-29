@@ -1,4 +1,4 @@
-#  El Lenguaje de Programación LD - Ladder Diagram 
+# Ladder Diagrama 
 
 Este documento contiene un resumen completo, estructurado y dedicado exclusivamente a la **Simbología Básica** del lenguaje de contactos o **Ladder (LD)**.
 
