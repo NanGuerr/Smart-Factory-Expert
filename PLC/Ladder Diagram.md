@@ -94,7 +94,7 @@ Se logra colocando dos o más contactos de forma consecutiva en la misma línea.
 ```
 
 
-* **Tabla de Verdad:**
+**Tabla de Verdad:**
 | Botón 1 | Botón 2 | Lámpara |
 | --- | --- | --- |
 | 0 | 0 | 0 |
@@ -118,8 +118,7 @@ Se configura ramificando o bifurcando las líneas de los contactos en caminos in
 
 ```
 
-
-* **Tabla de Verdad:**
+**Tabla de Verdad:**
 | Botón 1 | Botón 2 | Lámpara |
 | --- | --- | --- |
 | 0 | 0 | 0 |
