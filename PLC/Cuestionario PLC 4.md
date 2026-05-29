@@ -24,9 +24,9 @@ A         B         C       Lampara
 * ⚫ **`A = 1; B = 1; C = 0` (Respuesta Correcta)**
 * ⚪ `A = 1; B = 0; C = 1`
 
-- Contacto A (Normalmente Abierto): Necesita un 1 para cerrarse.
-- Contacto B (Normalmente Abierto): Necesita un 1 para cerrarse.
-- Contacto C (Normalmente Cerrado): Necesita un 0 para permanecer cerrado y dejar pasar la corriente.
+> - Contacto A (Normalmente Abierto): Necesita un 1 para cerrarse.
+> - Contacto B (Normalmente Abierto): Necesita un 1 para cerrarse.
+> - Contacto C (Normalmente Cerrado): Necesita un 0 para permanecer cerrado y dejar pasar la corriente.
 
 ---
 
@@ -50,9 +50,9 @@ A         B         C       Lampara
 * ⚪ `Salto incondicional`
 * ⚪ `Ninguna de las anteriores`
 
-- JMP (Jump): Indica al procesador del PLC que debe realizar un salto en la secuencia de ejecución del programa hacia una etiqueta (Label) determinada.
-- C (Conditional): Especifica que el salto no es obligatorio, sino que está condicionado al valor lógico que se encuentre guardado en ese preciso instante en el acumulador.
-- N (Not): Invierte el sentido de la condición básica.
+> - JMP (Jump): Indica al procesador del PLC que debe realizar un salto en la secuencia de ejecución del programa hacia una etiqueta (Label) determinada.
+> - C (Conditional): Especifica que el salto no es obligatorio, sino que está condicionado al valor lógico que se encuentre guardado en ese preciso instante en el acumulador.
+> - N (Not): Invierte el sentido de la condición básica.
 
 ---
 
