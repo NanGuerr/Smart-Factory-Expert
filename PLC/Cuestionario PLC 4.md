@@ -1,4 +1,4 @@
-# 📝 Cuestionario de Evaluación: Programación en Lista de Instrucciones (IL)
+# 📝 Cuestionario de Evaluación: Lista de Instrucciones (IL)
 
 ---
 
