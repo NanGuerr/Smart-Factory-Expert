@@ -89,7 +89,7 @@ Este documento recopila las soluciones lógicas y criterios de diseño en **Diag
 * **Requerimiento:** Ejecutar la ecuación matemática:
   $VAR\_RESULTADO = (VAR1 \times X) + (VAR2 \times X) + (VAR3 \times X) + (VAR4 \times X) + (VAR5 \times X)$
 * **Análisis Aritmético:** Por regla distributiva, se reduce el costo de procesamiento agrupando la operación:
-  $$\text{VAR\_RESULTADO} = (VAR1 + VAR2 + VAR3 + VAR4 + VAR5) \times X$$
+  $VAR\_RESULTADO = (VAR1 + VAR2 + VAR3 + VAR4 + VAR5) \times X$
 * **Lógica Ladder:**
     1. Se inserta un bloque de suma **ADD** con pines añadidos para calcular de forma simultánea `VAR1 + VAR2 + VAR3 + VAR4 + VAR5`, guardando el resultado en una variable interna de almacenamiento temporal (ej. `%MD100` o `Aux_Suma`).
     2. En el escalón inmediato inferior, un bloque de multiplicación **MUL** toma como entradas la variable `Aux_Suma` y la variable `X`, asignando el producto matemático final a la dirección de `VAR_RESULTADO`.
