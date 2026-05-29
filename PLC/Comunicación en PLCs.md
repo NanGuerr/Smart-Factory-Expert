@@ -72,35 +72,13 @@ La diferencia principal radica en la fiabilidad frente a la velocidad:
 
 Basado en el documento proporcionado, los "Códigos de función" (FC - *Function Codes*) son los comandos utilizados para especificar qué acción desea realizar el dispositivo cliente (como un PLC) sobre la tabla de registros del dispositivo servidor.
 
-
-* 
 **FC01** - Leer estado de salidas 
-
-
-* 
 **FC02** - Leer estado de entradas digitales 
-
-
-* 
 **FC03** - Leer *Holding Register* (registro de retención) 
-
-
-* 
 **FC05** - Escribir en una salida 
-
-
-* 
 **FC06** - Escribir en un solo *Holding register* 
-
-
-* 
 **FC15** - Escribir en múltiples salidas 
-
-
-* 
 **FC16** - Escribir en varios *Holding register* 
-
-
 
 ---
 
