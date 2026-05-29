@@ -1,74 +1,3 @@
-# 🏗️ Diagramación y Lectura de P&Id
-
----
-
-## 📘 Resumen 
-
-Se enfoca en la metodología profesional para abordar un proyecto de automatización. El paso crucial antes de escribir una sola línea de código es la **planificación y el análisis técnico** de los requisitos del proceso.
-
----
-
-## 📋 1. Metodología de Diagramación
-Para controlar un sistema de forma eficiente, el programador debe realizar un levantamiento detallado de la infraestructura:
-
-* **Inspección de Documentación:** Revisión exhaustiva de planos, esquemas eléctricos y diagramas de instrumentación (P&ID).
-* **Identificación de Componentes:** Mapeo de todos los elementos físicos involucrados (válvulas, sensores, motores, indicadores).
-* **Inspección de Terreno:** En sistemas de renovación (retrofitting), es vital verificar el estado actual del cableado y los componentes existentes.
-
----
-
-## 🛠️ 2. Desglose del Problema
-Un proyecto bien desglosado se divide principalmente en:
-
-* **Entradas (Inputs):** Sensores de presión, caudalímetros, selectoras, paradas de emergencia, interruptores de límite.
-* **Salidas (Outputs):** Señales de arranque de motores, válvulas solenoide, indicadores luminosos de estado, alarmas sonoras.
-
-> **Ejemplo de Mapeo de Variables (Tagging):**
-> | Nombre | Tipo de datos | Descripción |
-> | :--- | :--- | :--- |
-> | `B1_AL` | Bool | Alarma Bomba 1 |
-> | `B1_AB` | Bool | Válvula B1 - ABIERTA |
-> | `B1_Q`  | Bool | Señal de arranque B1 |
-> | `B2_ST_SALA` | Bool | Indicador estado B2 - Sala |
-
----
-
-## ⚙️ 3. Tipos de Programación en PLC
-El módulo destaca dos enfoques principales según la naturaleza de la aplicación:
-
-1. **Programación Cíclica / Combinacional:** Ideal para procesos donde las salidas dependen directamente del estado actual de las entradas (lógica de estados).
-2. **Programación Secuencial:** Utilizada para procesos que siguen un orden de pasos definido (Etapa 1 → Etapa 2 → Etapa 3), común en máquinas de transferencia o llenado automático.
-
----
-
-## 💡 Consejos para el Programador
-* **Documentación:** Mantener una tabla de variables actualizada es la mejor herramienta para evitar errores de dirección o duplicidad de señales.
-* **Modularidad:** Dividir el código en bloques funcionales (ej. un bloque para el control de la Bomba 1, otro para la Bomba 2) hace que el programa sea más fácil de depurar y mantener.
-* **Seguridad ante todo:** Identificar siempre las señales de emergencia y los estados seguros antes de implementar cualquier secuencia automática.
-
----
-
-### 1. Elementos Principales (Componentes)
-
-* **Transmisor de Flujo (FT-101):** Ubicado en la línea principal de tubería. Es el encargado de medir el caudal del fluido que pasa por ella.
-* **Controlador de Flujo (FIC-101):** Representado por el círculo central, es el "cerebro" que recibe la señal del transmisor, la compara con el valor deseado (setpoint) y envía la orden de corrección.
-* **Válvula de Control (FV-101):** Ubicada en la tubería, es el elemento final de control que se abre o cierra para regular el paso del fluido basándose en la orden del controlador.
-
-### 2. Señalización y Conexiones
-
-* **Línea Continua (— — —):** La conexión entre el Transmisor (FT-101) y el Controlador (FIC-101) es una **señal eléctrica**.
-* **Línea con Trazo y Puntos (— · — · —):** La conexión entre el Controlador (FIC-101) y la Válvula de Control (FV-101) indica una **señal neumática** (común en válvulas accionadas por aire).
-
-### 3. Texto en el Diagrama
-
-* **"Flow Process"**: Título superior que indica que el diagrama describe un proceso de control de flujo.
-* **"Control Room"**: Indica que el controlador (FIC-101) está montado en el panel de control o sala de control, ya que el círculo no tiene una línea horizontal en su interior.
-* **"Field"**: Indica que los elementos (FT y FV) están instalados directamente en el área de proceso ("en campo").
-
----
-
-Este tipo de diagrama es fundamental para que los ingenieros y técnicos comprendan cómo se automatiza el flujo de un líquido o gas dentro de una planta industrial, asegurando que la medición y la regulación funcionen en un bucle cerrado.
-
 # 🏭 Proyecto de Automatización de Estación de Bombeo
 
 ---
@@ -167,7 +96,110 @@ Al revisar el archivo XML adjunto, se observa que la lógica está estructurada 
 
 3. **Prevención de Válvula Cerrada:** Los contactos `B1_CE` y `B2_CE` (Normalmente Cerrados) están en serie con las bobinas de arranque. Si el sensor detecta que la válvula está cerrada (cambia a estado `1`), el contacto se abre e impide que la energía llegue a la bobina de Set.
 
+El archivo contiene un esquema típico de alternancia y control para un sistema de dos bombas con bloques de comparación analógica. Lo he dividido según los comentarios (`Indicaciones`) internos del mismo programa.
 
+
+```text
+
+// Indicaciones Bomba 1 Línea 1: Condiciones de Arranque (Set)
+
+│  CDO_AR_POZO   SEL_POZO         B2_Q      B1_AB     B1_CE  AUX_ARRANQUE     B1_Q
+├───[ ]───────────[ ]──────┬──────[/]───────[ ]───────[/]───────[/]──────┬────(S)──
+│                          │                                             │
+│  CDO_AR_SALA   SEL_SALA  │                                             │AUX_ARRANQUE
+├───[ ]───────────[ ]──────┘                                             └────(S)──
+
+// Línea 2: Condiciones de Parada (Reset)
+
+│ CDO_PAR_POZO   SEL_POZO                                                 B1_Q
+├───[ ]───────────[ ]──────┬──────────────────────────────────────────────────(R)──
+│                          │
+│ CDO_PAR_SALA   SEL_SALA  │
+├───[ ]───────────[ ]──────┤
+│                          │
+│     B1_AL                │
+├───[ ]────────────────────┤
+│                          │
+│              ┌─────────┐ │
+│              │   GE    │ │
+│    CAUDAL ───┤ IN1  OUT├─┘
+│              │         │
+│       6.0 ───┤ IN2     │
+│              └─────────┘
+
+// Línea 3: Estado de la Bomba 1
+
+│     B1_Q                                                                 B1_ST_POZO
+├───[ ]──────────────────────────────────────────────────────────────────┬────( )──
+│                                                                        │
+│                                                                        │ B1_ST_SALA
+│                                                                        └────( )──
+
+// Indicaciones Bomba 2 Línea 4: Condiciones de Arranque (Set)
+
+│  CDO_AR_POZO   SEL_POZO         B1_Q      B2_AB     B2_CE  AUX_ARRANQUE     B2_Q
+├───[ ]───────────[ ]──────┬──────[/]───────[ ]───────[/]───────[ ]──────┬────(S)──
+│                          │                                             │
+│  CDO_AR_SALA   SEL_SALA  │                                             │AUX_ARRANQUE
+├───[ ]───────────[ ]──────┘                                             └────(R)──
+
+// Línea 5: Condiciones de Parada (Reset)
+
+│ CDO_PAR_POZO   SEL_POZO                                                 B2_Q
+├───[ ]───────────[ ]──────┬──────────────────────────────────────────────────(R)──
+│                          │
+│ CDO_PAR_SALA   SEL_SALA  │
+├───[ ]───────────[ ]──────┤
+│                          │
+│     B2_AL                │
+├───[ ]────────────────────┤
+│                          │
+│              ┌─────────┐ │
+│              │   GE    │ │
+│    CAUDAL ───┤ IN1  OUT├─┘
+│              │         │
+│       6.0 ───┤ IN2     │
+│              └─────────┘
+
+// Línea 6: Estado de la Bomba 2
+
+│     B2_Q                                                                 B2_ST_POZO
+├───[ ]──────────────────────────────────────────────────────────────────┬────( )──
+│                                                                        │
+│                                                                        │ B2_ST_SALA
+│                                                                        └────( )──
+
+// Indicaciones de Alarma (Línea 7: Falla en el Pozo)
+
+│     B1_AL                                                               FALLA_POZO
+├───[ ]────────────────────┬──────────────────────────────────────────────────( )──
+│                          │
+│     B2_AL                │
+├───[ ]────────────────────┤
+│                          │
+│              ┌─────────┐ │
+│              │   GE    │ │
+│    CAUDAL ───┤ IN1  OUT├─┘
+│              │         │
+│       6.0 ───┤ IN2     │
+│              └─────────┘
+
+// Línea 8: Falla en la Sala
+
+│     B1_AL                                                               FALLA_SALA
+├───[ ]────────────────────┬──────────────────────────────────────────────────( )──
+│                          │
+│     B2_AL                │
+├───[ ]────────────────────┤
+│                          │
+│              ┌─────────┐ │
+│              │   GE    │ │
+│    CAUDAL ───┤ IN1  OUT├─┘
+│              │         │
+│       6.0 ───┤ IN2     │
+│              └─────────┘
+
+```
 
 ---
 
