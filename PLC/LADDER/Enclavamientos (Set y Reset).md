@@ -1,4 +1,4 @@
-# 🎛️ Programación LD — Enclavamientos (Set y Reset)
+# 🎛️ Enclavamientos (Set y Reset)
 
 Este documento presenta un análisis profundo, descriptivo y secuencial sobre las estrategias de retención de señales eléctricas simuladas mediante el lenguaje de contactos (**Ladder Diagram - LD**), basado en el material oficial de **INGELEARN** dictado por Ignacio A. Lavaggi. 🚀
 
@@ -6,15 +6,7 @@ Este documento presenta un análisis profundo, descriptivo y secuencial sobre la
 
 ## 📚 1. Contexto 
 
-Dentro de la arquitectura del lenguaje Ladder, el control de memorias y estados es un pilar fundamental. Los temas clave se estructuran de la siguiente manera:
-
-* 🔌 **01. Simbología Básica:** Elementos comunes de conmutación.
-* ⚡ **02. Detectores de Flanco:** Sifón de pulsos por ciclo de scan (P y N).
-* 🔒 **03. Enclavamientos:** El núcleo de este documento (Retención clásica y lógica binaria).
-* ⚖️ **04. Comparadores:** Condicionales de magnitud numérica.
-* ⏱️ **05. Temporizadores:** Relojes de eventos (TON, TOF, TP).
-* 🔢 **06. Contadores:** Acumuladores de pulsos (CTU, CTD).
-* 🧮 **07. Operaciones Aritméticas:** Procesamiento matemático de registros.
+Dentro de la arquitectura del lenguaje Ladder, el control de memorias y estados es un pilar fundamental. 
 
 ---
 
