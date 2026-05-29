@@ -1,4 +1,4 @@
-# ⚙️ Código XML a Lenguaje Ladder (LD) 🪜
+# ⚙️ Consigna en Lenguaje Ladder (LD) 🪜
 
 Diagrama de contactos (Ladder) en formato de arte ASCII. 
 
