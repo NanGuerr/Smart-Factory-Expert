@@ -15,9 +15,12 @@
 ## ⏱️ Pregunta 2: Comportamiento de Señales y Temporizadores
 ### Si dejo pulsado el botón A, cuánto tiempo se mantendrá encendida la salida C? 🔄
 
-  "Boton"             "Memoria"           "Lampara"
+```text
+    "A"              "Memoria"              "C"
    %I0.1               %M10.0               %Q0.0
 ────┤ P ├────────────────────────────────────( )────
+
+```
 
 * ⚪ `Un ciclo de programa`
 * ⚪ `2 segundos`
@@ -26,7 +29,24 @@
 
 ---
 
-## 🧮 Pregunta 3: Ecuaciones Matemáticas en Bloques
+## ⏱️ Pregunta 3: Comportamiento de Señales y Temporizadores
+### Si dejo pulsado el botón A, cuánto tiempo se mantendrá encendida la salida C? 🔄
+
+```text
+    "A"              "Memoria"              "C"
+   %I0.1               %M10.0               %Q0.0
+────┤ N ├────────────────────────────────────( )────
+
+```
+
+* ⚪ `Un ciclo de programa`
+* ⚪ `Se mantiene encendida mientras tenga pulsado el botón`
+* ⚫ **`No se enciende` (Respuesta Correcta)**
+* ⚪ `Se mantendrá hasta que no se resetee con una instrucción -(R)`
+
+---
+
+## 🧮 Pregunta 4: Ecuaciones Matemáticas en Bloques
 ### ¿A qué ecuación puede describir las operaciones que están realizando estos bloques encadenados? 📐
 
 * ⚪ `Resultado = (NumeroC / 5) * NumeroA + NumeroB`
@@ -35,7 +55,7 @@
 
 ---
 
-## ⚙️ Pregunta 4: Prioridad de Ejecución y Consignas
+## ⚙️ Pregunta 5: Prioridad de Ejecución y Consignas
 ### ¿Cuál será la consigna final de velocidad si se activan las entradas 1, 3 y 5 simultáneamente? 🏁
 
 * ⚪ `0`
