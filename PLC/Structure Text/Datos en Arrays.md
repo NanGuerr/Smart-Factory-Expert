@@ -33,3 +33,33 @@ END_FOR;
 
 (* Inserción del nuevo dato *)
 Temp[0] := LecTemp;
+
+```
+
+---
+
+## 🧮 Cálculo de Promedios con Bucles
+
+Una vez almacenados los datos, recorrer el array para calcular el promedio es muy eficiente usando un bucle `FOR`.
+
+```st
+(* Cálculo del promedio de las últimas 10 mediciones *)
+PromTemp := 0;
+
+FOR j := 0 TO 9 BY 1 DO
+    PromTemp := PromTemp + Temp[j];
+END_FOR;
+
+PromTemp := PromTemp / 10;
+
+```
+
+---
+
+## 💡 Recomendaciones de Programación
+
+* **Límites:** Asegúrate siempre de que el índice del array (`i` o `j`) nunca exceda los límites definidos (ej. `0` a `9`), de lo contrario, el PLC generará un error de desbordamiento.
+* **Eficiencia:** El uso de bucles para recorrer arrays es una de las características más potentes de ST frente a Ladder, ya que reduce drásticamente la cantidad de líneas de código necesarias para tareas repetitivas.
+* **Documentación:** Comenta siempre qué representa el array y qué unidad de medida almacena.
+
+---
