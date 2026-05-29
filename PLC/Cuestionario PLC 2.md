@@ -11,9 +11,13 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
 * **Opciones disponibles:**
   * [ ] Son más económicos
   * [ ] Son más pequeños
-  ✅ Tienen mayor inmunidad al ruido electromagnético
+  * [ ] Tienen mayor inmunidad al ruido electromagnético
   * [ ] Es más fácil conseguirlos
-  ✅ Son eléctricamente estables
+  * [ ] Son eléctricamente estables
+
+* **🟢 Respuesta Correcta:**
+  * **Tienen mayor inmunidad al ruido electromagnético** 🛡️
+  * **Son eléctricamente estables** ⚖️
 
 ---
 
@@ -22,21 +26,24 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
 ### 💾 ¿Cuáles son las características de la memoria de trabajo?
 
 * **Opciones disponibles:**
-  ✅ Lectura / Escritura
+  * [ ] Lectura / Escritura
   * [ ] Sólo lectura
   * [ ] Sólo escritura con el equipo de programación
-  ✅ Volátil
-
+  * [ ] Volátil
+  * [ ] 
+* **🟢 Respuesta Correcta:**
+  * **Lectura / Escritura** 🔄
+  * **Volátil** 💨
 
 ### 🔢 ¿Cuántos bits componen cada registro?
 * **Opciones disponibles:**
   * [ ] 2
   * [ ] 4
-  ✅ 8
+  * [ ] 8
   * [ ] 16
   * [ ] 10
 
-**Respuesta Correcta:** **8** 🧱 *(Equivale a 1 Byte)*.
+* **🟢 Respuesta Correcta:** **8** 🧱 *(Equivale a 1 Byte)*.
 
 ---
 
@@ -46,12 +53,15 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
 
 * **Opciones disponibles:**
   * [ ] Ladder (Esquema de contactos)
-  ✅ Lista de Instrucciones (IL)
+  * [ ] Lista de Instrucciones (IL)
   * [ ] Diagrama de Bloques de Funciones (FBD)
   * [ ] Bloques de Función Secuenciales (SFC)
-  ✅ Texto Estructurado (ST)
+  * [ ] Texto Estructurado (ST)
 
-
+* **🟢 Respuesta Correcta:**
+  * **Lista de Instrucciones** 📋
+  * **Texto Estructurado** ✍️
+ 
 ---
 
 ## 📊 4. Direccionamiento y Tipos de Datos
@@ -61,10 +71,10 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
   * [ ] 1
   * [ ] 2
   * [ ] 8
-  ✅ 16
+  * [ ] 16
   * [ ] 32
 
-**Respuesta Correcta:** **16** 🪙 *(La "W" indica una variable de tipo **Word**, compuesta por 2 Bytes o 16 bits)*.
+* **🟢 Respuesta Correcta:** **16** 🪙 *(La "W" indica una variable de tipo **Word**, compuesta por 2 Bytes o 16 bits)*.
 
 ### 📈 Si tengo una variable cuyos valores irán entre 0 y 82,000. ¿Qué tipo de datos debo utilizar para declararla?
 
@@ -72,20 +82,20 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
   * [ ] BYTE (0 a 255)
   * [ ] WORD (0 a 65,535)
   * [ ] INT (-32,768 a 32,767)
-  ✅ UDINT (0 a 4,294,967,295)
+  * [ ] UDINT (0 a 4,294,967,295)
   * [ ] BOOL (0 o 1)
 
-**Respuesta Correcta:** **UDINT** 🔢 *(Unsigned Double Integer, ideal para enteros grandes sin signo)*.
+* **🟢 Respuesta Correcta:** **UDINT** 🔢 *(Unsigned Double Integer, ideal para enteros grandes sin signo)*.
 
 ### 📐 Si tengo una variable cuyos valores tendrán decimales. ¿Qué tipo de datos debo utilizar para declararla?
-* **Opciones disponibles:**
+
   * [ ] BOOL
   * [ ] WORD
-  ✅ REAL
+  * [ ] REAL
   * [ ] INT
   * [ ] TIME
 
- **Respuesta Correcta:** **REAL** 🧮 *(Representa números de punto flotante/decimales)*.
+* **🟢 Respuesta Correcta:** **REAL** 🧮 *(Representa números de punto flotante/decimales)*.
 
 ---
 
@@ -96,6 +106,6 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
 * **Opciones disponibles:**
   * [ ] Estructura
   * [ ] UDT (User Defined Type)
-  ✅ Array
+  * [ ] Array
 
-**Respuesta Correcta:** **Array** 📦 *(Matriz o arreglo indexado que contiene elementos del mismo tipo de datos)*.
+* **🟢 Respuesta Correcta:** **Array** 📦 *(Matriz o arreglo indexado que contiene elementos del mismo tipo de datos)*.
