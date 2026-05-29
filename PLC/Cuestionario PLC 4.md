@@ -4,10 +4,18 @@
 
 ## 💡 Pregunta 1: Análisis de Operación Lógica
 ### Con la operación: 
-`LD A`
-`AND B`
-`ANDN C`
-`ST Lampara`
+
+```il
+LD A
+AND B
+ANDN C
+ST Lampara
+```
+
+```text
+A         B         C       Lampara
+——[ ]———————[ ]———————[/]————————( )——
+```
 
 **¿Qué estados deben tener las señales A, B y C para que la lámpara se encienda?**
 
