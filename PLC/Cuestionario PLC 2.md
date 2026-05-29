@@ -30,7 +30,7 @@ Este documento recopila las preguntas de la evaluación con sus respectivas resp
   * [ ] Sólo lectura
   * [ ] Sólo escritura con el equipo de programación
   * [ ] Volátil
-  * [ ] 
+  
 * **🟢 Respuesta Correcta:**
   * **Lectura / Escritura** 🔄
   * **Volátil** 💨
