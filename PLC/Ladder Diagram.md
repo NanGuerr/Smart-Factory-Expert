@@ -134,6 +134,7 @@ Se configura ramificando o bifurcando las líneas de los contactos en caminos in
 Esta configuración asegura la activación de la salida siempre y cuando uno de los dos componentes esté activo, **pero nunca ambos al mismo tiempo**. Se implementa cruzando contactos abiertos y cerrados en paralelo.
 
 * **Esquema:**
+  
 ```text
    Boton_1   Boton_2
 +---| |-------|/|---+   Lampara
@@ -142,9 +143,8 @@ Esta configuración asegura la activación de la salida siempre y cuando uno de 
    Boton_1   Boton_2
 
 ```
----
 
-* **Tabla de Verdad:**
+**Tabla de Verdad:**
 | Botón 1 | Botón 2 | Lámpara |
 | --- | --- | --- |
 | 0 | 0 | 0 |
@@ -152,4 +152,3 @@ Esta configuración asegura la activación de la salida siempre y cuando uno de 
 | 0 | 1 | 1 |
 | 1 | 1 | 0 |
 
----
