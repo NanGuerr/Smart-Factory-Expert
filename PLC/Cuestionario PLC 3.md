@@ -57,6 +57,8 @@
 ## 🧮 Pregunta 4: Ecuaciones Matemáticas en Bloques
 ### ¿A qué ecuación puede describir las operaciones que están realizando estos bloques encadenados? 📐
 
+```text
+
 │              ┌─────────┐                               ┌─────────┐                               ┌─────────┐
 │              │   ADD   │                               │   MUL   │                               │   DIV   │
 ├──────────────┤ EN   ENO├───────────────────────────────┤ EN   ENO├───────────────────────────────┤ EN   ENO├──
@@ -67,6 +69,8 @@
 │  │NumeroB├───┤ IN2     │                   │ 5.0  ├────┤ IN2     │                   │NumeroC├───┤ IN2     │
 │  └───────┘   └─────────┘                   └──────┘    └─────────┘                   └───────┘   └─────────┘
 
+```
+
 * ⚪ `Resultado = (NumeroC / 5) * NumeroA + NumeroB`
 * ⚪ `Resultado = NumeroA / Numero C * 5 + NumeroB / NumeroC`
 * ⚫ **`Resultado = (NumeroA + Numero B) * 5 / Numero C` (Respuesta Correcta)**
@@ -75,6 +79,41 @@
 
 ## ⚙️ Pregunta 5: Prioridad de Ejecución y Consignas
 ### ¿Cuál será la consigna final de velocidad si se activan las entradas 1, 3 y 5 simultáneamente? 🏁
+
+```text
+
+│        Entrada1       ┌─────────┐
+├──────────┤ ├──────────┤  MOVE   │
+│                       │ EN   ENO├─
+│           ┌───┐       │         │     ┌───────────┐
+│           │0.0├───────┤ IN   OUT├─────┤ConsignaVel│
+│           └───┘       └─────────┘     └───────────┘
+│        Entrada2       ┌─────────┐
+├──────────┤ ├──────────┤  MOVE   │
+│                       │ EN   ENO├─
+│          ┌────┐       │         │     ┌───────────┐
+│          │10.0├───────┤ IN   OUT├─────┤ConsignaVel│
+│          └────┘       └─────────┘     └───────────┘
+│        Entrada3       ┌─────────┐
+├──────────┤ ├──────────┤  MOVE   │
+│                       │ EN   ENO├─
+│          ┌────┐       │         │     ┌───────────┐
+│          │20.0├───────┤ IN   OUT├─────┤ConsignaVel│
+│          └────┘       └─────────┘     └───────────┘
+│        Entrada4       ┌─────────┐
+├──────────┤ ├──────────┤  MOVE   │
+│                       │ EN   ENO├─
+│          ┌────┐       │         │     ┌───────────┐
+│          │50.0├───────┤ IN   OUT├─────┤ConsignaVel│
+│          └────┘       └─────────┘     └───────────┘
+│        Entrada5       ┌─────────┐
+├──────────┤ ├──────────┤  MOVE   │
+│                       │ EN   ENO├─
+│         ┌─────┐       │         │     ┌───────────┐
+│         │100.0├───────┤ IN   OUT├─────┤ConsignaVel│
+│         └─────┘       └─────────┘     └───────────┘
+
+```
 
 * ⚪ `0`
 * ⚫ **`100` (Respuesta Correcta)**
