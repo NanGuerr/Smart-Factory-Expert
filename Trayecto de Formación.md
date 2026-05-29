@@ -47,7 +47,7 @@
 ## 🕹️ Automatización y Control Industrial (OT)
 *Aquí se entra en el núcleo de la ingeniería de control.*
 
-* 📟 **Introducción a la programación de PLC** (Conceptos generales)
+* ✅ **Introducción a la programación de PLC** (Conceptos generales)
 * 🆕 **Introducción a la programación de PLC (2025)** (Versión actualizada)
 * 🧩 **Programación de PLC Logo!** (Gama básica de Siemens)
 * 🏭 **Programación de PLC Siemens con TIA Portal**
