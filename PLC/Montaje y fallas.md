@@ -1,4 +1,4 @@
-# 🛠️ Prácticas de Montaje y Conceptos Avanzados
+# 🛠️ Prácticas de Montaje y fallas
 
 Este documento detalla los procedimientos para las prácticas de montaje en sistemas de control y automatización, basándose en los principios de seguridad, organización y selección de componentes.
 
