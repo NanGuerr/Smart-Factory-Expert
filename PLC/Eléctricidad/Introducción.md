@@ -43,18 +43,9 @@ Aquí tienes el archivo en formato Markdown basado en el contenido del documento
 
 Los átomos están compuestos por partículas aún más pequeñas:
 
-* 
-**Protones** (carga positiva) 
-
-
-* 
-**Neutrones** (sin carga) 
-
-
-* 
-**Electrones** (carga negativa) 
-
-
+* **Protones** (carga positiva) 
+* **Neutrones** (sin carga) 
+* **Electrones** (carga negativa) 
 
 ---
 
@@ -74,16 +65,11 @@ Los materiales que facilitan el paso de electrones se clasifican como **conducto
 
 ### El caso del Cobre (Cu)
 
-* 
-**Composición:** Un átomo de cobre tiene 29 electrones, de los cuales uno se considera un "electrón libre" situado en su capa externa o de valencia.
+* **Composición:** Un átomo de cobre tiene 29 electrones, de los cuales uno se considera un "electrón libre" situado en su capa externa o de valencia.
 
+* **Movimiento aleatorio:** Dentro de un cable de cobre, los electrones libres se desplazan de un átomo a otro de forma aleatoria en cualquier dirección.
 
-* 
-**Movimiento aleatorio:** Dentro de un cable de cobre, los electrones libres se desplazan de un átomo a otro de forma aleatoria en cualquier dirección.
-
-
-* 
-**Flujo organizado:** Cuando este cable se conecta a un circuito cerrado con una fuente de energía (como una batería), los electrones libres comienzan a fluir en la misma dirección.
+* **Flujo organizado:** Cuando este cable se conecta a un circuito cerrado con una fuente de energía (como una batería), los electrones libres comienzan a fluir en la misma dirección.
 
 
 
