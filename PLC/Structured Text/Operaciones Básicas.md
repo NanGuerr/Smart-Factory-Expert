@@ -1,4 +1,4 @@
-# 🧮 Operaciones Básicas en Texto Estructurado (ST)
+# 🧮 Operaciones Básicas (ST)
 
 ---
 
