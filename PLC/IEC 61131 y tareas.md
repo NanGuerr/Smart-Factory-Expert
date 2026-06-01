@@ -39,3 +39,21 @@ La parte 3 es una de las más relevantes para los automatizadores, ya que unific
 * 🗺️ **Bloques de Función Secuenciales (SFC / Sequential Function Chart):** Derivado de las redes de *Petri*, organiza la arquitectura del programa en etapas secuenciales, transiciones condicionales y acciones específicas. Ideal para describir procesos por pasos.
 
 ---
+
+## ⏱️ Gestión de Tareas
+Una tarea es un componente que gestiona cuándo se ejecuta la lógica (POUs). Los programas **siempre** deben estar asociados a tareas.
+
+### 🔄 Ciclo de ejecución básico
+1.  **Lectura:** Captura el estado de las entradas.
+2.  **Ejecución:** Corre el programa asociado.
+3.  **Actualización:** Envía las señales a las salidas.
+
+### 📋 Tipos de Tareas
+*   **IDLE:** Tarea de prioridad más baja. Se ejecuta cuando no hay otras tareas pendientes.
+*   **CÍCLICAS:** Se ejecutan periódicamente según un intervalo de tiempo. Se les puede asignar prioridad (0-15).
+*   **EVENTOS:** Llamadas automáticamente por el sistema operativo ante un disparador.
+
+### ⚙️ Reglas de funcionamiento
+*   El controlador ejecuta solo **una tarea a la vez**.
+*   Una tarea puede **interrumpir** a otra si tiene mayor prioridad.
+*   El orden de ejecución de los programas dentro de una tarea sigue el orden en que fueron agrupados.
