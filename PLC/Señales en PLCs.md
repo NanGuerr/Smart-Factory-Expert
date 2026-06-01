@@ -67,3 +67,32 @@ Controlan dispositivos físicos basándose en la lógica del programa del PLC.
 | **Flujo de Corriente** | Hacia el módulo | Desde el módulo |
 | **Entrada (PNP)** | El sensor es la fuente | - |
 | **Entrada (NPN)** | - | El módulo es la fuente |
+
+---
+
+# 🌊 El Mundo Analógico en PLCs
+
+Para que un PLC interactúe con el entorno real, utiliza señales analógicas que representan valores continuos (variables) en lugar de solo estados encendido/apagado. 🔄
+
+---
+
+### 📡 Tipos de Señales Industriales
+*   **Voltaje:** 0-10V, ±10V, ±5V. Son fáciles de medir, pero más vulnerables a interferencias y caídas de tensión en cables largos. 📉
+*   **Corriente:** 0-20mA, 4-20mA, ±20mA. Altamente recomendadas por su inmunidad al ruido y capacidad para cubrir largas distancias. Un valor de 0mA indica un fallo (cable roto o sensor desconectado). 🛡️
+
+---
+
+### 🧩 ADC y DAC: La Magia de la Conversión
+Como los procesadores son digitales, necesitan traductores:
+*   **ADC (Analógico a Digital):** Convierte la señal del sensor al formato digital que el PLC entiende. La calidad de esta conversión depende de la **resolución** (número de bits). 🧠
+*   **DAC (Digital a Analógico):** Convierte el valor digital del programa en una señal analógica para controlar actuadores físicos. 🛠️
+
+---
+
+### 🔌 Conexión de Sensores Analógicos
+Dependiendo del tipo de señal, la conexión varía:
+*   **Sensores de Corriente (2 hilos):** El PLC alimenta al sensor a través del mismo lazo de señal. ⚡
+*   **Sensores de Corriente (4 hilos):** Requieren una fuente de alimentación externa independiente para el sensor, separando el lazo de alimentación del lazo de señal. 🔋
+*   **Adaptación de señales:**
+    *   **Adaptación (4 hilos a 2 hilos):** Se requiere conectar la fuente externa en serie con la entrada del PLC.
+    *   **Adaptación (Corriente a Tensión):** Se usa una resistencia *shunt* (típicamente 250Ω) en paralelo para convertir la corriente en una tensión medible por el PLC mediante la Ley de Ohm ($V=I 	imes R$). 📐
