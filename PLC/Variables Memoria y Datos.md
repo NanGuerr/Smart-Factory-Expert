@@ -1,4 +1,5 @@
-# 🧠 Variables Físicas vs. Variables Internas
+# 🧠 Variables Físicas vs. Variables Internas, Memoria y Datos
+
 
 Este documento contiene el resumen del mapa y comportamiento de las **Áreas de Memoria**, los **Registros de Trabajo**, y la diferencia fundamental entre **Entradas, Salidas y Marcas**.
 
@@ -40,3 +41,54 @@ Los datos relevados por el entorno y las decisiones tomadas por el PLC se divide
 * **Mapeo:** No tienen ninguna conexión con los bornes físicos del PLC. Son pizarras virtuales fundamentales para que el programador almacene **estados intermedios**, banderas lógicas (flags) o resultados de operaciones secuenciales.
 
 ---
+
+# ⚙️ Programación de PLC: Variables, Memoria y Datos
+
+Esta guía resume los conceptos fundamentales sobre cómo se gestiona la información dentro de un PLC.
+
+---
+
+## 💾 El Área de Memoria del PLC
+El cerebro del PLC necesita almacenar programas, cálculos y estados. Esta área se divide según su función y persistencia:
+
+*   **⚡ Memoria de Carga:** Donde reside el programa y estados iniciales. Es **no volátil** y de sólo lectura.
+*   **🧠 Memoria de Trabajo:** Donde se ejecuta el programa. Es **volátil**; al arrancar, el procesador copia el programa desde la memoria de carga.
+*   **⏳ Memoria Remanente:** **No volátil** y de lectura/escritura. Permite conservar valores de variables incluso tras un reinicio, ideal para procesos críticos.
+
+---
+
+## 🗄️ Los Registros
+Las variables se organizan en secciones llamadas **registros** dentro de la memoria de trabajo.
+
+*   Cada registro tiene **8 bits** (numerados del 0 al 7).
+*   Existen áreas específicas según el origen de los datos:
+    *   **📥 Entradas (I/E):** Datos de la periferia (sensores, botones).
+    *   **📤 Salidas (O/Q/A):** Accionamientos hacia dispositivos físicos.
+    *   **内部 Marcas (M):** Uso interno, ideales para estados intermedios sin vínculo directo con la periferia.
+
+---
+
+## 📊 Tipos de Datos Elementales
+Los datos en el PLC se definen según el uso y el tamaño necesario.
+
+| Tipo de Dato | 🛠️ Descripción | 📐 Tamaño | 🔢 Rango/Valores |
+| :--- | :--- | :--- | :--- |
+| **BOOL** | Lógico | 1 bit | TRUE / FALSE |
+| **BYTE** | Cadena de bits | 8 bits | 0 a 255 |
+| **WORD** | Cadena de bits | 16 bits | 0 a 65,535 |
+| **INT / UINT** | Enteros | 16 bits | -32,768 a 32,767 (INT) |
+| **DWORD** | Cadena de bits | 32 bits | 0 a 4,294,967,295 |
+| **DINT / UDINT** | Enteros dobles | 32 bits | ±2,147,483,647 |
+| **REAL / FLOAT** | Decimales | 32 bits | Valores con decimales |
+| **TIME** | Duración | 32 bits | T#... |
+
+---
+
+## 🔠 Uso de Constantes
+Para valores fijos, utilizamos constantes con prefijos específicos:
+*   **Enteros:** `Int#12456`
+*   **Reales:** `Real#1.6e3`
+*   **Word:** `Word#16#2F3E`
+*   **Bool:** `Bool#1` o `True`
+*   **Time:** `Time#1.64s`
+*   **String:** `String# 'Pause?'`
