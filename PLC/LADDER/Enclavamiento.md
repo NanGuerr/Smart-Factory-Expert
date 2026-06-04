@@ -2,7 +2,7 @@
 
 La lógica "Start/Stop" es la base fundamental de toda la lógica de control industrial (PLC) 🏭.
 
-El esquema simple `---| |-------|/ |--------( )` funciona como una compuerta lógica **AND**, pero para que se comporte como un control de "Start/Stop" industrial (donde presionas un botón momentáneo y el equipo se queda encendido), le falta un elemento crucial: el **enclavamiento** (también llamado "sel-in" o "retención") 💡.
+El esquema simple `---| |-------|/|--------( )` funciona como una compuerta lógica **AND**, pero para que se comporte como un control de "Start/Stop" industrial (donde presionas un botón momentáneo y el equipo se queda encendido), le falta un elemento crucial: el **enclavamiento** (también llamado "sel-in" o "retención") 💡.
 
 A continuación, explico cómo debe configurarse realmente y por qué funciona así.
 
@@ -13,7 +13,7 @@ Para que el sistema tenga "memoria" y no se apague al soltar el botón de inicio
 ### Estructura del Diagrama
 ```text
 START (NO)            STOP (NC)
----| |-------+----------|/ |--------( OUT )
+---| |-------+----------|/|--------( OUT )
              |
 ---| |-------|
 OUT (NO)
