@@ -1,7 +1,6 @@
 # ¡Juego... Adivina la frase falsa!
 
 > *Creo que sabia la respuesta antes de incluso hacer enter...*
----
 
 **Una de las tres frases a continuación es falsa dime que piensas de lo siguiente:**
 
@@ -28,18 +27,16 @@
 * **Detalle:** Esta es la afirmación más "falsa" en cuanto a la intención de proceso, pero altamente real en su resultado.
 * **¿Por qué?:** El repollo fermentado (chucrut) libera una cantidad significativa de dióxido de carbono ($CO_2$) durante el proceso de lactofermentación. Las botellas de refresco están diseñadas para soportar presión, pero no están diseñadas para la presión continua y creciente que genera la fermentación prolongada. Si el envase se sella herméticamente, la acumulación de gas superará la resistencia estructural del plástico, resultando en una explosión violenta de gases y materia orgánica.
 
----
-
 ## Conclusión 🏁
 
 Si tuviera que apostar cuál es la "falsa" bajo la premisa de que una es mentira, la número 3 es la más sospechosa si te refieres a que fue un "experimento intencional", ya que cualquier persona que conozca un poco sobre fermentación sabe que los gases deben liberarse periódicamente ("burping"). Si la hiciste, fue un error de cálculo físico severo.
 
 ---
-Wow, acertaste... 
+*Wow, acertaste...*
 ---
 > **Nota de seguridad:** La situación 2 es una emergencia eléctrica grave que requiere revisión profesional inmediata de todo el tablero. La situación 1 es un riesgo innecesario de muerte por descarga eléctrica. Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 🛡️
 ---
-Gracias por preocuparte, pero ¡me gusta la adrenalina!...
+*Gracias por preocuparte, pero ¡me gusta la adrenalina!...*
 ---
 
 La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del momento en que se libera la energía.
