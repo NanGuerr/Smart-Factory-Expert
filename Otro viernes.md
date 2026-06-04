@@ -2,16 +2,16 @@
 
 > *Creo que sabia la respuesta antes de incluso hacer enter...*
 ---
-Una de las tres frases a continuación es falsa dime que piensas de lo siguiente:
+
+**Una de las tres frases a continuación es falsa dime que piensas de lo siguiente:**
 
 1. Cambie un foco fundido con el interruptor encendido
 
 2. Active un ramal eléctrico y el tablero principal se incendió
 
 3. Fermenté un repollo en una botella de cocacola y explotó
----
 
-Esta es una evaluación de la veracidad y los riesgos de tus afirmaciones, analizadas desde una perspectiva técnica y física:
+---
 
 ## Análisis de los escenarios
 
