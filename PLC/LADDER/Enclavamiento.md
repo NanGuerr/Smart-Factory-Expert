@@ -1,4 +1,4 @@
-🏗️ Circuito Ladder: Lógica Start/Stop en PLC
+# 🏗️ Circuito Ladder: Lógica Start/Stop en PLC
 
 La lógica "Start/Stop" es la base fundamental de toda la lógica de control industrial (PLC) 🏭.
 
@@ -12,7 +12,7 @@ Para que el sistema tenga "memoria" y no se apague al soltar el botón de inicio
 
 ### Estructura del Diagrama
 ```text
-       START (NO)      STOP (NC)
+START (NO)            STOP (NC)
 ---| |-------+----------|/ |--------( OUT )
              |
 ---| |-------|
