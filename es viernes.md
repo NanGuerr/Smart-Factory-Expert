@@ -3,9 +3,9 @@
 > *Con un chatbot ilimitado y algo de tiempo libre...* ☕
 ---
 
-## ¡Tengo uno! 🎭
+## ¡Para humanos...! 🎭
 
-— **Para humanos...** 
+— **Tengo uno...** 
 
 — ¡Alucinas más que un **agente** sin **tokens**! 💾
 
