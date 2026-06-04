@@ -51,3 +51,6 @@ La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del 
 ---
 
 <p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="20%"></p>
+
+> *Puedo descifrarlo, es muy obvio... Al parecer el chat temporal solo es un distractorio...*
+
