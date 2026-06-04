@@ -1,6 +1,6 @@
 # Otro viernes:
 
-— *Con un chatbot ilimitado y algo de tiempo libre...*
+> *Con un chatbot ilimitado y algo de tiempo libre...*
 ---
 
 ## ¡Tengo uno!
