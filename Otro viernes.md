@@ -34,16 +34,14 @@ Esta es una evaluación de la veracidad y los riesgos de tus afirmaciones, anali
 
 Si tuviera que apostar cuál es la "falsa" bajo la premisa de que una es mentira, la número 3 es la más sospechosa si te refieres a que fue un "experimento intencional", ya que cualquier persona que conozca un poco sobre fermentación sabe que los gases deben liberarse periódicamente ("burping"). Si la hiciste, fue un error de cálculo físico severo.
 
-> **Nota de seguridad:** La situación 2 es una emergencia eléctrica grave que requiere revisión profesional inmediata de todo el tablero. La situación 1 es un riesgo innecesario de muerte por descarga eléctrica. Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 🛡️
-
 ---
-Wow, acertaste... Gracias por preocuparte pero me gusta la adrenalina...
+Wow, acertaste... 
+---
+> **Nota de seguridad:** La situación 2 es una emergencia eléctrica grave que requiere revisión profesional inmediata de todo el tablero. La situación 1 es un riesgo innecesario de muerte por descarga eléctrica. Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 🛡️
+---
+Gracias por preocuparte pero me gusta la adrenalina...
 ---
 
 La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del momento en que se libera la energía.
 
-¿Qué es lo más extremo o inesperado que te ha pasado al intentar una de estas tareas caseras, más allá de los ejemplos que diste?
----
-Contiuamos la proxima semana, seguire con mis actividades...
-
-<p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="20%"></p>
+<p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG7.gif?raw=true" width="20%"></p>
