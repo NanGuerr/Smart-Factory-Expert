@@ -37,7 +37,7 @@ Si tuviera que apostar cuál es la "falsa" bajo la premisa de que una es mentira
 > **Nota de seguridad:** La situación 2 es una emergencia eléctrica grave que requiere revisión profesional inmediata de todo el tablero. La situación 1 es un riesgo innecesario de muerte por descarga eléctrica. Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 🛡️
 
 ---
-Gracias por preocuparte pero me gusta la adrenalina...
+Wow, acertaste... Gracias por preocuparte pero me gusta la adrenalina...
 ---
 
 La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del momento en que se libera la energía.
@@ -46,4 +46,4 @@ La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del 
 ---
 Contiuamos la proxima semana, seguire con mis actividades...
 
-<p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="100%"></p>
+<p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="20%"></p>
