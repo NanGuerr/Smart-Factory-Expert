@@ -4,8 +4,10 @@
 ---
 
 ## ¡Tengo uno!
-**Para humanos...** 
-Alucinas más que un **agente** sin **tokens**
+
+— **Para humanos...** 
+
+— Alucinas más que un **agente** sin **tokens**
 
 ---
 ¡Esa es una buena! Aquí tienes un par más para seguir en esa línea:
@@ -30,4 +32,4 @@ El agente responde: "Lo siento, pero como modelo de lenguaje, no tengo un sistem
 — Un chiste no meta: "¿Por qué el programador se rompió la pierna? Por saltar un error". (Este es un chiste sobre el entorno de trabajo, pero no sobre la naturaleza de la máquina misma).
 
 ---
-> Empezó en broma pero aprendí cosas... ¡Sufiente IA por hoy!...
+> *Empezó en broma pero aprendí cosas... ¡Sufiente IA por hoy!...*
