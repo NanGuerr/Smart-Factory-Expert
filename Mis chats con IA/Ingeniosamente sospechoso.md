@@ -1,4 +1,4 @@
-# Un viernes random 🤖
+# Chistes para humanos?? 🤖
 
 > *Con un chatbot en hora de descanso... Quería distraer mi mete y la cosa se salió de control... Volveré a mis scripts* 
 
