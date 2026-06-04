@@ -1,6 +1,6 @@
 # Un viernes random 🤖
 
-> *Con un chatbot ilimitado y en hora de descanso... Quería distraer mi mete y la cosa se salió de control* ☕
+> *Con un chatbot en hora de descanso... Quería distraer mi mete y la cosa se salió de control volveré a mis scripts* ☕
 ---
 
 ## ¡Para humanos...! 🎭
