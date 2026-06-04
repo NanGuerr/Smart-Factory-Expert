@@ -31,7 +31,7 @@ El agente responde: "Lo siento, pero como modelo de lenguaje, no tengo un sistem
 
 — Un chiste no meta: "¿Por qué el programador se rompió la pierna? Por saltar un error". 
 
-<p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/RG.gif?raw=true" width="20%"></p>
+<p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG0.gif?raw=true" width="20%"></p>
 
 ---
 > *Empezó en broma pero aprendí cosas... ¡Suficiente IA por hoy!...* 🛑
