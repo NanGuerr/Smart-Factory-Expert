@@ -1,6 +1,6 @@
 # Un viernes random 🤖
 
-> *Con un chatbot ilimitado y algo de tiempo libre...* ☕
+> *Con un chatbot ilimitado y en hora de descanso... Quería distraer mi mete y la cosa se salió de control* ☕
 ---
 
 ## ¡Para humanos...! 🎭
