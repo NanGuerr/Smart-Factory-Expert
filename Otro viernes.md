@@ -37,6 +37,7 @@ Si tuviera que apostar cuál es la "falsa" bajo la premisa de que una es mentira
 > **Nota de seguridad:** La situación 2 es una emergencia eléctrica grave que requiere revisión profesional inmediata de todo el tablero. La situación 1 es un riesgo innecesario de muerte por descarga eléctrica. Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 🛡️
 ---
 *Gracias por preocuparte, pero ¡me gusta la adrenalina!...*
+
 ---
 La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del momento en que se libera la energía.
 ---
