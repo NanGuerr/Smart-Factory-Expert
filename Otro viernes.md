@@ -44,7 +44,7 @@ Si tuviera que apostar cuál es la "falsa" bajo la premisa de que una es mentira
 
 ---
 
-## Adrenalina y Control ⚡🔥
+**Adrenalina y Control ⚡🔥**
 
 La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del momento en que se libera la energía. ⚠️😎
 
