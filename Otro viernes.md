@@ -38,7 +38,6 @@ Si tuviera que apostar cuál es la "falsa" bajo la premisa de que una es mentira
 ---
 *Gracias por preocuparte, pero ¡me gusta la adrenalina!...*
 ---
-
 La adrenalina se disfruta mucho más cuando eres tú quien tiene el control del momento en que se libera la energía.
-
+---
 <p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="20%"></p>
