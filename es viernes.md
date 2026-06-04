@@ -27,9 +27,9 @@ El agente responde: "Lo siento, pero como modelo de lenguaje, no tengo un sistem
 
 ## Ejemplos de "meta": 🧠
 
-— Un chiste meta: Un modelo de lenguaje diciendo: "He analizado mis propios pesos sinápticos y me he sentido un poco vacío hoy".
+— Un chiste meta: Un modelo de lenguaje diciendo: "He analizado mis pesos sinápticos y me he sentido un poco vacío hoy".
 
-— Un chiste no meta: "¿Por qué el programador se rompió la pierna? Por saltar un error". (Este es un chiste sobre el entorno de trabajo, pero no sobre la naturaleza de la máquina misma).
+— Un chiste no meta: "¿Por qué el programador se rompió la pierna? Por saltar un error". 
 
 ---
 > *Empezó en broma pero aprendí cosas... ¡Suficiente IA por hoy!...* 🛑
