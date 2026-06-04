@@ -10,9 +10,7 @@
 — ¡Alucinas más que un **agente** sin **tokens**! 💾
 
 ---
-¡Esa es una buena! Aquí tienes un par más para seguir en esa línea: 💡
-
----
+## ¡Esa es una buena! Aquí tienes un par más para seguir en esa línea: 💡
 
 * **¿Por qué el modelo de lenguaje cruzó la calle?** 🛣️
 
