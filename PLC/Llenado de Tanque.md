@@ -34,14 +34,15 @@ En **llenado de tanque con ladder.png**, la lógica se traduce al lenguaje de co
 *   **Rung 2, 3 y 4 (Válvula):** Implementa el enclavamiento. Utiliza contactos normalmente cerrados y abiertos para gestionar el ciclo de llenado/apagado basado en los sensores S2, S3 y S4, garantizando que la válvula se mantenga activa incluso después de que el nivel sobrepase S3, hasta llegar a S2.
 
 ```text
-        (I3)      (I4)                 (Q1)
---------| |-------| |-------------------( )
-        (I3)      (I2)                 (Q2)
---------|/|---+---|/|-------------------( )
-        (I4)  |
---------|/|---|
-        (Q2)  |
---------| |---|
+NETWORK 1: Control de Motor (Bomba)
+│    I3            I4
+├───[ ]──────────[ ]──────────────────────────────────────────( ) Q1
+NETWORK 2: Control de Válvula (Llenado)
+│    I3            I2
+├───[/]──────────[/]────────┬─────────────────────────────────( ) Q2
+│                           │
+│    I4            Q2       │
+└───[/]──────────[ ]────────┘
 ```
 ---
 
@@ -54,4 +55,22 @@ En **llenado de tanque con ladder.png**, la lógica se traduce al lenguaje de co
     *   El llenado continúa hasta que el agua alcanza el nivel S2, momento en el cual el sistema desactiva la válvula para evitar desbordamientos.
 
 ---
-*Este análisis es una representación técnica de la lógica de automatización descrita en los esquemas proporcionados.*
+
+### 🧠 Bloques Funcionales (FBD)
+
+En el diagrama de bloques que adjuntaste, el sistema se simplifica visualmente:
+
+1. **Bloque Motor:** Representado por una compuerta **AND** estándar. Las señales `I3` e `I4` entran al bloque, y la salida `Q1` solo es verdadera si ambas entradas son verdaderas.
+2. **Bloque Válvula:** Se implementa mediante una estructura de **LATCH** (o flip-flop RS). Las entradas `I3` e `I2` actúan como condiciones de *RESET* (parada), mientras que la lógica combinada de los sensores permite el *SET* (arranque).
+
+Este diseño es fundamental en la industria para garantizar que el motor nunca opere sin agua (protección por nivel bajo) y que el llenado sea autónomo sin intervención constante del operario.
+
+```text
+Entrada S3 (I3) ──┐
+                  │  AND (&)  ───────►  Motor (M1/Q1)
+Entrada S4 (I4) ──┘
+Entrada S3 (I3) ───────┐
+                       │   SR     ───────►  Válvula (K4/Q2)
+Entrada S2 (I2) ──[NOT]┤
+                       └───────────┘
+```
