@@ -1,4 +1,4 @@
-# Sistema de Ventilación
+# ⚙️ Sistema de Ventilación
 
 Basado en la consigna del sistema de ventilación, se tiene la representación de la lógica en **Diagrama de Bloques Funcionales (FBD)**.
 
@@ -6,61 +6,67 @@ El sistema implementa un **temporizador de retardo a la conexión (TON)**: cuand
 
 ### 🏗️ Diagramas de Bloques Funcionales (FBD)
 
-#### NETWORK 1: Temporización de Arranque
+Separándolo en **tres redes lógicas (Networks)** claras mediante diagramas de bloques funcionales (FBD).
 
-El bloque `TON` recibe la señal de entrada y, una vez cumplido el tiempo programado, envía una señal de activación.
-
-```text
-Entrada (I1) ─────┐
-                  │  TON (Retardo) ───────► Salida_T (M1)
-Tiempo (PT) ──────┘
-
-```
-
-#### NETWORK 2: Control del Ventilador (Q1)
-
-La señal del temporizador (o marca interna `M1`) es la que finalmente habilita la salida del ventilador.
 
 ```text
-Salida_T (M1) ────────────────────────────► Ventilador (Q1)
+NETWORK 1: Control del Extractor (Q1)
+Lógica de enclavamiento principal para el extractor con múltiples condiciones de parada.
+
+Entrada ON (I1) ──────────────────────────────────────────────►[ S ]
+                                                               [ RS ] (B001) ─────► Extractor (Q1)
+Entrada OFF (I2) ──────┐                                       [ R ]
+                       │                                         ▲
+[NOT] (B008) ──────────┼──────►[ >=1 ] OR (B009) ────────────────┘
+                       │
+Salida (Q3) ───────────┘
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+NETWORK 2: Control del Ventilador (Q2)
+El ventilador se activa si I3 está presente y el Extractor (Q1) está apagado.
+
+Entrada (I3) ─────────────────────────────────────────────────┐
+                                                              ├──►[  &  ] (B002) ──► Ventilador (Q2)
+Salida (Q1) ─────────────►[ NOT ]─────────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+NETWORK 3: Gestión de Temporizadores y Alarma/Estado (Q3)
+Lógica combinacional con retardos (TON) dependientes de Q1 y Q2 para activar Q3.
+
+Entrada (I3) ──────────┐
+                       ├──►[  &  ] (B005) ──►[ TON ] (B006) ──┐
+Salida (Q1) ───────────┘                                      │
+                                                              ├──►[ >=1 ] (B007) ──►[ S ]
+Entrada (I4) ──────────┐                                      │                     [ RS ] (B008) ──► Salida (Q3)
+                       ├──►[  &  ] (B003) ──►[ TON ] (B004) ──┘                 ┌──►[ R ]
+Salida (Q2) ───────────┘                                                        │
+                                                                                │
+Entrada OFF (I2) ───────────────────────────────────────────────────────────────┘
 
 ```
 
 ---
 
-### 💡 Análisis de los Bloques
+### 💡 Análisis del Funcionamiento Lógico
 
-* **Bloque `TON` (Timer On-Delay):** Es el corazón de este sistema. Su función es crear una "demora". Esto es muy útil en sistemas de ventilación para evitar arranques repentinos debido a interferencias eléctricas o para permitir que otros sistemas (como sensores de gas o temperatura) se estabilicen antes de encender el ventilador.
-* **Salida `Q1` (Ventilador):** Es la bobina física o relé que acciona el motor del ventilador. En este diseño, depende exclusivamente del temporizador.
+1. **Extractor (Q1) - *Network 1*:**
+* Se enciende (Set) mediante el pulso de `I1`.
+* Se apaga (Reset) si ocurre **cualquiera** de estas tres cosas (vía la compuerta OR `B009`):
+* Se presiona el botón de parada `I2`.
+* Se activa la señal `Q3`.
+* La señal invertida del bloque `B008` (es decir, cuando B008 está en 0, envía un 1 lógico que podría mantener el reset, creando un interbloqueo condicional).
 
-Si deseas que el ventilador se pueda apagar o encender de forma manual además del automático, el diagrama necesitaría una compuerta `OR` adicional para integrar la señal de un pulsador manual con la señal del temporizador.
-```text
+2. **Ventilador (Q2) - *Network 2*:**
+* Utiliza una compuerta **AND**. Se activa únicamente cuando la `Entrada I3` está activa **Y** el extractor `Q1` está *apagado* (gracias al bloque NOT).
 
-Entrada ON (I1) ──────────────────────┐
-                                      │                                    ────┐ ───[NOT]┤ (B002)
-                                      │ Reset RS (B001) ──── Extrator (Q1)     │
-Entrada OFF (I2)────┐                 │                                        │
-                    │──── OR (B009)───┘                                    ────┘ ───────── (B005)
-[NOT]┤ (B008)───────│ 
-                    │
-Salida (Q3)         │
-     ───────────────┘
-
-             ───────┐         ─────┐
-                    │ Salida (Q1)  │ ─── AND & (B002) ────── Ventilador (Q2) ─── (B003)
-Entrada (I3)        │         ─────┘
-                    │ ── [NOT]┤ ──────┐ 
-                    │                 │ ── AND & (B005) ─── TON (B006)
-            ────────┘ ── Salida (Q1) ─┘                         │ 
-                                                                │ ───OR (B007) ───┐ RS (B008)── (Q3)── (B009)
-                                                                │                 │
-Entrada (I4) ───────┐               ───┐                        │                 │
-                    │──── AND & (B003) │ ─────►  TON (B004)─────┘            Entrada OFF (I2)
-Salida (Q2) ────────┘               ───┘
-
-
-```
-
+3. **Salida de Control/Estado (Q3) - *Network 3*:**
+* Depende de dos temporizadores independientes (`TON`).
+* **Ruta 1:** Si `I3` y el extractor `Q1` están activos, comienza a contar el temporizador `B006`.
+* **Ruta 2:** Si `I4` y el ventilador `Q2` están activos, comienza a contar el temporizador `B004`.
+* Si cualquiera de los dos temporizadores finaliza su conteo, la compuerta **OR** (`B007`) envía un pulso para encender (Set) el enclavamiento `B008`, activando la salida `Q3`.
+* Esta salida `Q3` se apaga (Reset) manualmente mediante la `Entrada I2`.
 
 # Sistema Final de Carrera (Portón)
 
