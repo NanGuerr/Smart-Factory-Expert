@@ -69,8 +69,11 @@ Este diseño es fundamental en la industria para garantizar que el motor nunca o
 Entrada S3 (I3) ──┐
                   │  AND (&)  ───────►  Motor (M1/Q1)
 Entrada S4 (I4) ──┘
-Entrada S3 (I3) ───────┐
-                       │   SR     ───────►  Válvula (K4/Q2)
-Entrada S2 (I2) ──[NOT]┤
-                       └───────────┘
+             
+
+Válvula (K4/Q2) ──────────────┐          
+                              │  ──── OR ───────►    ──────────┐                 
+Entrada S2 (I2) ──[NOT]┤──────│                                │ AND (&) ───────► Válvula (K4/Q2)
+                              │      Entrada S2 (I2) ──[NOT]┤──┘
+Entrada S4 (I4) ──[NOT]┤──────┘
 ```
