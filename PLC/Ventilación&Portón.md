@@ -70,21 +70,55 @@ Entrada OFF (I2) ─────────────────────
 
 # Sistema Final de Carrera (Portón)
 
+El diagrama de bloques funcionales (FBD) diseñado específicamente para el control de subida y bajada de un portón.
+
+Este diseño incluye las medidas de seguridad estándar de la industria: **interbloqueo** (para evitar que los motores de subida y bajada se activen al mismo tiempo) y **parada por finales de carrera** (sensores que detectan cuando el portón está totalmente abierto o cerrado).
+
+### ⚙️ Diagramas (FBD) - Control de Portón
 
 ```text
-Entrada S3 (I3) ──┐
-                  │  AND (&)  ───────►  Motor (M1/Q1)
-Entrada S4 (I4) ──┘
-             
+NETWORK 1: Control de Subida (Abrir Portón - Q1)
+Lógica de enclavamiento para subir el portón.
+Incluye interbloqueo de seguridad con Q2 y parada por final de carrera superior o botón de stop.
 
-Válvula (K4/Q2) ──────────────┐          
-                              │  ──── OR ───────►    ──────────┐                 
-Entrada S2 (I2) ──[NOT]┤──────│                                │ AND (&) ───────► Válvula (K4/Q2)
-                              │      Entrada S2 (I2) ──[NOT]┤──┘
-Entrada S4 (I4) ──[NOT]┤──────┘
+Entrada Subir (I1) ────────┐
+                           ├──►[  &  ] (B001) ──►[ S ]
+Salida Bajar (Q2) ──[NOT]──┘                     [ RS ] (B002) ─────► Motor Subir (Q1)
+                                              ┌──►[ R ]
+Parada / Stop (I3) ────────┐                  │
+                           ├──►[ >=1 ] (B003) ┘
+FC Arriba (I4) ────────────┘
 
-Entrada (I1) ─────┐
-                  │  TON (Retardo) ───────► Salida_T (M1)
-Tiempo (PT) ──────┘
+─────────────────────────────────────────────────────────────────────────────────────────
+
+NETWORK 2: Control de Bajada (Cerrar Portón - Q2)
+Lógica de enclavamiento para bajar el portón.
+Incluye interbloqueo de seguridad con Q1 y parada por final de carrera inferior o botón de stop.
+
+Entrada Bajar (I2) ────────┐
+                           ├──►[  &  ] (B004) ──►[ S ]
+Salida Subir (Q1) ──[NOT]──┘                     [ RS ] (B005) ─────► Motor Bajar (Q2)
+                                              ┌──►[ R ]
+Parada / Stop (I3) ────────┐                  │
+                           ├──►[ >=1 ] (B006) ┘
+FC Abajo (I5) ─────────────┘
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+NETWORK 3: Señalización de Movimiento (Lámpara / Sirena - Q3)
+Lógica combinacional simple (OR).
+Activa una luz de advertencia siempre que el portón esté en movimiento (ya sea subiendo o bajando).
+
+Motor Subir (Q1) ──────────┐
+                           ├──►[ >=1 ] OR (B007) ───────────────────► Lámpara (Q3)
+Motor Bajar (Q2) ──────────┘
 
 ```
+
+---
+
+### 💡 Análisis del Funcionamiento Lógico
+
+* **Interbloqueo de Seguridad (Bloques `B001` y `B004`):** Observa cómo la señal del botón de subir (`I1`) pasa por una compuerta **AND**. Esta compuerta solo dejará pasar la señal si el motor de bajada (`Q2`) está apagado (gracias al `NOT`). Esto previene cortocircuitos catastróficos en el contactor inversor de giro si alguien presiona "Subir" y "Bajar" al mismo tiempo.
+* **Enclavamiento (Bloques RS `B002` y `B005`):** Permiten que el operador presione el botón (`I1` o `I2`) y lo suelte, manteniendo el motor funcionando automáticamente hasta que se reciba una señal de apagado.
+* **Condiciones de Parada (Bloques `B003` y `B006`):** Las compuertas **OR** agrupan las señales que deben detener el portón. El motor se detendrá (`Reset`) si alguien presiona el botón de emergencia/parada (`I3`) **O** si el portón llega a su límite físico y toca los Finales de Carrera (`I4` para abierto, `I5` para cerrado).
