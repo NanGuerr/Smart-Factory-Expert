@@ -1,4 +1,4 @@
-# 📊 Análisis Detallado y Procedimientos con Matplotlib
+# 📊 Análisis de Procedimientos con Matplotlib
 
 En este documento se detalla el funcionamiento y la aplicación de los diferentes tipos de gráficos mostrados en las imágenes y en los fragmentos de código, utilizando la biblioteca `matplotlib.pyplot`.
 
@@ -21,14 +21,10 @@ El gráfico de dispersión (`plt.scatter`) es sumamente útil para representar d
 
 ```
 
-```text
-Archivo generado exitosamente.
-
-```python
-import matplotlib.pyplot as plt
-
-Temperaturas1 = [27.1, 22.3, 26.8, 23.5, 22.7, 15.3, 26.6, 16.9, 18.1, 24.7, 23.8, 18.4, 26.1, 27.5, 27.3, 21.9, 25.4, 25.1, 20.4, 16.2, 27.5]
-Temperaturas2 = [25.4, 21.5, 27.3, 25.5, 20.2, 26.6, 16.1, 27.7, 26.4, 24.0, 22.6, 19.4, 27.0, 18.3, 25.0, 24.3, 25.6, 27.1, 15.6, 27.1, 26.6]
+Temperaturas1 = [27.1, 22.3, 26.8, 23.5, 22.7, 15.3, 26.6, 16.9, 18.1, 24.7, 23.8, 18.4, 26.1, 27.5, 27.3, 21.9,
+25.4, 25.1, 20.4, 16.2, 27.5]
+Temperaturas2 = [25.4, 21.5, 27.3, 25.5, 20.2, 26.6, 16.1, 27.7, 26.4, 24.0, 22.6, 19.4, 27.0, 18.3, 25.0, 24.3,
+25.6, 27.1, 15.6, 27.1, 26.6]
 
 plt.scatter(Temperaturas1, Temperaturas2)
 # plt.show() # Para visualizar el resultado final
@@ -82,4 +78,3 @@ Guía secuencial sobre los distintos tipos de visualizaciones que ofrece `matplo
 * **Gráficos de Dispersión o Scatter Plots 🌌 (Imagen 7):** Introduce la función `plt.scatter(x, y)`. El análisis resalta que este gráfico no une los puntos con líneas, sino que es fundamental para identificar cómo se distribuyen los datos, ver dónde se "agrupan" y descubrir relaciones o tendencias entre dos ejes (por ejemplo, relacionando dos mediciones de temperatura).
 * **Gráficos de Barras 📊 (Imagen 8):** Muestra el uso de diccionarios para estructurar datos categóricos. Utilizando los métodos `.keys()` y `.values()`, separa los nombres de los productos y sus cantidades respectivas de stock para alimentar la función `plt.bar(categorias, valores)`. Esto genera barras rectangulares que facilitan enormemente la comparación de magnitudes.
 
-```
