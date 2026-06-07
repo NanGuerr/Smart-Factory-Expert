@@ -1,4 +1,4 @@
-# Control Horno PI
+# 🔥 Control Horno
 
 Basado en la lógica típica de un controlador **Siemens LOGO!** para sistemas de lazo cerrado, usamos el Diagrama de Bloques Funcionales (FBD) para el control de temperatura con un bloque **PI (Proporcional-Integral)**.
 
