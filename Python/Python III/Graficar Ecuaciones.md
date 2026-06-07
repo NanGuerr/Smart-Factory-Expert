@@ -1,7 +1,7 @@
 # 📊 Matplotlib: Graficas de Ecuaciones
 
-## 🖼️ Resumen y Análisis de las Imágenes
-Las imágenes proporcionadas detallan los conceptos básicos para iniciar con **Matplotlib**, la biblioteca estándar de visualización en Python:
+## 🖼️ Conceptos
+Los conceptos básicos para iniciar con **Matplotlib**, la biblioteca estándar de visualización en Python:
 
 1. **Versatilidad de Datos 📈**: Matplotlib es capaz de ingerir y graficar múltiples estructuras de datos:
    * **Listas y Arrays de NumPy**: Para datos uni, bi o multidimensionales (como mapas de calor o gráficos 3D).
