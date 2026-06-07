@@ -74,7 +74,7 @@ plt.bar(productos, cantidades)
 
 Guía secuencial sobre los distintos tipos de visualizaciones que ofrece `matplotlib.pyplot` en Python. Aquí tienes el resumen analítico:
 
-* **Matemáticas y Gráficos de Líneas 📉 (Imágenes 4, 5 y 6):** Se muestra cómo definir funciones lógicas/matemáticas (exponenciales, cuadráticas, etc.) y cómo representarlas. Se destaca que `plt.plot()` genera gráficos de líneas por defecto. Además, enseña una característica clave: si llamas a `plt.plot()` múltiples veces con diferentes conjuntos de datos antes de mostrar el gráfico, Matplotlib superpondrá todas las curvas en el mismo plano, permitiendo contrastar la evolución de distintos valores en el tiempo.
+* **Matemáticas y Gráficos de Líneas 📉 (Imágenes 4, 5 y 6):** Se destaca que `plt.plot()` genera gráficos de líneas por defecto. Además, enseña una característica clave: si llamas a `plt.plot()` múltiples veces con diferentes conjuntos de datos antes de mostrar el gráfico, Matplotlib superpondrá todas las curvas en el mismo plano, permitiendo contrastar la evolución de distintos valores en el tiempo.
 
 * **Gráficos de Dispersión o Scatter Plots 🌌 (Imagen 7):** Introduce la función `plt.scatter(x, y)`. El análisis resalta que este gráfico no une los puntos con líneas, sino que es fundamental para identificar cómo se distribuyen los datos, ver dónde se "agrupan" y descubrir relaciones o tendencias entre dos ejes (por ejemplo, relacionando dos mediciones de temperatura).
 
