@@ -1,4 +1,4 @@
-# 📊 Matplotlib: Graficación de Ecuaciones
+# 📊 Matplotlib: Graficas de Ecuaciones
 
 ## 🖼️ Resumen y Análisis de las Imágenes
 Las imágenes proporcionadas detallan los conceptos básicos para iniciar con **Matplotlib**, la biblioteca estándar de visualización en Python:
@@ -78,5 +78,3 @@ Las imágenes que compartiste muestran los fundamentos de **Matplotlib** 📊:
 * **Importación ⚙️:** Se muestra la sintaxis universal para importar la herramienta de graficado rápido: `import matplotlib.pyplot as plt`.
 * **Ejecución y Visualización 💻:** Las capturas muestran dos entornos de ejecución. Uno integrado tipo Jupyter Notebook donde la línea `plt.plot(range(10))` genera el gráfico debajo de la celda de código, y otro entorno de script tradicional donde es obligatorio usar `plt.show()` para abrir la ventana gráfica ("Figure 1").
 
-
-```
