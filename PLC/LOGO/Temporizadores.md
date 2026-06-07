@@ -61,9 +61,11 @@ Botón Mantenimiento (I1) ──────►[ R  ]
 
 ```
 
-* **Uso:** Es vital para el mantenimiento industrial predictivo. Se usa para registrar las horas de funcionamiento de motores, bombas o compresores, y emitir una alarma cuando toca cambio de aceite o revisión. También sirve para medir tiempos de ciclo en líneas de producción.
+**Uso:** Es vital para el mantenimiento industrial predictivo. Se usa para registrar las horas de funcionamiento de motores, bombas o compresores, y emitir una alarma cuando toca cambio de aceite o revisión. También sirve para medir tiempos de ciclo en líneas de producción.
 
-* **Funcionamiento:** * **EN (Enable):** Mientras esta entrada reciba un "1" lógico, el cronómetro suma tiempo (en horas, minutos o segundos). Si la señal se apaga, el cronómetro pausa la cuenta y memoriza el valor.
+**Funcionamiento:** 
+
+* **EN (Enable):** Mientras esta entrada reciba un "1" lógico, el cronómetro suma tiempo (en horas, minutos o segundos). Si la señal se apaga, el cronómetro pausa la cuenta y memoriza el valor.
 
 * **R (Reset):** Al recibir un pulso en esta entrada, el tiempo acumulado se borra y vuelve a cero.
 
