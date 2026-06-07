@@ -15,12 +15,8 @@ El script provisto implementa el enfoque **Orientado a Objetos (OO)** de Matplot
 
 ### 1. Inicialización y Configuración del Estilo 🎨
 
-```
-
-```text
-Archivo generado exitosamente.
-
 ```python
+
 import matplotlib.pyplot as plt
 
 # Datos de ejemplo
@@ -103,5 +99,36 @@ El código y las imágenes compartidas abordan un concepto fundamental y ligeram
 * **Ajuste Espacial Automático 📐:** Es muy común que, al colocar varios gráficos juntos, las etiquetas de uno interfieran con las del otro. El código introduce un método crucial, `plt.tight_layout()`, que previene este desorden visual redimensionando dinámicamente los paneles para que los textos nunca choquen.
 
 He documentado paso a paso el procedimiento de esta sintaxis orientada a objetos en el archivo adjunto para tener siempre a mano esta referencia al crear visualizaciones complejas de sistemas múltiples.
+
+```python
+import matplotlib.pyplot as plt
+
+# Datos de ejemplo
+x = [1, 2, 3, 4, 5]
+y1 = [2, 4, 1, 5, 2]
+y2 = [5, 1, 3, 2, 4]
+plt.style.use("ggplot")
+
+# Crear una figura y una cuadrícula de subplots (2 filas, 1 columna)
+fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(10, 5))
+
+# Plot en el primer subplot
+axes[0].plot(x, y1, color='blue')
+axes[0].set_title('Subplot 1')
+axes[0].set_xlabel('Eje X')
+axes[0].set_ylabel('Eje Y')
+
+# Plot en el segundo subplot
+axes[1].plot(x, y2, color='red')
+axes[1].set_title('Subplot 2')
+axes[1].set_xlabel('Eje X')
+axes[1].set_ylabel('Eje Y')
+
+# Ajustar automáticamente los espacios entre subplots
+plt.tight_layout()
+
+# Mostrar los subplots
+plt.show() 
+
 
 ```
