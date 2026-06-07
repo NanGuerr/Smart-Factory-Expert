@@ -1,4 +1,4 @@
-# 📑 PY2-0653 - Demo II: OCR (Reconocimiento Óptico de Caracteres)
+# 📑 OCR (Reconocimiento Óptico de Caracteres
 
 En esta ocasión, vamos a trabajar específicamente con un modelo muy simple de **reconocimiento de dígitos** (una versión rudimentaria de un OCR). 🧐
 
