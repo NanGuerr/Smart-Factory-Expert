@@ -1,6 +1,5 @@
-# 🌾 Simulación Dinámica 
+# 🚰 Simulación Dinámica 
 
-## ⚙️ Resumen y Análisis del Código
 El script proporcionado es una excelente demostración de **Programación Orientada a Objetos (POO)** combinada con **visualización de datos en tiempo real** utilizando Matplotlib. 
 
 El objetivo principal es simular el comportamiento de un silo de almacenamiento (como un tanque de granos, cemento o líquidos), modelando su llenado y vaciado a lo largo del tiempo, y mostrando una gráfica animada de su estado físico en vivo.
