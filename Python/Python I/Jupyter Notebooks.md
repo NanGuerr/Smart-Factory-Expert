@@ -1,6 +1,7 @@
+# 📓 Jupyter Notebooks
+
 Trabajar con **Jupyter Notebooks** es como tener un lienzo interactivo donde puedes mezclar código vivo, ecuaciones, visualizaciones y texto narrativo. Es la herramienta estándar en ciencia de datos y aprendizaje automático.
 
-Aquí tienes la guía paso a paso para dominarla:
 
 ---
 
