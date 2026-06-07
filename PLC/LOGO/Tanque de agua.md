@@ -6,8 +6,8 @@ El diagrama de bloques funcionales (FBD) estructurado para el control del tanque
 
 ```text
 NETWORK 1: Control de la Válvula de Llenado (Q1)
-El tanque comienza a llenarse si el nivel cae por debajo del sensor inferior. Se detiene al tocar el sensor superior
-o si ocurre una emergencia. Se incluye interbloqueo con Q2.
+El tanque comienza a llenarse si el nivel cae por debajo del sensor inferior. Se detiene al tocar
+el sensor superior o si ocurre una emergencia. Se incluye interbloqueo con Q2.
 
 Sensor Inferior (I1) ─[NOT]─┐
                             ├──►[  &  ] (B001) ──►[ S ]
