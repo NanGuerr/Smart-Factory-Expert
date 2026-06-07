@@ -1,36 +1,38 @@
 # Control Horno PI
 
-Basado en la lógica típica de un controlador **Siemens LOGO!** para sistemas de lazo cerrado (como las imágenes de los hornos que has estado estudiando), aquí tienes el Diagrama de Bloques Funcionales (FBD) para el control de temperatura con un bloque **PI (Proporcional-Integral)**.
+Basado en la lógica típica de un controlador **Siemens LOGO!** para sistemas de lazo cerrado, usamos el Diagrama de Bloques Funcionales (FBD) para el control de temperatura con un bloque **PI (Proporcional-Integral)**.
 
-En este diseño, utilizaremos un sensor analógico (PT100), el controlador PI y un bloque **PWM (Modulación por Ancho de Pulso)**, que es la forma estándar de controlar resistencias eléctricas en un horno industrial para mantener la temperatura exacta sin gastar energía de más.
+Para regular una llama en la industria, no solemos usar PWM (encender y apagar el suministro de gas cada pocos segundos sería altamente ineficiente, desgastaría las válvulas y podría ser peligroso). En su lugar, utilizamos un control termostático de tipo ON/OFF con histéresis mediante un Conmutador analógico de valor umbral (B001), y previamente acondicionamos la señal del sensor de temperatura utilizando un Ampliador analógico (B002).
 
 ### 🌡️ Diagrama de Bloques Funcionales (FBD) - Control PI de Horno
 
 ```text
-NETWORK 1: Adquisición y Controlador PI
-El bloque PI recibe la temperatura real del sensor y la compara con la temperatura deseada (Consigna/SP) para calcular cuánta potencia necesita el horno.
+NETWORK 1: Acondicionamiento de Señal (Ampliador Analógico)
+La señal cruda del sensor PT100 (AI1) necesita ser escalada a grados reales (ej. 0 a 400°C)
+para que los límites de control sean exactos y fáciles de programar en el sistema.
 
-Entrada Marcha (I1) ───────────►[ EN ]
-                                [ PI ] Controlador PI (B001) ───► Señal Analógica
-Sensor Temp (AI1) ─────────────►[ PV ] 
-                                [ SP ] (Consigna programada)
+Sensor Temp (AI1) ─────────────►[ AX ]
+                                [AMP ] Ampliador Analógico (B002) ───► Señal Escalada (°C)
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-NETWORK 2: Modulación PWM y Activación del Calefactor (Q1)
-La señal analógica del PI (ej. 0-1000) entra a un modulador PWM. Este bloque enciende y apaga el contactor de estado sólido del calefactor en pulsos rápidos o lentos según la potencia demandada por el PI.
+NETWORK 2: Regulación de Llama (Conmutador Analógico de Valor Umbral)
+La señal ya escalada entra al conmutador.
+Este bloque evalúa la temperatura real frente a dos parámetros (umbral de encendido y umbral de apagado),
+para gestionar la apertura de la válvula de gas del quemador.
 
-Señal Analógica (B001) ────────►[ AX ]
-                                [PWM ] Modulador (B002) ────────► Resistencia Horno (Q1)
-Entrada Marcha (I1) ───────────►[ EN ]
+Señal Escalada (B002) ─────────►[ AX ]
+                                [ L  ] Conmutador Umbral (B001) ─────► Válvula de Llama (Q1)
+                                [ H  ] (Umbrales On/Off)
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
 NETWORK 3: Alarma de Sobretemperatura (Seguridad - Q2)
-Lógica combinacional con un comparador analógico. Si el sensor detecta una temperatura superior al límite de seguridad, activa una alarma.
+Si el quemador sufre una avería mecánica y no se apaga, un segundo bloque evalúa la temperatura
+como límite de seguridad crítico para cortar el suministro y alertar.
 
-Sensor Temp (AI1) ─────────────►[ AX ]
-                                [ >  ] Comparador (B003) ───────► Sirena / Alarma (Q2)
+Señal Escalada (B002) ─────────►[ AX ]
+                                [ >  ] Comparador (B003) ────────────► Sirena / Corte de Gas (Q2)
 Límite Crítico (Interno) ──────►[ SP ]
 
 ```
@@ -39,11 +41,18 @@ Límite Crítico (Interno) ──────►[ SP ]
 
 ### 💡 Análisis del Funcionamiento Lógico
 
-* **Controlador PI (Bloque `B001`):**
-* **EN (Enable):** Se activa con un interruptor físico (`I1`). Si no está activo, el horno no calienta.
-* **PV (Process Value):** Es la temperatura real que está midiendo el sensor `AI1` dentro del horno.
-* **SP (Setpoint):** Es la temperatura a la que quieres llegar. El bloque PI calcula matemáticamente la diferencia entre PV y SP para mandar más o menos "fuerza" al calentador.
+**Ampliador Analógico (Bloque B002):**
 
+* **Uso:** Es el traductor del sistema. Acondiciona la señal eléctrica bruta proveniente del sensor (que el PLC LOGO! suele interpretar como un valor de 0 a 1000) y la convierte a un valor físico real (por ejemplo, de 0 a 400 °C).
 
-* **Modulador PWM (Bloque `B002`):** Los relés o contactores digitales (`Q1`) solo entienden de "Encendido" (1) o "Apagado" (0). El bloque PWM traduce la señal matemática del PI en tiempo. Por ejemplo: si el PI pide un 50% de potencia, el PWM mantendrá la resistencia encendida 5 segundos y apagada otros 5 segundos.
-* **Comparador Analógico (Bloque `B003`):** Un elemento de seguridad vital en la industria. Actúa independientemente del PI. Si el contactor se queda pegado o el PI falla, este bloque activa una alarma `Q2` en el momento en que la temperatura real excede un valor de emergencia.
+* **Funcionamiento:** Se le configuran dos parámetros clave: Ganancia (Gain) y Offset (Desplazamiento). Esto permite que todos los bloques siguientes del programa (como el B001) trabajen directamente leyendo "grados Celsius". Esto hace que la configuración, la lectura en pantallas (HMI/TDE) y el mantenimiento sean muchísimo más intuitivos para el operario.
+
+**Conmutador Analógico de Valor Umbral (Bloque B001):**
+
+* **Uso:** Actúa como el cerebro termostático del quemador. Su principal ventaja es que crea una "banda de histéresis" para evitar que la válvula de gas y el sistema de ignición (chispero) se activen y desactiven frenéticamente si la temperatura fluctúa ligeramente cerca del objetivo.
+
+* **Funcionamiento:** En lugar de una sola temperatura objetivo (como haría un PI), aquí configuras dos límites: un Umbral de Encendido (On) y un Umbral de Apagado (Off).
+
+**Ejemplo práctico:** Si quieres que tu horno se mantenga alrededor de 200°C, configuras el umbral superior de apagado (H) en 200 y el umbral inferior de encendido (L) en 195.
+
+* La llama (Q1) permanecerá encendida hasta alcanzar exactamente los 200°C y se apagará. A medida que el horno pierde calor natural, la temperatura bajará a 199°C, 198°C... pero la válvula no se abrirá. Solo cuando la temperatura toque los 195°C exactos, el bloque enviará la señal para reencender la llama. Esto garantiza ciclos de combustión largos, limpios y seguros para los equipos.
