@@ -1,4 +1,4 @@
-# 🏭 Configuración y Comunicación Industrial (PLC & VFD) 🚀
+# 🏭 Comunicación Industrial (PLC & VFD) 🚀
 
 ## 🌐 1. Configuración de Red IP para Programación
 **Escenario:** Tenemos un PLC con la dirección IP `192.168.0.10` y máscara `255.255.255.0`.
