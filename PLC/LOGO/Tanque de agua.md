@@ -1,6 +1,6 @@
 # 🚰 Tanque de agua industrial
 
-El diagrama de bloques funcionales (FBD) estructurado para el control del tanque de agua industrial, asumiendo el comportamiento estándar de los sensores de nivel, dan un "1" lógico cuando el agua los cubre y un "0" cuando están en seco. Además,con interbloqueos de seguridad para que el tanque no intente llenarse y vaciarse al mismo tiempo.
+El diagrama de bloques funcionales (FBD) estructurado para el control del tanque de agua industrial, asumiendo el comportamiento estándar de los sensores de nivel, dan un "1" lógico cuando el agua los cubre y un "0" cuando están en seco. Además de interbloqueos de seguridad para que el tanque no intente llenarse y vaciarse al mismo tiempo.
 
 ### ⚙️ Diagramas de Bloques Funcionales (FBD) - Llenado de Tanque
 
