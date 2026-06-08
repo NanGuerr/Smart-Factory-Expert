@@ -1,6 +1,4 @@
-# 📡 Transformada Rápida de Fourier (FFT) y Filtrado de Señales con Python
-
-## 📝 Resumen Analítico
+# 📡 Transformada Rápida de Fourier (FFT) y Filtrado de Señales
 
 El material proporcionado es una inmersión práctica en el procesamiento digital de señales (DSP) utilizando **NumPy** y **SciPy**. Aborda el problema clásico de la ingeniería eléctrica y de telecomunicaciones: analizar una señal en el **dominio del tiempo** y trasladarla al **dominio de la frecuencia** para identificar "ruido" o armónicos indeseados y, posteriormente, eliminarlos mediante técnicas de filtrado espectral.
 
