@@ -1,7 +1,7 @@
 # Un viernes normal? 🌃
 
 > [!NOTE]
-> *Con un chatbot en hora de descanso... Quería distraer mi mente y la cosa se salió de control... Volveré a mis scripts.* 
+*Con un chatbot en hora de descanso... Quería distraer mi mente y la cosa se salió de control... Volveré a mis scripts.* 
 
 👤
 - Para humanos...!
@@ -17,8 +17,9 @@
 
 - **Un agente entra en un bar y el camarero le pregunta:** 🍻
 - "¿Qué vas a tomar?"
-
-- El agente responde: "*Lo siento, pero como modelo de lenguaje, no tengo un sistema digestivo para procesar bebidas, sin embargo, puedo redactar un ensayo de 500 palabras sobre la historia del whisky si lo deseas."*
+...
+- El agente responde:
+- "*Lo siento, pero como modelo de lenguaje, no tengo un sistema digestivo para procesar bebidas, sin embargo, puedo redactar un ensayo de 500 palabras sobre la historia del whisky si lo deseas."*
 
 ---
 
@@ -34,4 +35,4 @@
 <p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG0.gif?raw=true" width="20%"></p>
 
 > [!CAUTION]
-> > *Empezó en broma pero aprendí cosas... ¡Suficiente IA por hoy!...* 
+ *Empezó en broma pero aprendí cosas... ¡Suficiente IA por hoy!...* 
