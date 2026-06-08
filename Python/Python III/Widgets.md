@@ -1,4 +1,4 @@
-# 🔀 Slider
+# 🔀 Slider 
 
 ```python
 import matplotlib.pyplot as plt
@@ -135,6 +135,73 @@ def update(label):
 ​
 # Registramos la función de actualización con los radiobuttons
 radio.on_clicked(update)
+​
+plt.show()
+```
+
+# 🅰️ Textbox
+
+```python
+import matplotlib.pyplot as plt
+import matplotlib.widgets as wg
+​
+# Crear una figura y un eje
+fig, ax = plt.subplots()
+​
+# Datos de ejemplo
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 1, 5, 2]
+​
+# Plot inicial
+line, = ax.plot(x, y)
+​
+# Hacemos espacio con este comando
+fig.subplots_adjust(bottom=0.25)
+​
+# Hacemos el eje horizontal para el TextBox
+axtext = fig.add_axes([0.2, 0.1, 0.65, 0.07])
+​
+# Creamos el TextBox
+text_box = wg.TextBox(
+    ax=axtext,
+    label="Valor de Y",
+    initial="0",
+    color='lightgoldenrodyellow'
+)
+​
+def update(text):
+    try:
+        val = float(text)
+        line.set_ydata([val] * len(x))
+        print(val)
+        fig.canvas.draw_idle()
+    except ValueError:
+        pass
+​
+# Registramos la función de actualización con el TextBox
+text_box.on_submit(update)
+​
+plt.show()
+```
+
+# 🖱️ Cursor
+
+```python
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Cursor
+​
+# Datos para el gráfico
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 1, 5, 2]
+​
+# Creamos la figura y el eje
+fig, ax = plt.subplots()
+​
+# Dibujamos la línea
+line, = ax.plot(x, y, lw=2, color='blue')
+​
+# Agregamos el cursor
+cursor = Cursor(ax, useblit=True, color='red', linewidth=1)
 ​
 plt.show()
 ```
