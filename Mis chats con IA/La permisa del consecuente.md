@@ -30,11 +30,13 @@
 
 > ### 3. Fermentar repollo en una botella de Coca-Cola y que explote 
 
-> Esta es la afirmación más **"falsa"**. El repollo fermentado (chucrut) libera una cantidad significativa de dióxido de carbono ($CO_2$) durante el proceso de lactofermentación, pero las botellas de refresco están diseñadas para soportar presión, sin embargo los gases deben ser liberados periodicamente, si lo hiciste fue un error de novato...
+> Esta es la afirmación más **"falsa"**.
+
+> El repollo fermentado (chucrut) libera una cantidad significativa de dióxido de carbono ($CO_2$) durante el proceso de lactofermentación, pero las botellas de refresco están diseñadas para soportar presión, sin embargo los gases deben ser liberados periodicamente, si lo hiciste fue un error de novato...
 
 ## Usuario 👤:
 
-> *Wow, acertaste...*
+> **Wow, acertaste...**
 
 ## Chatbot 🤖:
 
