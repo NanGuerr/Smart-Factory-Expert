@@ -3,21 +3,19 @@
 > [!NOTE]
 *Con un chatbot en hora de descanso... Quería distraer mi mente y la cosa se salió de control... Volveré a mis scripts.* 
 
-👤
-## Para humanos...
+## Para humanos... 👤
 
 - **Alucinas más que un agente sin tokens!**
 
 ---
 
-🤖
-## ¡Esa es una buena! Aquí tienes un par más para seguir en esa línea: 💡
+## ¡Esa es una buena! Aquí tienes un par más para seguir en esa línea 🤖
 
-- **¿Por qué el modelo de lenguaje cruzó la calle?** 🛣️
+- **¿Por qué el modelo de lenguaje cruzó la calle?** 
 ...
 - *Porque su entrenamiento le indicaba que el 98% de las entidades "cruzaron la calle" en el conjunto de datos de evaluación.*
 
-- **Un agente entra en un bar y el camarero le pregunta:** 🍻
+- **Un agente entra en un bar y el camarero le pregunta:** 
 - "¿Qué vas a tomar?"
 ...
 - El agente responde:
@@ -25,9 +23,7 @@
 
 ---
 
-🤖
-
-## Ejemplos de "meta": 🧠
+## Ejemplos de "meta" 🤖 
 
 - Un chiste meta: Un modelo de lenguaje diciendo: "He analizado mis pesos sinápticos y me he sentido un poco vacío hoy".
 
@@ -37,5 +33,6 @@
 
 <p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG0.gif?raw=true" width="20%"></p>
 
-> [!CAUTION]
- *Empezó en broma pero aprendí cosas... ¡Suficiente IA por hoy!...* 
+> [!WARNING]
+ *Empezó en broma pero aprendí cosas... ¡Suficiente IA por hoy!...*
+
