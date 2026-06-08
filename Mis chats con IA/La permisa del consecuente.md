@@ -1,51 +1,53 @@
-# ¡Juego... Adivina la frase falsa! 🎮
+# ¡Adivina la frase falsa! 🎮
 
 
 > [!NOTE]
-> *Creo que ya sabia la respuesta y se inventó la premisa del consecuente... (¡En un chat temporal!)*
+> *Creo que ya sabia la respuesta y se inventó la premisa del consecuente... (Chat ramdom con IA)*
 
 ---
 
-## **Una de las tres frases es falsa:** 👤
+## Usuario 👤:
 
-1. Cambie un foco fundido con el interruptor encendido
+> **Una de las tres frases es falsa:**
 
-2. Active un ramal eléctrico y el tablero principal se incendió
+> 1. Cambie un foco fundido con el interruptor encendido
 
-3. Fermenté un repollo en una botella de cocacola y explotó
+> 2. Active un ramal eléctrico y el tablero principal se incendió
 
----
+> 3. Fermenté un repollo en una botella de cocacola y explotó
 
-## Análisis de los escenarios 🤖
+## Chatbot 🤖:
 
-### 1. Cambiar un foco con el interruptor encendido 
+> Análisis de los escenarios
 
-* Es una práctica común (aunque **muy peligrosa**). Sin embargo, es físicamente posible hacerlo sin que ocurra una catástrofe inmediata si se tiene cuidado de no tocar los contactos internos del portalámparas.
+> ### 1. Cambiar un foco con el interruptor encendido 
 
-### 2. Activar un ramal eléctrico y que el tablero principal se incendie 
+> Es una práctica común (aunque **muy peligrosa**). Sin embargo, es físicamente posible hacerlo sin que ocurra una catástrofe inmediata si se tiene cuidado de no tocar los contactos internos del portalámparas.
 
-* Si tenía un cortocircuito grave y el cableado estaba mal dimensionado, al cerrar el circuito se produce una sobrecarga instantánea que puede causar un incendio de forma casi inmediata.
+> ### 2. Activar un ramal eléctrico y que el tablero principal se incendie 
 
-### 3. Fermentar repollo en una botella de Coca-Cola y que explote 
+> Si tenía un cortocircuito grave y el cableado estaba mal dimensionado, al cerrar el circuito se produce una sobrecarga instantánea que puede causar un incendio de forma casi inmediata.
 
-* Esta es la afirmación más **"falsa"**. El repollo fermentado (chucrut) libera una cantidad significativa de dióxido de carbono ($CO_2$) durante el proceso de lactofermentación, pero las botellas de refresco están diseñadas para soportar presión, sin embargo los gases deben ser liberados periodicamente, si lo hiciste fue un error de novato...
+> ### 3. Fermentar repollo en una botella de Coca-Cola y que explote 
 
----
+> Esta es la afirmación más **"falsa"**. El repollo fermentado (chucrut) libera una cantidad significativa de dióxido de carbono ($CO_2$) durante el proceso de lactofermentación, pero las botellas de refresco están diseñadas para soportar presión, sin embargo los gases deben ser liberados periodicamente, si lo hiciste fue un error de novato...
 
-* Wow, acertaste... 👤
+## Usuario 👤:
 
----
+> *Wow, acertaste...*
 
-**Nota de seguridad:** 🤖
+## Chatbot 🤖:
 
-* La situación 2 es una emergencia eléctrica grave que requiere revisión inmediata de todo el tablero. 
-* La situación 1 es un riesgo innecesario de muerte por descarga eléctrica.
+> **Nota de seguridad:**
 
-* Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 
+> La situación 2 es una emergencia eléctrica grave que requiere revisión inmediata de todo el tablero. 
+> La situación 1 es un riesgo innecesario de muerte por descarga eléctrica.
 
----
+> Te sugiero encarecidamente priorizar la seguridad en tus actividades futuras. 
 
-* Gracias por preocuparte, pero ya sabes, ¡me gusta la adrenalina!... 👤
+## Usuario 👤:
+
+> Gracias por preocuparte, pero ya sabes, ¡Soy un experimento andante!
 
 
 <p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="20%"></p>
