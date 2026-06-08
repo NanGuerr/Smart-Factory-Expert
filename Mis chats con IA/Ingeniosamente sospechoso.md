@@ -4,13 +4,15 @@
 *Con un chatbot en hora de descanso... Quería distraer mi mente y la cosa se salió de control... Volveré a mis scripts.* 
 
 👤
-- Para humanos...!
+# Para humanos...
+
 - **Alucinas más que un agente sin tokens!**
 
 ---
 
 🤖
-- ¡Esa es una buena! Aquí tienes un par más para seguir en esa línea: 💡
+# ¡Esa es una buena! Aquí tienes un par más para seguir en esa línea: 💡
+
 - **¿Por qué el modelo de lenguaje cruzó la calle?** 🛣️
 ...
 - *Porque su entrenamiento le indicaba que el 98% de las entidades "cruzaron la calle" en el conjunto de datos de evaluación.*
@@ -24,7 +26,8 @@
 ---
 
 🤖
-- Ejemplos de "meta": 🧠
+
+# Ejemplos de "meta": 🧠
 
 - Un chiste meta: Un modelo de lenguaje diciendo: "He analizado mis pesos sinápticos y me he sentido un poco vacío hoy".
 
