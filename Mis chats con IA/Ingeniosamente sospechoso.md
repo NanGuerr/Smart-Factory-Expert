@@ -1,4 +1,4 @@
-# Un viernes normal? 🌃
+# Un viernes normal 🌃
 
 > [!NOTE]
 *Con un chatbot en hora de descanso... Quería distraer mi mente y la cosa se salió de control... Volveré a mis scripts.* 
