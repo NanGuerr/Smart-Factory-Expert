@@ -17,8 +17,8 @@
 ## ⚡Fundamentos de Electricidad y Electrónica
 *La base para la automatización industrial.*
 
-* ✅ **Iniciación a la electrónica**
 * ✅ **Iniciación a la Electricidad Industrial**
+* ✅ **Iniciación a la electrónica**
 * ✅ **Lectura e interpretación de planos eléctricos industriales**
 * ✅ **Diseño y simulación de planos eléctricos industriales con CADESIMU**
 
@@ -40,7 +40,7 @@
 * ✅ **Python nivel I** – Introducción y primeros pasos
 * ✅ **Introducción a los protocolos de comunicaciones y redes de datos**
 * ✅ **Python nivel II** – El camino hacia la industria 4.0
-* 📊 **Python nivel III** – Aplicaciones y análisis de datos
+* ✅ **Python nivel III** – Aplicaciones y análisis de datos
 
 ---
 
@@ -49,7 +49,7 @@
 
 * ✅ **Introducción a la programación de PLC** (Conceptos generales)
 * ✅ **Introducción a la programación de PLC (2025)** (Versión actualizada)
-* 🧩 **Programación de PLC Logo!** (Gama básica de Siemens)
+* ✅ **Programación de PLC Logo!** (Gama básica de Siemens)
 * 🏭 **Programación de PLC Siemens con TIA Portal**
 * 📺 **Programación de pantallas HMI Siemens con TIA Portal**
 * ✅ **Programación de PLC con Allen Bradley** (En VIVO)
@@ -63,7 +63,7 @@
 * ✅ **Virtualización y Docker**
 * ✅ **Introducción a Cloud Computing con GCloud**
 * ✅ **Introducción a la robótica: Programación con Robotstudio ABB**
-* 🔐 **Ciberseguridad Industrial – Nivel 2**
+* ✅ **Ciberseguridad Industrial – Nivel 2**
 
 ---
 
