@@ -1,4 +1,4 @@
-# 🛢️ Análisis de Petróleo en Argentina con Pandas y Seaborn
+# 🛢️ Análisis de datos con Pandas y Seaborn
 
 ## 📝 Resumen Analítico
 Este flujo de trabajo detalla un análisis completo (End-to-End) de un set de datos sobre la producción de petróleo en Argentina. Abarca desde la carga de un archivo CSV en bruto, pasando por el filtrado de columnas relevantes, la agregación matemática mediante agrupaciones (`groupby`), hasta llegar a una visualización profesional utilizando la librería Seaborn.
