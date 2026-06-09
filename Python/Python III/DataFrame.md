@@ -1,3 +1,76 @@
+# 🐼 Pandas y Análisis de Datos
+
+## 📝 Resumen Analítico
+La librería **Pandas** es la herramienta estándar en Python para la limpieza, manipulación y análisis de datos. Se fundamenta sobre la arquitectura de **NumPy**, aprovechando su velocidad computacional pero añadiendo una capa de usabilidad crucial: la capacidad de trabajar con datos tabulares etiquetados (texto, fechas y números mezclados).
+
+---
+
+## 🏗️ 1. Estructuras de Datos Principales
+Pandas divide la información en dos estructuras fundamentales, dependiendo de sus dimensiones:
+
+* **Series (1D):** 📏 Es un arreglo unidimensional. Puedes imaginarlo como una sola columna de Excel o una simple lista de Python, pero con un "índice" explícito (una etiqueta para cada fila).
+* **DataFrames (2D):** 📊 Es una estructura bidimensional compuesta por múltiples Series. Es el equivalente exacto a una hoja de cálculo completa o a una tabla de base de datos SQL. Tiene filas (índices), columnas (cabeceras) y los datos en sí.
+
+---
+
+## ⚙️ 2. Procedimiento: Creación y Manejo de DataFrames
+Para trabajar con DataFrames, el flujo de trabajo estándar consiste en estructurar primero la información en bruto y luego convertirla al formato tabular.
+
+### Paso 1: Importar la librería
+Por convención universal, Pandas se importa con el alias `pd`.
+
+```python
+import pandas as pd
+
+```
+
+### Paso 2: Estructurar los datos base
+La forma más común de crear un DataFrame desde cero es utilizando un diccionario de Python (`dict`), donde las **claves** (`keys`) serán los nombres de las columnas y los **valores** (`values`) serán listas con los datos correspondientes.
+
+```python
+dic = {
+    'Nombres': ['Ana', 'Juan', 'Luis', 'María', 'Pedro'],
+    'Edades': [22, 25, 20, 23, 28],
+    'Ciudad': ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Bilbao']
+}
+
+
+```
+
+### Paso 3: Instanciar el DataFrame
+
+Se utiliza la función `pd.DataFrame()` pasando el diccionario como argumento.
+
+```python
+df = pd.DataFrame(dic)
+print(df)
+
+```
+
+*Resultado esperado:* Una tabla perfectamente formateada con índices numéricos automáticos a la izquierda.
+
+### Paso 4: Extracción de Columnas 🔍
+
+Para aislar una variable específica y analizarla por separado (lo cual devuelve una estructura tipo **Series**), se llama al DataFrame usando corchetes y el nombre exacto de la columna como string.
+
+```python
+edades = df['Edades']
+print(edades)
+
+```
+
+### 📝 Resumen del Contenido de las Imágenes
+
+El material subido introduce la transición del cálculo numérico puro hacia la manipulación de datos estructurados utilizando la librería **Pandas** 🐼.
+
+* **El Puente entre NumPy y Pandas 🤝:** Las imágenes resaltan que Pandas no reemplaza a NumPy, sino que se construye *sobre* él. Mientras NumPy es excelente para hacer matemáticas rápidas con matrices invisibles, Pandas envuelve esas matrices y les pone nombres de columnas e índices. Esto permite limpiar y preparar datos del mundo real (que a menudo mezclan texto, números y fechas).
+
+* **La Anatomía de los Datos 🏗️:** Se definen los dos bloques de construcción principales:
+    * **Series:** Un arreglo de una sola dimensión (1D). Básicamente, una sola columna de datos.
+    * **DataFrames:** Un arreglo de dos dimensiones (2D). Es la estructura estrella de Pandas, comportándose exactamente como una tabla relacional o una hoja de Excel, compuesta por índices (filas), columnas y celdas de datos.
+
+* **Sintaxis Práctica 💻:** Se demuestra el procedimiento estándar para inyectar datos en un DataFrame. Consiste en declarar un diccionario en Python (`{}`) donde la clave es el título de la columna y el valor es una lista con los registros. Luego, al pasar este diccionario por `pd.DataFrame()`, se genera automáticamente la tabla. Finalmente, muestra cómo extraer una columna individual escribiendo su nombre entre corchetes, por ejemplo: `df['Edades']`.
+
 # ℹ️ DataFrame
 
 ```python
