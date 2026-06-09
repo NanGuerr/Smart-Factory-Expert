@@ -20,7 +20,8 @@ df = pd.read_csv("PetroleoArg.csv")
 Los datasets del mundo real suelen tener docenas de columnas innecesarias. Aquí se define una lista con las variables de interés y se recorta el DataFrame original para hacer el análisis más eficiente en memoria.
 
 ```python
-columnas_interesantes = ["empresa", "anio", "mes", "provincia", "cantidad", "indice_tiempo", "areayacimiento", "concepto", "cuenca"]
+columnas_interesantes = ["empresa", "anio", "mes", "provincia", "cantidad", "indice_tiempo", "areayacimiento",
+                        "concepto", "cuenca"]
 datos = df[columnas_interesantes]
 datos.head() # Muestra las primeras 5 filas para verificar
 
@@ -60,7 +61,9 @@ Este es el motor de cálculo. Se agrupan los registros primero por Año y luego 
 
 ```python
 promProvincia = df_filtrado.groupby(["anio", "provincia"]).cantidad.mean()
-# reset_index "aplana" el resultado agrupado, convirtiendo el Multi-Índice en columnas normales de DataFrame, lo cual es obligatorio para Seaborn.
+# reset_index "aplana" el resultado agrupado, convirtiendo el Multi-Índice en columnas normales de DataFrame,
+#lo cual es obligatorio para Seaborn.
+
 promProvincia = promProvincia.reset_index() 
 
 ```
@@ -86,7 +89,9 @@ plt.figure(figsize=(15,6)) # Lienzo panorámico
 
 # Se genera un gráfico de barras múltiples. 
 # X = Año, Y = Volumen promedio. 
-# El truco es 'hue="provincia"', que le dice a Seaborn que dibuje una barra separada (y con distinto color) para cada provincia dentro de cada año.
+# El truco es 'hue="provincia"', que le dice a Seaborn que dibuje una barra separada (y con distinto color)
+# para cada provincia dentro de cada año.
+
 ax = sns.barplot(x="anio", y="cantidad", hue="provincia", data=promProvincia, lw=0)
 
 plt.xlabel('Año')
@@ -111,6 +116,3 @@ Aquí están los conceptos y procedimientos clave que abarcan los códigos 🛢�
 * **El Poder de `groupby` ⚙️:** El corazón matemático del ejercicio. Al decirle a Pandas "agrupa por Año y Provincia y calcula la media", el programa aplasta miles de filas en un resumen de unas cuantas líneas con el promedio de producción exacto por zona temporal y geográfica. El uso posterior de `reset_index()` es un truco vital de formato para evitar errores en las bibliotecas de gráficos.
 * **Visualización de Alto Nivel 🎨:** Finalmente introduce `Seaborn`. Es mucho más potente que el `plot` clásico de Matplotlib para estos casos porque el atributo `hue="provincia"` se encarga mágicamente de agrupar, colorear y generar las barras por separado para cada provincia en el gráfico final. 
 
-Todo este análisis detallado por pasos, con el código respectivo, está estructurado en el archivo adjunto para tu estudio.
-
-```
