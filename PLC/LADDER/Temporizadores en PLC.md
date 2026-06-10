@@ -6,7 +6,7 @@ A diferencia de las compuertas lógicas básicas, los temporizadores en Ladder s
 
 Aquí tienes la representación gráfica en diagrama Ladder basada en tu código:
 
-### ⚙️ Temporizador a la Conexión
+### 🔌 Temporizador a la Conexión
 
 ```text
 NETWORK 1: Temporización de Señal (TON)
