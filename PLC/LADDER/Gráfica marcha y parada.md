@@ -49,5 +49,7 @@ le tocará de nuevo a la Bomba 1.
 ### 💡 Análisis de los componentes:
 
 1. **Contactos `[/] xBomba2` y `[/] xBomba1` al inicio:** Son **interbloqueos de seguridad**. Garantizan que si la Bomba 2 está encendida, la corriente no pueda pasar hacia la bobina de la Bomba 1 bajo ninguna circunstancia (y viceversa).
+
 2. **Contactos `[/] xM1` y `[ ] xM1`:** Actúan como un **conmutador (Flip-Flop)**. La memoria `xM1` decide a quién le toca trabajar. Si `xM1` es `0`, el camino se abre para la Bomba 1. Si `xM1` es `1`, el camino se abre para la Bomba 2.
+
 3. **Ramas en paralelo `[ ] xBomba1` y `[ ] xBomba2`:** Son los **enclavamientos (Latch)**. Permiten que puedas soltar el botón de `xMarcha` (que es un pulsador momentáneo) y la bomba siga funcionando hasta que alguien presione el pulsador de `xParada`.
