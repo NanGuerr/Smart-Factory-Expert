@@ -8,7 +8,8 @@ El código que compartiste corresponde a un circuito clásico y muy útil en la 
 
 ```text
 NETWORK 1: Marcha/Parada Bomba 1
-El interbloqueo inicial (xBomba2) asegura que no funcionen ambas a la vez. Si la Memoria 1 (xM1) está desactivada, al pulsar xMarcha arranca la Bomba 1 y se auto-enclava.
+El interbloqueo inicial (xBomba2) asegura que no funcionen ambas a la vez. Si la Memoria 1 (xM1) está desactivada,
+al pulsar xMarcha arranca la Bomba 1 y se auto-enclava.
 
      xBomba2       xM1        xMarcha                  xParada
 |------[/]----+----[/]----------[ ]----+-----------------[/]----------( ) xBomba1 --|
@@ -17,7 +18,8 @@ El interbloqueo inicial (xBomba2) asegura que no funcionen ambas a la vez. Si la
 
 
 NETWORK 2: Alternancia (Set M1)
-Una vez que la Bomba 1 arranca, activa la Memoria 1 (Set). Esto "prepara" el sistema para que la próxima vez sea el turno de la Bomba 2.
+Una vez que la Bomba 1 arranca, activa la Memoria 1 (Set). Esto "prepara" el sistema para que la próxima vez sea el
+turno de la Bomba 2.
 
      xBomba1                                                               
 |------[ ]------------------------------------------------------------(S) xM1 ------|
@@ -25,7 +27,8 @@ Una vez que la Bomba 1 arranca, activa la Memoria 1 (Set). Esto "prepara" el sis
 
 
 NETWORK 3: Marcha/Parada Bomba 2
-Similar a la red 1. Si la Bomba 1 está apagada y la Memoria 1 (xM1) ESTÁ activada, al pulsar xMarcha le toca arrancar a la Bomba 2, auto-enclavándose.
+Similar a la red 1. Si la Bomba 1 está apagada y la Memoria 1 (xM1) ESTÁ activada, al pulsar xMarcha le toca arrancar
+a la Bomba 2, auto-enclavándose.
 
      xBomba1       xM1        xMarcha                  xParada
 |------[/]----+----[ ]----------[ ]----+-----------------[/]----------( ) xBomba2 --|
@@ -34,7 +37,8 @@ Similar a la red 1. Si la Bomba 1 está apagada y la Memoria 1 (xM1) ESTÁ activ
 
 
 NETWORK 4: Alternancia (Reset M1)
-Cuando la Bomba 2 arranca, resetea (apaga) la Memoria 1. De esta forma, el ciclo se reinicia y la próxima vez le tocará de nuevo a la Bomba 1.
+Cuando la Bomba 2 arranca, resetea (apaga) la Memoria 1. De esta forma, el ciclo se reinicia y la próxima vez
+le tocará de nuevo a la Bomba 1.
 
      xBomba2
 |------[ ]------------------------------------------------------------(R) xM1 ------|
