@@ -8,8 +8,8 @@ El código que compartiste corresponde a un circuito clásico y muy útil en la 
 
 ```text
 NETWORK 1: Marcha/Parada Bomba 1
-El interbloqueo inicial (xBomba2) asegura que no funcionen ambas a la vez. Si la Memoria 1 (xM1) está desactivada,
-al pulsar xMarcha arranca la Bomba 1 y se auto-enclava.
+El interbloqueo inicial (xBomba2) asegura que no funcionen ambas a la vez. Si la Memoria 1 (xM1) está
+desactivada, al pulsar xMarcha arranca la Bomba 1 y se auto-enclava.
 
      xBomba2       xM1        xMarcha                  xParada
 |------[/]----+----[/]----------[ ]----+-----------------[/]----------( ) xBomba1 --|
