@@ -1,4 +1,4 @@
-# 🏷️ Codificación de Variables: Ordinal vs One-Hot
+# 🏷️ Categorización Ordinal vs One-Hot
 
 ## 📝 Resumen Analítico
 En el análisis de datos, los modelos matemáticos (especialmente el Machine Learning) no pueden procesar texto o categorías directamente; solo entienden números. La codificación es el procedimiento de transformar variables categóricas en formatos numéricos que una máquina pueda interpretar. 
@@ -206,6 +206,8 @@ df_dummies = pd.get_dummies(df_nodos, columns=['Protocolo'])
 Los procedimientos mostrados en las imágenes se pueden sintetizar en **tres reglas de oro** para tratar la información categórica:
 
 * **Regla de los Rangos (`pd.cut` / `pd.qcut`):** ✂️ Si tienes una variable numérica continua (por ejemplo, el voltaje de un banco de baterías LiFePO4) y necesitas convertir esos números en estados legibles como "Bajo", "Nominal" o "Sobrecarga", utilizas la técnica de binning. `cut` usa fronteras matemáticas rígidas, mientras que `qcut` se basa en distribuciones estadísticas.
+
 * **Regla de la Jerarquía (`map` o Label Encoding):** 📈 Si tu variable de texto tiene un orden de magnitud inherente (por ejemplo, las alertas de un PLC: Alerta Baja, Alerta Media, Alerta Crítica), puedes traducirlas directamente a números como 1, 2 y 3. El peso matemático de los números respeta la jerarquía lógica de los datos de campo.
+
 * **Regla Nominal (`pd.get_dummies`):** 🔀 Si tu texto no tiene ningún orden jerárquico (por ejemplo, estás comparando protocolos de red: LoRa, Wi-Fi o Zigbee), nunca debes usar los números 1, 2 y 3. El modelo pensaría que el protocolo número 3 es "mayor" que el protocolo número 1. Para esto, se emplea el **One-Hot Encoding**, que divide el texto en columnas separadas de Verdadero (1) y Falso (0).
 
