@@ -90,9 +90,9 @@ Aquí tienes la representación gráfica en diagrama Ladder:
 
 ```text
 NETWORK 1: Arranque de Bomba con Retardo y Enclavamiento
-Al activar la entrada 'xMarcha', el temporizador TON0 comienza a contar. Tras 3 segundos, su salida (Q) se activa.
-Esta señal pasa por el contacto cerrado 'xParada' y enciende la bobina 'xBomba'. Una vez encendida,
-el contacto paralelo de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
+Al activar la entrada 'xMarcha', el temporizador TON0 comienza a contar. Tras 3 segundos, su salida (Q)
+se activa. Esta señal pasa por el contacto cerrado 'xParada' y enciende la bobina 'xBomba'. Una vez
+encendida, el contacto paralelo de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
 
                  +------- TON0 -------+
     xMarcha      |        TON         |      xParada
