@@ -50,7 +50,7 @@
 ## Usuario 👤:
 
 > Gracias por preocuparte, pero ya sabes, ¡Soy un experimento andante!
-
+---
 
 <p align="left"><img src="https://github.com/NanGuerr/NanGuerr/blob/main/assets/RG2.gif?raw=true" width="20%"></p>
 
