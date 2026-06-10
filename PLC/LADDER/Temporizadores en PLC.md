@@ -10,7 +10,8 @@ Aquí tienes la representación gráfica en diagrama Ladder basada en tu código
 
 ```text
 NETWORK 1: Temporización de Señal (TON)
-Al activarse el contacto xEntrada, el temporizador comienza a contar. Tras 4 segundos, la salida se activa.
+Al activarse el contacto xEntrada, el temporizador comienza a contar. Tras 4 segundos, la salida
+se activa.
 
                  +------- TON0 -------+
     xEntrada     |        TON         |       xSalida
@@ -39,7 +40,9 @@ Al activarse el contacto xEntrada, el temporizador comienza a contar. Tras 4 seg
 
 ```text
 NETWORK 1: Arranque de Bomba con Retardo y Enclavamiento
-Al activar la entrada 'xMarcha', el temporizador TON0 comienza a contar. Tras 3 segundos, su salida (Q) se activa. Esta señal pasa por el contacto cerrado 'xParada' y enciende la bobina 'xBomba'. Una vez encendida, el contacto paralelo de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
+Al activar la entrada 'xMarcha', el temporizador TON0 comienza a contar. Tras 3 segundos, su salida (Q)
+se activa. Esta señal pasa por el contacto cerrado 'xParada' y enciende la bobina 'xBomba'.
+Una vez encendida, el contacto paralelo de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
 
                  +------- TON0 -------+
     xMarcha      |        TON         |      xParada
@@ -53,7 +56,8 @@ Al activar la entrada 'xMarcha', el temporizador TON0 comienza a contar. Tras 3 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
 NETWORK 2: Temporización de Alarma de Falla (Función Set)
-Si el contacto 'xFalla' se cierra y se mantiene así durante 4 segundos, el temporizador TON1 emite una señal que activa la bobina Set (S) de 'xAlertaFalla', dejándola encendida permanentemente hasta que sea reseteada.
+Si el contacto 'xFalla' se cierra y se mantiene así durante 4 segundos, el temporizador TON1 emite una señal
+que activa la bobina Set (S) de 'xAlertaFalla', dejándola encendida permanentemente hasta que sea reseteada.
 
                  +------- TON1 -------+
     xFalla       |        TON         |     
@@ -87,8 +91,8 @@ Aquí tienes la representación gráfica en diagrama Ladder:
 ```text
 NETWORK 1: Arranque de Bomba con Retardo y Enclavamiento
 Al activar la entrada 'xMarcha', el temporizador TON0 comienza a contar. Tras 3 segundos, su salida (Q) se activa.
-Esta señal pasa por el contacto cerrado 'xParada' y enciende la bobina 'xBomba'. Una vez encendida, el contacto paralelo
-de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
+Esta señal pasa por el contacto cerrado 'xParada' y enciende la bobina 'xBomba'. Una vez encendida,
+el contacto paralelo de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
 
                  +------- TON0 -------+
     xMarcha      |        TON         |      xParada
@@ -102,8 +106,8 @@ de 'xBomba' la mantiene autoenclavada aunque se suelte la marcha.
 ─────────────────────────────────────────────────────────────────────────────────────────
 
 NETWORK 2: Temporización de Alarma de Falla (Función Set)
-Si el contacto 'xFalla' se cierra y se mantiene así durante 4 segundos, el temporizador TON1
-emite una señal que activa la bobina Set (S) de 'xAlertaFalla', dejándola encendida permanentemente hasta que sea reseteada.
+Si el contacto 'xFalla' se cierra y se mantiene así durante 4 segundos, el temporizador TON1 emite una señal
+que activa la bobina Set (S) de 'xAlertaFalla', dejándola encendida permanentemente hasta que sea reseteada.
 
                  +------- TON1 -------+
     xFalla       |        TON         |     
