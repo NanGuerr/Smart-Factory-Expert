@@ -18,8 +18,8 @@ al pulsar xMarcha arranca la Bomba 1 y se auto-enclava.
 
 
 NETWORK 2: Alternancia (Set M1)
-Una vez que la Bomba 1 arranca, activa la Memoria 1 (Set). Esto "prepara" el sistema para que la próxima vez sea el
-turno de la Bomba 2.
+Una vez que la Bomba 1 arranca, activa la Memoria 1 (Set). Esto "prepara" el sistema para que la próxima vez
+sea el turno de la Bomba 2.
 
      xBomba1                                                               
 |------[ ]------------------------------------------------------------(S) xM1 ------|
@@ -27,8 +27,8 @@ turno de la Bomba 2.
 
 
 NETWORK 3: Marcha/Parada Bomba 2
-Similar a la red 1. Si la Bomba 1 está apagada y la Memoria 1 (xM1) ESTÁ activada, al pulsar xMarcha le toca arrancar
-a la Bomba 2, auto-enclavándose.
+Similar a la red 1. Si la Bomba 1 está apagada y la Memoria 1 (xM1) ESTÁ activada, al pulsar xMarcha le toca
+arrancar a la Bomba 2, auto-enclavándose.
 
      xBomba1       xM1        xMarcha                  xParada
 |------[/]----+----[ ]----------[ ]----+-----------------[/]----------( ) xBomba2 --|
