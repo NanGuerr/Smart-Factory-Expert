@@ -52,6 +52,14 @@ Esta guía contiene ejercicios clave sobre lógica LADDER, estructuras de datos 
 ### 6. Consigna de Velocidad 🚀
 **Pregunta:** ¿Cuál será la consigna final de velocidad si se activan las entradas 1, 3 y 5 simultáneamente?
 
+| Rung | Entrada (Contacto) | Operación | Valor (IN) | Salida (OUT) |
+| --- | --- | --- | --- | --- |
+| **1** | Entrada1 | MOVE | 0.0 | ConsignaVel |
+| **2** | Entrada2 | MOVE | 10.0 | ConsignaVel |
+| **3** | Entrada3 | MOVE | 20.0 | ConsignaVel |
+| **4** | Entrada4 | MOVE | 50.0 | ConsignaVel |
+| **5** | Entrada5 | MOVE | 100.0 | ConsignaVel |
+
 * [x] **100** (Respuesta correcta según lo solicitado)
 
 ---
@@ -126,6 +134,17 @@ Salida (Q)    __|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|_____
 ---
 
 ### 13. Lógica de Control de Cinta 🏗️
+
+Según el siguiente enunciado. ¿Es correcto el código?
+
+“Crear un diagrama en LADDER para el control del arranque y parada de una cinta transportadora, la cual es comandada por un motor conectado a una salida digital del PLC. El arranque y parada se realizará a través de un pulsador de marcha y un pulsador de parada (ambos sin enclavamiento, es decir que se presionan y cuando se sueltan vuelven a su posición original). Además, existe una señal de falla que se encuentra cableada a una entrada digital del PLC.
+
+El motor debe arrancar si no hay una falla existente, y luego de 3 segundos de mantener pulsada la marcha. Al soltar la marcha queda encendido. El botón de parada o una falla lo detienen de forma inmediata. Si hay una falla, se enciende un indicador y se bloquea el motor (no puede arrancar). Ese estado de bloqueo se resetea solo si la falla se va, y pulsando el botón de parada 3 veces.
+
+El estado de falla se activa luego de que por lo menos 4 segundos permanezca la falla activa.
+
+Variables de entrada: xMarcha, xParada, xFalla.
+Variables de salida: xMotor, xLedFalla.”
 
 **Pregunta:** Según el enunciado del control de cinta (Arranque con 3s, Parada, Falla), ¿Es correcto el código simple?
 
