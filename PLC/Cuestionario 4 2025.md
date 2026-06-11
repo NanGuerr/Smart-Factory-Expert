@@ -94,7 +94,9 @@ Esta guía contiene ejercicios clave sobre lógica LADDER, estructuras de datos 
 
 ```text
 --- INCORRECTO ---
-|--[Botón]-----(Salida)---  (La salida se apaga al soltar el botón)
+|--[Botón]--+---(Motor)---
+|           |
+|--[Motor_1]-+ (La salida es diferente Motor a Motor_1)
 
 --- CORRECTO (Enclavamiento) ---
 |--[Botón]--+---(Salida)---
