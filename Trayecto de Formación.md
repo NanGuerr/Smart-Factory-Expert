@@ -50,8 +50,8 @@
 * ✅ **Introducción a la programación de PLC** (Conceptos generales)
 * ✅ **Introducción a la programación de PLC (2025)** (Versión actualizada)
 * ✅ **Programación de PLC Logo!** (Gama básica de Siemens)
-* 🏭 **Programación de PLC Siemens con TIA Portal**
-* 📺 **Programación de pantallas HMI Siemens con TIA Portal**
+* ✅ **Programación de PLC Siemens con TIA Portal**
+* ✅ **Programación de pantallas HMI Siemens con TIA Portal**
 * ✅ **Programación de PLC con Allen Bradley** (En VIVO)
 
 ---
@@ -74,7 +74,7 @@
 * ✅ **Mantenimiento Predictivo en la Industria 4.0**
 * ✅ **Inteligencia Artificial en la Industria 4.0**
 * 📊 **Node-RED para la industria 4.0** (Interconexión de sistemas)
-* 🏭 **Programación de PLC Siemens – TIA Portal V20+ + Factory IO**
+* ✅ **Programación de PLC Siemens – TIA Portal V20+ + Factory IO**
 * ✅ **Lazos de control PID con TIA Portal** (Requiere matemáticas y control avanzado)
 
 ---
