@@ -37,4 +37,50 @@ plt.xlabel('Especies')
 plt.ylabel('Petal Length')
 
 plt.show()
+
+# Gráfico de dispersi{on
+
+tips = sns.load_dataset('tips')
+sns.scatterplot(x='total_bill', y='tip', hue='day' ,data=tips)
+
+# Mostrar el gráfico
+plt.xlabel('Total de la cuenta')
+plt.ylabel('Propina')
+plt.title('Gráfico de Dispersión')
+
+plt.legend(title="Almuerzo / Cena")
+
+plt.show()
+
+# Distribución (Histograma/barras)
+
+sns.histplot(data=tips['total_bill'], bins=10)
+​
+# Mostrar el gráfico
+plt.xlabel('Total de la cuenta')
+plt.ylabel('Frecuencia')
+plt.title('Gráfico de Distribución (Histograma)')
+​
+plt.show()
+
+# Densidad de distribución
+
+# Crear el gráfico de densidad (kde)
+sns.kdeplot(data=tips['total_bill'], fill=True)
+​
+# Mostrar el gráfico
+plt.xlabel('Total de la cuenta')
+plt.ylabel('Densidad')
+plt.title('Gráfico de Densidad (KDE)')
+​
+plt.show()
+
+# Jointplot - Diagrama de dispersión topográfico
+sns.jointplot(x="total_bill",y="tip",kind="kde",data=tips)
+# Mostrar el gráfico
+​
+plt.xlabel('Total de la cuenta')
+plt.ylabel('Propina')
+plt.show()
+
 ```
