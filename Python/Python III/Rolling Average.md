@@ -71,7 +71,7 @@ df['Media_Forzada'] = df['Voltaje_Bateria'].rolling(window=3, min_periods=1).mea
 | **Datos Crudos** | Muestra cada pico e interferencia. | Detección de fallas críticas instantáneas. |
 | **Media Móvil Corta (ej. 3)** | Suaviza un poco, reacciona rápido a cambios. | Monitoreo táctico de sistemas. |
 | **Media Móvil Larga (ej. 30)** | Aplana la curva, muestra tendencias lentas. | Análisis de degradación a largo plazo o estacionalidad. |
-| """ |  |  |
+
 
 
 ## 📝 Resumen Analítico
