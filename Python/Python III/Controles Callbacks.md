@@ -1,6 +1,4 @@
-# Controles Dashboard 🎛️
-
-# 🎚️ Guía de Controles en Dashboards
+# 🎚️ Controles en Dashboards
 
 ## 1. ¿Qué son los controles?
 Son componentes de la interfaz que actúan como "entradas" (inputs) para tu análisis de datos. Permiten filtrar, segmentar o ajustar la vista de los gráficos en tiempo real.
