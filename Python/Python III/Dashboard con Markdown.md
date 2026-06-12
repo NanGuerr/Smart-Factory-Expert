@@ -16,6 +16,8 @@ if __name__ == '__main__':
     # host -> ip. Default localhost. host="0.0.0.0" significa accesible desde cualquier ip
     # port -> puerto. default 8050
 
+```
+
 # Dashboard con Markdown
 
 ```text
@@ -24,8 +26,9 @@ from dash import Dash, html, dcc
 app = Dash(__name__)
 ​
 markdown_text = '''
-### Dash y Markdown
-​
+```
+
+
 Las aplicaciones Dash pueden escribirse en Markdown.
 ​
 Dash utiliza la especificación de Markdown 
@@ -34,6 +37,7 @@ de [CommonMark](http://commonmark.org/).
 ¡Mirá su [Tutorial de Markdown en 60 segundos](http://commonmark.org/help/) 
 si es la primera vez que te introducís en Markdown!
 ​
+
 # Hay títulos
 ## de distintos
 ### tamaños
@@ -43,9 +47,10 @@ si es la primera vez que te introducís en Markdown!
 - numeros
 ​
 1. listas
-1. con 
-1. números
+2. con 
+3. números
 ​
+
 # Hasta bloques de código!
 
 ```python
@@ -58,5 +63,4 @@ app.layout = html.Div([
 ​
 if __name__ == '__main__':
     app.run(debug=True)
-```
 ```
