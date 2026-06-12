@@ -3,6 +3,7 @@
 ```python
 
 # Gráfico de Área
+
 plt.figure(figsize=(10, 6))
 plt.style.use("ggplot")
 
@@ -15,6 +16,7 @@ plt.ylabel('Ancho del pétalo')
 plt.show()
 
 # Gráfico de Barras Apiladas
+
 plt.figure(figsize=(10, 6))
 
 sns.barplot(x='species', y='sepal_length', hue='sepal_width', data=iris, errorbar=None)
@@ -28,6 +30,7 @@ plt.legend(title='Ancho del sépalo', loc='upper right')
 plt.show()
 
 # Gráfico de Caja y Bigotes
+
 plt.figure(figsize=(10, 6))
 
 sns.boxplot(x='species', y='petal_length', data=iris)
@@ -38,7 +41,7 @@ plt.ylabel('Petal Length')
 
 plt.show()
 
-# Gráfico de dispersi{on
+# Gráfico de dispersión
 
 tips = sns.load_dataset('tips')
 sns.scatterplot(x='total_bill', y='tip', hue='day' ,data=tips)
