@@ -1,4 +1,4 @@
-# 🎛️ Construcción y Análisis de Dashboards (Tableros de Control)
+# 🎛️ Construcción de Dashboards (Tableros de Control)
 
 ## 📝 Resumen Analítico
 Los dashboards o tableros de control representan la cúspide de la visualización de datos. Son herramientas visuales que consolidan múltiples fuentes de información, KPIs (Indicadores Clave de Rendimiento) y gráficos complejos en una sola interfaz consolidada. Su objetivo no es solo mostrar datos, sino **contar una historia** y permitir la toma de decisiones estratégicas o el monitoreo técnico rápido.
