@@ -1,4 +1,4 @@
-# 🪜 Clase 4: Lógica de Programación Ladder y Operaciones de Control
+# 🪜 Lógica de Programación Ladder y Operaciones de Control
 
 En esta **Clase 4**, el curso pasa de la configuración del entorno a la acción: la escritura de lógica en **Ladder Diagram (LD)**. Es una sesión fundamental para entender cómo el PLC toma decisiones basadas en estados binarios y variables de tiempo ⚡.
 
