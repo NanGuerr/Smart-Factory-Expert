@@ -1,4 +1,4 @@
-# 🔌 Clase 3: Comunicación y Entorno de Studio 5000 💻
+# 🔌 Comunicación y Entorno de Studio 5000 💻
 
 Esta clase es fundamental porque explica cómo establecer la comunicación entre la computadora y el controlador, además de realizar un recorrido por la interfaz principal del software de programación 🌐.
 
