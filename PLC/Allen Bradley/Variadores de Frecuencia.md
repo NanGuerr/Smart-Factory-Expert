@@ -1,4 +1,4 @@
-# 📈 Clase 8: Control Analógico y Variadores de Frecuencia (VFD)
+# 📈 Control Analógico y Variadores de Frecuencia (VFD)
 
 La **Clase 8** es una de las más importantes para aplicaciones de control de procesos, ya que abandona el mundo binario (encendido/apagado) para entrar en el control de variables continuas y el manejo de motores mediante variadores de frecuencia (**VFD**) 🚀.
 
