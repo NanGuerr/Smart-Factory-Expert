@@ -1,4 +1,4 @@
-# Programación de PLC Allen Bradley & Studio 5000
+# PLC Allen Bradley & Studio 5000
 
 Conceptos fundamentales de la arquitectura Logix 5000, tipos de datos y lógica de control.
 
