@@ -1,4 +1,4 @@
-# 🛠️ Clase 7: Commissioning, Diagnóstico y Herramientas de Depuración
+# 🛠️ Commissioning, Diagnóstico y Herramientas de Depuración
 
 La **Clase 7** es fundamental para las etapas de "puesta en marcha" (*commissioning*) y diagnóstico de fallas (*troubleshooting*). Se enseñan herramientas que ahorran horas de búsqueda manual y permiten manipular el sistema en condiciones controladas 🚀.
 
