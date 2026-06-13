@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns:ns1="http://www.plcopen.org/xml/tc6.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
+  <fileHeader companyName="Desconocido" productName="Sin nombre" productVersion="1" creationDateTime="2025-06-19T09:38:38"/>
+  <contentHeader name="Sin nombre" modificationDateTime="2025-06-19T10:10:40">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="10" y="10"/>
+      </fbd>
+      <ld>
+        <scaling x="10" y="10"/>
+      </ld>
+      <sfc>
+        <scaling x="10" y="10"/>
+      </sfc>
+    </coordinateInfo>
+  </contentHeader>
+  <types>
+    <dataTypes/>
+    <pous>
+      <pou name="Main" pouType="program">
+        <interface>
+          <localVars>
+            <variable name="iNivelTanque">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="xBomba">
+              <type>
+                <BOOL/>
+              </type>
+            </variable>
+            <variable name="ArraySensores">
+              <type>
+                <array>
+                  <dimension lower="0" upper="3"/>
+                  <baseType>
+                    <INT/>
+                  </baseType>
+                </array>
+              </type>
+            </variable>
+            <variable name="iSensor_1">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="iSensor_2">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="iSensor_3">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="iSensor_4">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="xAlarmaSobretemperatura">
+              <type>
+                <BOOL/>
+              </type>
+            </variable>
+            <variable name="i">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="iTipoProducto">
+              <type>
+                <INT/>
+              </type>
+            </variable>
+            <variable name="rVelocidadCinta">
+              <type>
+                <REAL/>
+              </type>
+            </variable>
+          </localVars>
+        </interface>
+        <body>
+          <ST>
+            <xhtml:p><![CDATA[(*Sintaxis y Ejemplo - Sentencia IF*)
+IF iNivelTanque < 30 THEN
+    xBomba := TRUE;
+  ELSE
+    xBomba := FALSE;
+END_IF;
+
+(*Sintaxis y Ejemplo - Sentencia FOR*)
+ArraySensores[0] := iSensor_1;
+ArraySensores[1] := iSensor_2;
+ArraySensores[2] := iSensor_3;
+ArraySensores[3] := iSensor_4;
+
+FOR i := 0 TO 3 BY 1 DO
+  IF ArraySensores[i] > 80 THEN
+    xAlarmaSobretemperatura := TRUE;
+  END_IF;
+END_FOR;
+
+(*Sintaxis y Ejemplo - Sentencia CASE*)
+CASE iTipoProducto OF
+  1: rVelocidadCinta := 0.5; (*Producto liviano*)
+  2: rVelocidadCinta := 1.0; (*Producto estándar*)
+  3: rVelocidadCinta := 1.5; (*Producto pesado*)
+  ELSE
+    rVelocidadCinta := 0.0;
+END_CASE;
+
+
+
+]]></xhtml:p>
+          </ST>
+        </body>
+      </pou>
+    </pous>
+  </types>
+  <instances>
+    <configurations>
+      <configuration name="Config0">
+        <resource name="Res0">
+          <task name="task0" priority="0" interval="T#20ms">
+            <pouInstance name="instance0" typeName="Main"/>
+          </task>
+        </resource>
+      </configuration>
+    </configurations>
+  </instances>
+</project>
