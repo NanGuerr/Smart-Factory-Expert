@@ -1,4 +1,4 @@
-# 🛠️ Herramientas de Diagnóstico Eficiente: Toggle vs. Cross Reference
+# 🛠️ Diagnóstico Eficiente: Toggle vs. Cross Reference
 
 Estas herramientas separan a un programador básico de uno que sabe realizar un diagnóstico eficiente en planta. Permiten manipular el sistema en condiciones controladas y localizar errores con precisión quirúrgica 🚀.
 
