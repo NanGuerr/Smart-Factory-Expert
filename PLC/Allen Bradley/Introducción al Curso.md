@@ -1,4 +1,4 @@
-# 🚀 Introducción al Curso: Programación de PLC Allen Bradley
+# 🚀 Introducción Programación de PLC Allen Bradley
 
 Este video marca el inicio del curso de **Programación de PLC con Allen Bradley (Rockwell Automation)** en la plataforma **IngeLearn** 🎓. La clase 1 está diseñada como una base teórica y contextual antes de entrar de lleno al software.
 
