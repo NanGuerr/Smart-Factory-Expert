@@ -1,4 +1,4 @@
-# 🛠️ Clase 2: Clasificación y Hardware de Rockwell Automation
+# 🛠️ Clasificación y Hardware de Rockwell Automation
 
 La **Clase 2** del curso de **IngeLearn** se centra en clasificar y detallar el hardware de **Rockwell Automation**, permitiendo entender qué controlador elegir según la complejidad del proyecto 🚀.
 
