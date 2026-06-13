@@ -1,4 +1,4 @@
-# 🏗️ Clase 6: Estructura Profesional, Documentación y Gestión de Proyectos
+# 🏗️ Estructura Profesional, Documentación y Gestión de Proyectos
 
 Esta **Clase 6** es fundamental para pasar de programas simples a proyectos profesionales organizados, escalables y seguros. Se enfoca en cómo estructurar el código y cómo gestionar la información fuera del software 🚀.
 
