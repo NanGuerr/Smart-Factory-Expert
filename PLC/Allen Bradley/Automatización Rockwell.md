@@ -1,4 +1,4 @@
-# 🏭 Guía Detallada de Automatización con Rockwell Automation 🚀
+# 🏭 Automatización con Rockwell Automation 🚀
 
 Este documento presenta una expansión técnica sobre los puntos clave para la ingeniería utilizando el ecosistema de **Rockwell Automation** y **Allen Bradley**.
 
