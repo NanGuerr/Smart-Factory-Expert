@@ -1,4 +1,4 @@
-# 🔢 Clase 5: Comparaciones, Flancos y Manejo de Datos
+# 🔢 Comparaciones, Flancos y Manejo de Datos
 
 En la **Clase 5**, el curso avanza hacia instrucciones que permiten procesar datos numéricos y detectar cambios de estado instantáneos, lo cual es vital para el control de procesos y la gestión de alarmas 🚨.
 
