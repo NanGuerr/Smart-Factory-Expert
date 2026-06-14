@@ -1,8 +1,5 @@
 # 📘 Respuestas: Cuestionario de Programación PLC
 
-A continuación, se presentan las respuestas detalladas sobre los conceptos fundamentales de los controladores lógicos programables (PLC).
-
----
 
 ### 📋 Cuestionario Resuelto
 
