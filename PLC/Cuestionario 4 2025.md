@@ -1,9 +1,5 @@
 # Cuestionario 4 Programación de PLCs 🤖⚡
 
-Esta guía contiene ejercicios clave sobre lógica LADDER, estructuras de datos y temporizadores.
-
----
-
 ### 1. Variables en Ladder 💾
 **Pregunta:** En un programa puedo ver que una variable aparece como `Temperatura[3]`. ¿A cuál de estos grupos pertenece esta variable?
 
