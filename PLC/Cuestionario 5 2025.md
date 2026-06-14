@@ -1,8 +1,5 @@
 # 🖥️ Cuestionario de Programación y Lógica 🚀
 
-Aquí tienes las respuestas a las preguntas planteadas:
-
----
 
 ### 1. ¿Cuántas veces se repetirá la operación dentro del FOR? 🔁
 `FOR Cnt := 1 TO 9 BY 1 DO Operacion( ); END_FOR;`
