@@ -1,9 +1,5 @@
 # Cuestionario sobre Controladores y PLC 🤖⚙️
 
-Este documento contiene un resumen detallado sobre conceptos fundamentales de controladores lógicos programables (PLC), instrumentación y automatización.
-
----
-
 ### 1. ¿A qué se le denomina controlador? 🧠
 **Respuesta:** Hardware central utilizado para controlar un proceso o tarea en particular.
 
