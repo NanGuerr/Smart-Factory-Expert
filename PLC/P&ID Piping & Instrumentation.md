@@ -1,4 +1,4 @@
-# 📋 Diagramación y Planificación de un Proyecto de Automatización
+# 📋 Diagramación y Planificación (Proyecto de Automatización)
 
 El éxito en la implementación de un sistema de control con PLC comienza mucho antes de escribir la primera línea de código. Se basa en una identificación exhaustiva de los requerimientos y una planificación ordenada. 🏗️
 
