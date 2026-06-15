@@ -65,9 +65,53 @@ Para una correcta implementación en Ladder, debemos considerar:
 
 ---
 
-### Consideraciones técnicas para tu transcripción:
+### Consideraciones técnicas :
 
 1. **Enclavamiento (Set/Reset):** Es fundamental usar instrucciones de **SET** y **RESET** para las marcas de etapa. Esto asegura que el sistema se mantenga en el estado actual sin necesidad de mantener pulsada una entrada física.
 2. **Orden de ejecución:** La lógica de reset debe ir siempre después o de forma independiente a la lógica de seteo para evitar que una etapa se resetee en el mismo ciclo en que se activó.
 3. **Seguridad:** Te recomiendo añadir un contacto cerrado en serie con todas las bobinas de `SET` que corresponda a un **Botón de Parada de Emergencia**, para asegurar que el sistema pueda detener la secuencia en cualquier punto.
 
+### NETWORK 1: Activación de la Etapa 1
+
+Al cumplirse la condición `xInicio`, se activa la marca de memoria `xEtapa1`. Se utiliza un contacto normalmente cerrado de la etapa siguiente para asegurar el desenclavamiento.
+
+```text
+       xInicio          xEtapa2 (NC)                              xEtapa1
+|--------[ ]--------------[ / ]-------------------------------------( S )-----------|
+|                                                                                   |
+|      xEtapa1                                                                      |
+|--------[ ]--------------------------------------------------------+               |
+|                                                                   |               |
+|      xInicio                                                      |               |
+|--------[ ]--------------------------------------------------------+               |
+
+```
+
+### NETWORK 2: Transición a Etapa 2
+
+Cuando `xEtapa1` está activa y se cumple la condición `xCondicion_T1` (por ejemplo, un sensor), se activa `xEtapa2` y se resetea la `xEtapa1`.
+
+```text
+       xEtapa1        xCondicion_T1                              xEtapa2
+|--------[ ]--------------[ ]---------------------------------------( S )-----------|
+|                                                                                   |
+       xEtapa2                                                     xEtapa1
+|--------[ ]--------------------------------------------------------( R )-----------|
+
+```
+
+### NETWORK 3: Acción de Cierre de Compuerta (Etapa 6)
+
+Basado en el comentario del XML "Cierre de la Compuerta", esta salida se activa exclusivamente cuando el sistema llega a la etapa correspondiente (Etapa 6).
+
+```text
+       xEtapa6                                                    Q_Compuerta
+|--------[ ]--------------------------------------------------------( )-----------|
+
+```
+
+### Consideraciones para tu implementación:
+
+1. **Memoria:** He definido `xEtapaX` como marcas de memoria. En tu entorno de programación (como TIA Portal o similar), deberás asignarles una dirección de tipo `BOOL` (ej. `M0.0`, `M0.1`, etc.).
+2. **Seguridad:** En la **Network 3**, te recomiendo agregar un contacto cerrado de un sensor de seguridad o una condición de parada de emergencia para prevenir que la compuerta intente cerrarse si hay una obstrucción detectada.
+3. **Lógica Set/Reset:** Este método es el más robusto para traducir SFC a Ladder, ya que evita que el PLC dependa de la persistencia de las entradas físicas, permitiendo que la secuencia avance de forma discreta y controlada.
