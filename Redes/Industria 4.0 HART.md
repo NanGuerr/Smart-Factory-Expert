@@ -64,7 +64,8 @@ El sistema sigue un modelo Maestro-Esclavo:
 ## ⚙️ ¿Qué es HART?
 
 HART es un protocolo de comunicación industrial híbrido que permite la transmisión simultánea de datos digitales sobre la señal analógica estándar de 4-20 mA. Su diseño facilita la comunicación con instrumentos de campo (como sensores de presión, temperatura, caudal, entre otros) sin perder la compatibilidad con los sistemas analógicos tradicionales.
-El protocolo HART (Highway Addressable Remote Transducer) es un componente relevante en el contexto de la Industria 4.0 debido a que permite la modernización de infraestructuras existentes hacia sistemas más digitales y conectados.
+
+> El protocolo HART (Highway Addressable Remote Transducer) es un componente relevante en el contexto de la Industria 4.0 debido a que permite la modernización de infraestructuras existentes hacia sistemas más digitales y conectados.
 
 ### 💡 Funcionamiento: El puente entre lo analógico y lo digital
 
