@@ -1,4 +1,4 @@
-# Resolución de fallas en sistemas de automatización industrial 💢
+# Resolución de fallas en sistemas industriales 💢
 
 El diagnóstico y la resolución de fallas en sistemas de automatización industrial es una habilidad crítica. Basado en el documento proporcionado sobre **Diagnóstico e Identificación de Fallas Comunes**, aquí presento una guía estructurada para abordar estos problemas, organizada por tipo de falla para facilitar tu aprendizaje:
 
