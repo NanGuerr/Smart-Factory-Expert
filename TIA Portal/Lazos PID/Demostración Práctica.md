@@ -1,4 +1,4 @@
-Nnúcleo práctico del laboratorio. En Siemens TIA Portal, ver cómo interactúan la $K_p$ y la $K_i$ es el momento donde "hace clic" la teoría. El comportamiento que describes —donde un valor numérico más chico de la constante produce una acción integral más grande y rápida— es el concepto clave que confunde a muchos programadores, pero tú ya lo tienes clarísimo.
+> *Núcleo práctico del laboratorio. En Siemens TIA Portal, ver cómo interactúan la constante de porporcionalidad y la constante de integridad es el momento donde "hace clic" la teoría. El comportamiento donde un valor numérico más chico de la constante produce una acción integral más grande y rápida es el concepto clave que confunde a muchos programadores...*
 
 ---
 
