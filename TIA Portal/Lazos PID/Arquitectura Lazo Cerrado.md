@@ -1,6 +1,6 @@
-# 📋 Análisis de las Imágenes de TIA Portal
+# 📋 Análisis de TIA Portal
 
-### 1. Estructura de Datos Global (`Lazo TIA Portal.jpg`)
+### 1. Estructura de Datos Global `Lazo TIA Portal`
 
 * **Transcripción:** Muestra un Bloque de Datos Global (DB6) llamado `"Proceso"`. Contiene variables de tipo estático (`Static`) como: `Consigna` (Real), `Temperatura` (Real), `Actuador` (Real), `Consigna Manual` (Real), `Reset PID` (Bool), `Reset MP` (Bool), `EN_Man PID` (Bool) y `calcParams` (Bool).
 * **Análisis:** Este DB actúa como la "interfaz de memoria" compartida del proyecto. Centraliza los datos para que las pantallas HMI, las tablas de observación o los diferentes bloques del programa lean y escriban en un solo punto ordenado.
