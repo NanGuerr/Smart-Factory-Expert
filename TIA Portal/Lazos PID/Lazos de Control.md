@@ -1,4 +1,4 @@
-# 🎛️ Conceptos Generales de Lazos de Control (PID-0101 - 0103)
+# 🎛️ Conceptos Generales de Lazos de Control
 
 Este módulo introduce los fundamentos de la teoría de control automático, explicando cómo un sistema puede regularse a sí mismo para mantener una variable en un valor deseado frente a perturbaciones externas. 🧠🔄🏭
 
