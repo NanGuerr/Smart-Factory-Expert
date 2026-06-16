@@ -1,4 +1,4 @@
-# 📉 Modelos de Planta y Simulación (PID-0104)
+# 📉 Modelos de Planta y Simulación
 
 Este módulo aborda cómo representar matemáticamente el comportamiento de un proceso físico real (la planta) dentro de un entorno de automatización, y cómo simularlo de forma práctica en TIA Portal utilizando bloques de organización cíclicos. 🏭💻🤖
 
