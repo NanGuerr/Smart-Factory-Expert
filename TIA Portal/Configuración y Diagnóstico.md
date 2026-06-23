@@ -1,4 +1,4 @@
-# ⚙️ Configuración Avanzada y Diagnóstico en TIA Portal
+# ⚙️ Configuración Avanzada y Diagnóstico 
 
 Esta guía detalla los parámetros críticos de configuración en el entorno TIA Portal para la parametrización de hardware y seguridad industrial.
 
