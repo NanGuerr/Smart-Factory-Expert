@@ -1,4 +1,4 @@
-🏷️ Estructura de Hardware y MLFB en Siemens
+# 🏷️ Estructura de Hardware y MLFB en Siemens
 
 Esta guía detalla los componentes críticos para la identificación, selección y configuración de hardware en el entorno Siemens TIA Portal.
 
