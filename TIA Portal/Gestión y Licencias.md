@@ -1,4 +1,4 @@
-# 🚀 Guía de Gestión de Proyectos y Licencias en TIA Portal V20
+# 🚀 Guía de Gestión de Proyectos y Licencias
 
 Esta guía cubre los procedimientos fundamentales para la gestión de licencias de prueba y la correcta manipulación de proyectos en TIA Portal V20.
 
