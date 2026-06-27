@@ -1,4 +1,4 @@
-# 🏗️ Guía Maestra: Tipos de Datos de Usuario (UDT) en TIA Portal
+# 🏗️ Tipos de Datos de Usuario (UDT) en DB
 
 Los **UDTs (User Defined Types)** permiten definir estructuras de datos personalizadas, actuando como plantillas reutilizables para organizar tu programa de forma profesional.
 
