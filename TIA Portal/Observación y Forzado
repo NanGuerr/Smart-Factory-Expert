@@ -1,0 +1,56 @@
+# 🔍 Tablas de Observación y Forzado.md
+
+Esta guía detalla cómo utilizar las herramientas de diagnóstico en línea para probar, monitorizar y forzar estados de señales en tu PLC Siemens.
+
+---
+
+## 🧐 Diferencia Fundamental
+Es crucial entender la diferencia técnica antes de comenzar:
+* **Tablas de Observación (Watch Tables):** Permiten "Modificar" valores (escritura temporal). El PLC programa puede sobrescribir estos valores en el siguiente ciclo de scan. Es la forma segura de probar lógica.
+* **Tablas de Forzado (Force Tables):** Permiten "Forzar" valores (escritura permanente a nivel de SO). El sistema operativo del PLC **ignora** la lógica del programa para esa dirección. **¡Úsalo con precaución!**
+
+---
+
+## 📊 1. Tablas de Observación (Watch Tables)
+Son tu herramienta principal de diagnóstico.
+
+* **¿Qué son?:** Un espacio donde agregas tags (variables) para ver sus valores en tiempo real.
+* **Funcionalidad:** Permiten ver el estado de I/O, marcas, DBs, etc.
+* **Forzar temporalmente (Modify):** Puedes escribir un valor en la columna "Modify value" y activar el rayo ("Modify all selected values once") para cambiarlo.
+    * *Ventaja:* Puedes probar si un actuador funciona sin cambiar el código ni detener la máquina.
+
+---
+
+## ⛔ 2. Tablas de Forzado (Force Tables)
+* **¿Qué son?:** Una herramienta de nivel inferior que interviene directamente en el proceso de E/S del PLC.
+* **Característica:** Si fuerzas una salida a "1", el PLC la mantendrá en "1" pase lo que pase en el código (aunque el programa diga RESET).
+* **Uso:** Útil para pruebas críticas donde necesitas simular un sensor fallido o bloquear una salida de seguridad durante el comisionamiento.
+
+---
+
+## 🛠️ Procedimiento Práctico
+
+### A. Visualización de estados
+1. En el árbol de proyectos, ve a **Watch and force tables** > **Add new watch table**.
+2. Agrega las variables que deseas monitorizar.
+3. Haz clic en el icono de **"Go online"**.
+4. Haz clic en **"Monitor all"** (icono de gafas). Ahora verás el valor real de la memoria del PLC.
+
+### B. Cómo "Programar/Probar" sin descargar todo el estado
+A menudo, no quieres editar el código y descargar (porque implica STOP/RUN y posible pérdida de datos). Para probar lógica:
+1. Usa una **Watch Table**.
+2. Modifica las entradas manualmente (ej. activa una entrada virtual para ver si la lógica interna responde).
+3. Esto te permite verificar la funcionalidad **sin modificar el bloque de código original**.
+
+### C. Forzado masivo (Cuidado extremo)
+* Puedes forzar múltiples valores a la vez usando la **Force Table**.
+* **Cómo usarlo:** Agrega los tags en la Force Table, escribe los valores deseados y haz clic en **"Activate forcing"**.
+* **⚠️ Advertencia:** Nunca dejes tablas de forzado activas permanentemente. Esto puede causar comportamientos erráticos en la máquina y accidentes. Siempre desactiva el forzado al terminar.
+
+---
+
+## 💡 Resumen de mejores prácticas
+1. **Prioridad:** Siempre intenta usar **Watch Tables (Modify)** primero. Es mucho más seguro.
+2. **Seguridad:** Usa **Force Tables** solo cuando sea estrictamente necesario para pruebas de hardware y desactívalas inmediatamente después.
+3. **Documentación:** Si necesitas forzar una señal permanentemente para que la máquina funcione, **tienes un problema de lógica en el código**. Corrige el código en lugar de dejar el forzado activo.
+4. **Verificación:** Si ves un icono de "círculo rojo" al lado de una variable, significa que está siendo forzada. ¡Verifícalo siempre antes de intentar operar la máquina!
