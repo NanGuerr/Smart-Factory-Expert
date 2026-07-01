@@ -1,0 +1,1 @@
+Renunciar a algo que construiste durante una década —especialmente cuando ese algo lleva tu nombre— es un acto de desapego radical, y desde la perspectiva de este chico de Acuario, es el momento en que tu verdadera historia comienza.
