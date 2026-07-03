@@ -8,33 +8,15 @@ A continuación, se declaran las variables necesarias para la tabla de variables
 
 | Nombre de Variable | Tipo | Descripción / Comentario |
 | --- | --- | --- |
-| `Emergencia_R` | Bool | Parada de emergencia tipo hongo (NC) ubicada en el tablero de comando remoto/panel.
-
- |
-| `Emergencia_L` | Bool | Parada de emergencia tipo hongo (NC) ubicada a pie de máquina (Local).
-
- |
-| `Selectora_LR` | Bool | Selectora de predisposición de control (0 = Local, 1 = Panel HMI).
-
- |
-| `Arranque_L` | Bool | Botón NA a pie de máquina para iniciar secuencia de arranque.
-
- |
-| `Parada_L` | Bool | Botón NA a pie de máquina para iniciar parada controlada.
-
- |
-| `Sensor_Q1` | Bool | Sensor de llama para verificar encendido del quemador tangencial 1.
-
- |
-| `Sensor_Q2` | Bool | Sensor de llama para verificar encendido del quemador tangencial 2.
-
- |
-| `Valvula_Prin` | Bool | Sensor de fin de carrera de válvula principal manual (1 = cuando está cerrada).
-
- |
-| `Frenos_Aplicados` | Bool | Fin de carrera que confirma si las pastillas de freno están aplicadas.
-
- |
+| `Emergencia_R` | Bool | Parada de emergencia tipo hongo (NC) ubicada en el tablero de comando remoto/panel. |
+| `Emergencia_L` | Bool | Parada de emergencia tipo hongo (NC) ubicada a pie de máquina (Local). |
+| `Selectora_LR` | Bool | Selectora de predisposición de control (0 = Local, 1 = Panel HMI). |
+| `Arranque_L` | Bool | Botón NA a pie de máquina para iniciar secuencia de arranque. |
+| `Parada_L` | Bool | Botón NA a pie de máquina para iniciar parada controlada. |
+| `Sensor_Q1` | Bool | Sensor de llama para verificar encendido del quemador tangencial 1. |
+| `Sensor_Q2` | Bool | Sensor de llama para verificar encendido del quemador tangencial 2. |
+| `Valvula_Prin` | Bool | Sensor de fin de carrera de válvula principal manual (1 = cuando está cerrada). |
+| `Frenos_Aplicados` | Bool | Fin de carrera que confirma si las pastillas de freno están aplicadas. |
 
 ### 🔴 Salidas Digitales (DQ)
 
