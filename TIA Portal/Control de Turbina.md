@@ -1,4 +1,4 @@
-# 🏭 Especificación Funcional: Control de Turbina Compresora PLC
+# 🏭 Especificación Funcional: Control de Turbina
 
 ## 📋 1. Tabla de Variables PLC (Entradas y Salidas)
 
