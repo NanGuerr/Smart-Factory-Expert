@@ -61,7 +61,7 @@ Para integrar correctamente los dispositivos de campo, los módulos en TIA Porta
 **Tipo de salida:** Seleccionar `Intensidad`.
 **Rango de salida:** Seleccionar `4 a 20 mA`.
 
-* *Nota:* Asegúrate de que las direcciones lógicas `%IW` y `%QW` de estas tarjetas coincidan con las mapeadas en la Tabla de Variables de tu PLC.
+*Nota: Asegúrate de que las direcciones lógicas `%IW` y `%QW` de estas tarjetas coincidan con las mapeadas en la Tabla de Variables de tu PLC.*
 
 ---
 
@@ -75,17 +75,16 @@ El programa se organizará modularmente utilizando la siguiente arquitectura de 
 
 * **`FC2` (Seguridad):** Se ejecutará cíclicamente para evaluar las condiciones de parada de emergencia: botón accionado, sobrevelocidad (> 5500 rpm), alta presión (> 5.5 bar o baja presión sostenida), y sobretemperatura (> 350°C).
 
-
 ### 💾 Bloques de Datos (DB)
 
 Se creará un Global Data Block llamado **`DB_Sistemas`** para almacenar el estado general e información estructurada:
 
-* **Estructura `HMI`:**
+**Estructura `HMI`:**
 
 * `CMD_Arranque` (Bool): Recibe la orden de arranque desde el panel a 350m de distancia.
 * `CMD_Parada` (Bool): Recibe la orden de parada controlada desde el panel HMI.
 
-* **Estructura `Lecturas`:**
+**Estructura `Lecturas`:**
   
 * `Velocidad` (Real): Almacenará el valor ya escalado en RPM.
 * `Temperatura` (Real): Almacenará el valor ya escalado en grados Celsius.
