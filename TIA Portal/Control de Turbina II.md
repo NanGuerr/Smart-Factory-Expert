@@ -1,6 +1,6 @@
-Para representar la lógica de control de tu turbina compresora siguiendo el formato de diagramas de contactos (LADDER) se ha estructurado la secuencia de arranque y operación basada en los pasos descritos previamente en Programación de Control de Turbina.
+# Representación técnica ⚙️ 
 
-Representación técnica:
+Para representar la lógica de control de tu turbina compresora siguiendo el formato de diagramas de contactos (LADDER) se ha estructurado la secuencia de arranque y operación basada en los pasos descritos previamente en Programación de Control de Turbina.
 
 ```text
 
