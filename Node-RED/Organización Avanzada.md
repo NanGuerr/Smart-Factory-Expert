@@ -1,4 +1,4 @@
-# 🗂️ Organización Avanzada en Node-RED: Grupos, Subflows y Variables de Entorno
+# 🗂️ Organización en Grupos, Subflows y Variables de Entorno
 
 Optimizar y estructurar tus flujos en Node-RED es fundamental para mantener proyectos limpios, escalables y fáciles de mantener. A continuación, exploraremos herramientas clave para lograrlo. 🚀
 
