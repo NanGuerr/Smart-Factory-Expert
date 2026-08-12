@@ -1,4 +1,3 @@
-```markdown
 # 🧩 Creación de Subflows Modulares en Node-RED
 
 Esta guía explica paso a paso cómo crear y configurar dos **Subflows** muy útiles en Node-RED: uno para leer **Coils Modbus** de forma dinámica y otro para calcular el **valor máximo de cualquier columna en un archivo CSV**. 📊⚙️
@@ -248,6 +247,3 @@ Este subflow modular lee un archivo CSV (como `datos.csv`) utilizando variables 
 
 > 💡 **Nota de entrega:** Recuerda guardar los códigos anteriores en un archivo con extensión **`.txt`** para importarlos sin problemas en tu entorno de Node-RED. 📝✨
 
-```
-
-```
