@@ -27,7 +27,7 @@
 ## 🎨 Diseño y Software CAD
 *De herramientas de simulación sencillas a software profesional de ingeniería.*
 
-* ✅ **Diseño de planos eléctricos industriales con AutoCAD Electrical**
+* ➡️ **Diseño de planos eléctricos industriales con AutoCAD Electrical**
 * 🖥️ **Diseño de planos eléctricos industriales con EPLAN 2.7/2.9**
 * 🏢 **Diseño de planos eléctricos industriales con EPLAN 2022/23**
 * ✅ **Clases en VIVO - IngeLearn** (Contenido variable, usualmente integrador)
@@ -73,7 +73,7 @@
 * ✅ **Open CV – Reconocimiento de imágenes con IA** (Nivel avanzado de Python)
 * ✅ **Mantenimiento Predictivo en la Industria 4.0**
 * ✅ **Inteligencia Artificial en la Industria 4.0**
-* 📊 **Node-RED para la industria 4.0** (Interconexión de sistemas)
+* ✅ **Node-RED para la industria 4.0** (Interconexión de sistemas)
 * ✅ **Programación de PLC Siemens – TIA Portal V20+ + Factory IO**
 * ✅ **Lazos de control PID con TIA Portal** (Requiere matemáticas y control avanzado)
 
